@@ -1,0 +1,11 @@
+# Python bytecode
+__pycache__/
+
+# Playwright MCP tooling output
+.playwright-mcp/
+
+# Crawler debug snapshots (FS_DEBUG=1)
+debug/
+
+# Test run artefacts (screenshots, downloaded PDFs, temp files)
+tests/output/
