@@ -1,0 +1,1178 @@
+{
+ "all/attack": {
+  "activePills": [
+   "all"
+  ],
+  "activeTabs": [
+   "attack"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.18)",
+      "borderColor": "rgba(59,130,246,.9)",
+      "data": [
+       66.7,
+       66.7,
+       100,
+       60.6,
+       64,
+       50
+      ],
+      "label": "South Korea"
+     },
+     {
+      "backgroundColor": "rgba(239,68,68,.18)",
+      "borderColor": "rgba(239,68,68,.9)",
+      "data": [
+       33.3,
+       33.3,
+       0,
+       39.4,
+       36,
+       50
+      ],
+      "label": "Czech Republic"
+     }
+    ],
+    "key": "cmp",
+    "labels": [
+     "Touches in oppo…",
+     "Successful drib…",
+     "Big chances mis…",
+     "Touches",
+     "Fouls suffered",
+     "Offsides"
+    ],
+    "type": "radar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Attack · Comparison</div>\n      <div class=\"section-sub\">South Korea vs Czech Republic — team totals and the players driving them</div><div class=\"grid grid-2\">\n      <div class=\"card\"><div class=\"card-head\"><h3>Team totals</h3><span class=\"eyebrow\">Attack</span></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">24</div>\n        <div class=\"compare-label\">Touches in opposition box</div>\n        <div class=\"compare-val away\">12</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">8</div>\n        <div class=\"compare-label\">Successful dribbles</div>\n        <div class=\"compare-val away\">4</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2</div>\n        <div class=\"compare-label\">Big chances missed</div>\n        <div class=\"compare-val away\">0</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:100%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:0%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">725</div>\n        <div class=\"compare-label\">Touches</div>\n        <div class=\"compare-val away\">471</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:61%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:39%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">16</div>\n        <div class=\"compare-label\">Fouls suffered</div>\n        <div class=\"compare-val away\">9</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:64%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:36%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2</div>\n        <div class=\"compare-label\">Offsides</div>\n        <div class=\"compare-val away\">2</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:50%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:50%\"></div></div>\n        </div></div></div>\n      <div class=\"card\"><div class=\"card-head\"><h3>Comparison radar</h3><span class=\"eyebrow\">Relative</span></div>\n        <div class=\"chart-box tall\"><canvas id=\"chCompare\" width=\"565\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 565px;\"></canvas></div></div>\n    </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn active\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn \" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn \" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn \" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "all/defense": {
+  "activePills": [
+   "all"
+  ],
+  "activeTabs": [
+   "defense"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.18)",
+      "borderColor": "rgba(59,130,246,.9)",
+      "data": [
+       59.6,
+       62.8,
+       56.9,
+       36.4,
+       36,
+       60
+      ],
+      "label": "South Korea"
+     },
+     {
+      "backgroundColor": "rgba(239,68,68,.18)",
+      "borderColor": "rgba(239,68,68,.9)",
+      "data": [
+       40.4,
+       37.2,
+       43.1,
+       63.6,
+       64,
+       40
+      ],
+      "label": "Czech Republic"
+     }
+    ],
+    "key": "cmp",
+    "labels": [
+     "Duels won",
+     "Aerial duels won",
+     "Ground duels won",
+     "Tackles won",
+     "Fouls committed",
+     "Interceptions"
+    ],
+    "type": "radar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Defense · Comparison</div>\n      <div class=\"section-sub\">South Korea vs Czech Republic — team totals and the players driving them</div><div class=\"grid grid-2\">\n      <div class=\"card\"><div class=\"card-head\"><h3>Team totals</h3><span class=\"eyebrow\">Defense</span></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">56</div>\n        <div class=\"compare-label\">Duels won</div>\n        <div class=\"compare-val away\">38</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:60%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:40%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">27</div>\n        <div class=\"compare-label\">Aerial duels won</div>\n        <div class=\"compare-val away\">16</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:63%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:37%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">29</div>\n        <div class=\"compare-label\">Ground duels won</div>\n        <div class=\"compare-val away\">22</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:57%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:43%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">4</div>\n        <div class=\"compare-label\">Tackles won</div>\n        <div class=\"compare-val away\">7</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:36%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:64%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">9</div>\n        <div class=\"compare-label\">Fouls committed</div>\n        <div class=\"compare-val away\">16</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:36%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:64%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">9</div>\n        <div class=\"compare-label\">Interceptions</div>\n        <div class=\"compare-val away\">6</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:60%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:40%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">32</div>\n        <div class=\"compare-label\">Clearances</div>\n        <div class=\"compare-val away\">21</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:60%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:40%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">1</div>\n        <div class=\"compare-label\">Errors leading to shot</div>\n        <div class=\"compare-val away\">0</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:100%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:0%\"></div></div>\n        </div></div></div>\n      <div class=\"card\"><div class=\"card-head\"><h3>Comparison radar</h3><span class=\"eyebrow\">Relative</span></div>\n        <div class=\"chart-box tall\"><canvas id=\"chCompare\" width=\"565\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 565px;\"></canvas></div></div>\n    </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn active\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn \" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "all/goalkeeping": {
+  "activePills": [
+   "all"
+  ],
+  "activeTabs": [
+   "goalkeeping"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.18)",
+      "borderColor": "rgba(59,130,246,.9)",
+      "data": [
+       42.9,
+       33.3,
+       94.7,
+       50.1,
+       25,
+       33.3
+      ],
+      "label": "South Korea"
+     },
+     {
+      "backgroundColor": "rgba(239,68,68,.18)",
+      "borderColor": "rgba(239,68,68,.9)",
+      "data": [
+       57.1,
+       66.7,
+       5.3,
+       49.9,
+       75,
+       66.7
+      ],
+      "label": "Czech Republic"
+     }
+    ],
+    "key": "cmp",
+    "labels": [
+     "Goalkeeper saves",
+     "Goals conceded",
+     "Goals prevented",
+     "xGOT faced",
+     "Throws",
+     "Act as sweeper"
+    ],
+    "type": "radar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Goalkeeping · Comparison</div>\n      <div class=\"section-sub\">South Korea vs Czech Republic — team totals and the players driving them</div><div class=\"grid grid-2\">\n      <div class=\"card\"><div class=\"card-head\"><h3>Team totals</h3><span class=\"eyebrow\">Goalkeeping</span></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">3</div>\n        <div class=\"compare-label\">Goalkeeper saves</div>\n        <div class=\"compare-val away\">4</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:43%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:57%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">1</div>\n        <div class=\"compare-label\">Goals conceded</div>\n        <div class=\"compare-val away\">2</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:33%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:67%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">1.07</div>\n        <div class=\"compare-label\">Goals prevented</div>\n        <div class=\"compare-val away\">0.06</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:95%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:5%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2.07</div>\n        <div class=\"compare-label\">xGOT faced</div>\n        <div class=\"compare-val away\">2.06</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:50%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:50%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2</div>\n        <div class=\"compare-label\">Throws</div>\n        <div class=\"compare-val away\">6</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:25%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:75%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">1</div>\n        <div class=\"compare-label\">Act as sweeper</div>\n        <div class=\"compare-val away\">2</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:33%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:67%\"></div></div>\n        </div></div></div>\n      <div class=\"card\"><div class=\"card-head\"><h3>Comparison radar</h3><span class=\"eyebrow\">Relative</span></div>\n        <div class=\"chart-box tall\"><canvas id=\"chCompare\" width=\"565\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 565px;\"></canvas></div></div>\n    </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn active\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "all/overall": {
+  "activePills": [
+   "all"
+  ],
+  "activeTabs": [
+   "overall"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.18)",
+      "borderColor": "rgba(59,130,246,.9)",
+      "data": [
+       68.2,
+       60,
+       73.6,
+       66.7,
+       66.7,
+       67.1,
+       55.2,
+       59.6
+      ],
+      "label": "South Korea"
+     },
+     {
+      "backgroundColor": "rgba(239,68,68,.18)",
+      "borderColor": "rgba(239,68,68,.9)",
+      "data": [
+       31.8,
+       40,
+       26.4,
+       33.3,
+       33.3,
+       32.9,
+       44.8,
+       40.4
+      ],
+      "label": "Czech Republic"
+     }
+    ],
+    "key": "overallRadar",
+    "labels": [
+     "Shots",
+     "On target",
+     "xG",
+     "Box touches",
+     "Dribbles",
+     "Possession",
+     "Pass acc.",
+     "Duels won"
+    ],
+    "type": "radar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Head to head</div>\n      <div class=\"section-sub\">South Korea <span style=\"color:var(--home)\">▮</span> vs <span style=\"color:var(--away)\">▮</span> Czech Republic — team totals across the match</div>\n      <div class=\"grid grid-2\" style=\"margin-bottom:24px\">\n        <div class=\"card\"><div class=\"card-head\"><h3>Summary stats</h3></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">7.22</div>\n        <div class=\"compare-label\">Avg rating</div>\n        <div class=\"compare-val away\">6.07</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:54%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:46%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">15</div>\n        <div class=\"compare-label\">Shots</div>\n        <div class=\"compare-val away\">7</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:68%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:32%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">6</div>\n        <div class=\"compare-label\">Shots on target</div>\n        <div class=\"compare-val away\">4</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:60%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:40%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2.31</div>\n        <div class=\"compare-label\">Expected goals (xG)</div>\n        <div class=\"compare-val away\">0.83</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:74%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:26%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">67%</div>\n        <div class=\"compare-label\">Possession</div>\n        <div class=\"compare-val away\">33%</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">541</div>\n        <div class=\"compare-label\">Passes</div>\n        <div class=\"compare-val away\">327</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:62%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:38%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">87%</div>\n        <div class=\"compare-label\">Pass accuracy</div>\n        <div class=\"compare-val away\">70%</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:55%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:45%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">60%</div>\n        <div class=\"compare-label\">Duels won</div>\n        <div class=\"compare-val away\">40%</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:60%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:40%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">9</div>\n        <div class=\"compare-label\">Fouls</div>\n        <div class=\"compare-val away\">16</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:36%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:64%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">1</div>\n        <div class=\"compare-label\">Yellow cards</div>\n        <div class=\"compare-val away\">0</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:100%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:0%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">0</div>\n        <div class=\"compare-label\">Red cards</div>\n        <div class=\"compare-val away\">0</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:50%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:50%\"></div></div>\n        </div>\n      </div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2</div>\n        <div class=\"compare-label\">Offsides</div>\n        <div class=\"compare-val away\">2</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:50%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:50%\"></div></div>\n        </div>\n      </div></div>\n        <div class=\"ov-right\">\n          <div class=\"card\"><div class=\"card-head\"><h3>Performance radar</h3><span class=\"eyebrow\">Relative</span></div>\n            <div class=\"chart-box tall\"><canvas id=\"chOverallRadar\" width=\"565\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 565px;\"></canvas></div></div>\n          <div class=\"card\" style=\"flex:1\"><div class=\"card-head\" style=\"margin-bottom:12px\"><h3>Best &amp; worst by rating</h3><span class=\"eyebrow\">Players</span></div>\n            <div class=\"bw-grid\"><div class=\"bw-card best\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--good)\">▲ Best · <span style=\"color:var(--home)\">South Korea</span></div>\n        <div class=\"bw-name\">Lee Kang-In</div><div class=\"bw-pos\">Attacking midfielder</div><span class=\"rating-badge rating-elite\">9.1</span></div><div class=\"bw-card best\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--good)\">▲ 2nd best · <span style=\"color:var(--home)\">South Korea</span></div>\n        <div class=\"bw-name\">Hwang In-Beom</div><div class=\"bw-pos\">Midfielder</div><span class=\"rating-badge rating-great\">8.8</span></div><div class=\"bw-card best\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--good)\">▲ Best · <span style=\"color:var(--away)\">Czech Republic</span></div>\n        <div class=\"bw-name\">Kovar M.</div><div class=\"bw-pos\">Goalkeeper</div><span class=\"rating-badge rating-good\">7.1</span></div><div class=\"bw-card best\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--good)\">▲ 2nd best · <span style=\"color:var(--away)\">Czech Republic</span></div>\n        <div class=\"bw-name\">Hlozek A.</div><div class=\"bw-pos\">Forward</div><span class=\"rating-badge rating-avg\">6.7</span></div><div class=\"bw-card worst\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--bad)\">▼ Worst · <span style=\"color:var(--home)\">South Korea</span></div>\n        <div class=\"bw-name\">Seol Young-Woo</div><div class=\"bw-pos\">Wingback</div><span class=\"rating-badge rating-poor\">6.4</span></div><div class=\"bw-card worst\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--bad)\">▼ 2nd worst · <span style=\"color:var(--home)\">South Korea</span></div>\n        <div class=\"bw-name\">Hwang Hee-Chan</div><div class=\"bw-pos\">Forward</div><span class=\"rating-badge rating-avg\">6.5</span></div><div class=\"bw-card worst\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--bad)\">▼ Worst · <span style=\"color:var(--away)\">Czech Republic</span></div>\n        <div class=\"bw-name\">Hranac R.</div><div class=\"bw-pos\">Centre back</div><span class=\"rating-badge rating-bad\">5.4</span></div><div class=\"bw-card worst\"><div class=\"accent-bar\"></div>\n        <div class=\"bw-cat\" style=\"color:var(--bad)\">▼ 2nd worst · <span style=\"color:var(--away)\">Czech Republic</span></div>\n        <div class=\"bw-name\">Chaloupek S.</div><div class=\"bw-pos\">Centre back</div><span class=\"rating-badge rating-bad\">5.5</span></div></div></div>\n        </div>\n      </div><div class=\"section-title\" style=\"margin-top:28px\">Match story</div>\n      <div class=\"section-sub\">Line-ups recognised from the lineup sheet — names matched to the stats roster</div><div class=\"card\" style=\"margin-bottom:18px\"><div class=\"card-head\"><h3>⚽ Formation</h3></div><div id=\"lc-formation\"></div></div><div class=\"lineup-grid\"><div class=\"card\"><div class=\"card-head\"><h3>Starting XI</h3></div><div id=\"lc-starting\"></div></div><div class=\"card\"><div class=\"card-head\"><h3>Bench</h3></div><div id=\"lc-substitutes\"></div></div><div class=\"card\" style=\"grid-column:1/-1\"><div class=\"card-head\"><h3>Coaches</h3></div><div id=\"lc-coaches\"></div></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn active\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn \" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn \" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn \" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn \" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn \" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "none"
+ },
+ "all/passes": {
+  "activePills": [
+   "all"
+  ],
+  "activeTabs": [
+   "passes"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.18)",
+      "borderColor": "rgba(59,130,246,.9)",
+      "data": [
+       67.1,
+       75,
+       82.4,
+       66.7,
+       76.4,
+       66.3
+      ],
+      "label": "South Korea"
+     },
+     {
+      "backgroundColor": "rgba(239,68,68,.18)",
+      "borderColor": "rgba(239,68,68,.9)",
+      "data": [
+       32.9,
+       25,
+       17.6,
+       33.3,
+       23.6,
+       33.8
+      ],
+      "label": "Czech Republic"
+     }
+    ],
+    "key": "cmp",
+    "labels": [
+     "Accurate passes",
+     "Big chances cre…",
+     "Key passes",
+     "Assists",
+     "Expected assist…",
+     "Accurate passes…"
+    ],
+    "type": "radar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Passes · Comparison</div>\n      <div class=\"section-sub\">South Korea vs Czech Republic — team totals and the players driving them</div><div class=\"grid grid-2\">\n      <div class=\"card\"><div class=\"card-head\"><h3>Team totals</h3><span class=\"eyebrow\">Passes</span></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">469</div>\n        <div class=\"compare-label\">Accurate passes</div>\n        <div class=\"compare-val away\">230</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">3</div>\n        <div class=\"compare-label\">Big chances created</div>\n        <div class=\"compare-val away\">1</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:75%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:25%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">14</div>\n        <div class=\"compare-label\">Key passes</div>\n        <div class=\"compare-val away\">3</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:82%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:18%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2</div>\n        <div class=\"compare-label\">Assists</div>\n        <div class=\"compare-val away\">1</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">1.36</div>\n        <div class=\"compare-label\">Expected assists (xA)</div>\n        <div class=\"compare-val away\">0.42</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:76%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:24%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">106</div>\n        <div class=\"compare-label\">Accurate passes in final third</div>\n        <div class=\"compare-val away\">54</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:66%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:34%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">30</div>\n        <div class=\"compare-label\">Accurate long passes</div>\n        <div class=\"compare-val away\">23</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:57%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:43%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">3</div>\n        <div class=\"compare-label\">Accurate crosses</div>\n        <div class=\"compare-val away\">3</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:50%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:50%\"></div></div>\n        </div></div></div>\n      <div class=\"card\"><div class=\"card-head\"><h3>Comparison radar</h3><span class=\"eyebrow\">Relative</span></div>\n        <div class=\"chart-box tall\"><canvas id=\"chCompare\" width=\"565\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 565px;\"></canvas></div></div>\n    </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn active\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn \" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn \" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "all/shots": {
+  "activePills": [
+   "all"
+  ],
+  "activeTabs": [
+   "shots"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.18)",
+      "borderColor": "rgba(59,130,246,.9)",
+      "data": [
+       60,
+       62.5,
+       100,
+       66.7,
+       71.4
+      ],
+      "label": "South Korea"
+     },
+     {
+      "backgroundColor": "rgba(239,68,68,.18)",
+      "borderColor": "rgba(239,68,68,.9)",
+      "data": [
+       40,
+       37.5,
+       0,
+       33.3,
+       28.6
+      ],
+      "label": "Czech Republic"
+     }
+    ],
+    "key": "cmp",
+    "labels": [
+     "Shots on target",
+     "Shots off target",
+     "Blocked shots",
+     "Shots inside th…",
+     "Shots outside t…"
+    ],
+    "type": "radar"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": [
+       "rgba(52,211,153,.85)",
+       "rgba(245,197,66,.85)",
+       "rgba(148,163,184,.7)"
+      ],
+      "borderColor": "#0f4234",
+      "data": [
+       4,
+       3,
+       0
+      ],
+      "label": null
+     }
+    ],
+    "key": "don_chShotDonutA",
+    "labels": [
+     "On target",
+     "Off target",
+     "Blocked"
+    ],
+    "type": "doughnut"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": [
+       "rgba(52,211,153,.85)",
+       "rgba(245,197,66,.85)",
+       "rgba(148,163,184,.7)"
+      ],
+      "borderColor": "#0f4234",
+      "data": [
+       6,
+       5,
+       4
+      ],
+      "label": null
+     }
+    ],
+    "key": "don_chShotDonutH",
+    "labels": [
+     "On target",
+     "Off target",
+     "Blocked"
+    ],
+    "type": "doughnut"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Shots · Comparison</div>\n      <div class=\"section-sub\">South Korea vs Czech Republic — shot volume, accuracy and outcome</div>\n      <div class=\"grid grid-2\">\n        <div class=\"card\"><div class=\"card-head\"><h3>Team totals</h3><span class=\"eyebrow\">Shots</span></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">15</div>\n        <div class=\"compare-label\">Total shots</div>\n        <div class=\"compare-val away\">7</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:68%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:32%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2</div>\n        <div class=\"compare-label\">Goals</div>\n        <div class=\"compare-val away\">1</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2.31</div>\n        <div class=\"compare-label\">Expected goals (xG)</div>\n        <div class=\"compare-val away\">0.83</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:74%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:26%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">2.06</div>\n        <div class=\"compare-label\">xG on target (xGOT)</div>\n        <div class=\"compare-val away\">2.07</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:50%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:50%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">6</div>\n        <div class=\"compare-label\">Shots on target</div>\n        <div class=\"compare-val away\">4</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:60%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:40%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">5</div>\n        <div class=\"compare-label\">Shots off target</div>\n        <div class=\"compare-val away\">3</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:63%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:37%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">4</div>\n        <div class=\"compare-label\">Blocked shots</div>\n        <div class=\"compare-val away\">0</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:100%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:0%\"></div></div>\n        </div></div><div class=\"compare-row\">\n        <div class=\"compare-val home\">10</div>\n        <div class=\"compare-label\">Shots inside the box</div>\n        <div class=\"compare-val away\">5</div>\n        <div class=\"compare-bar-wrap\">\n          <div class=\"compare-bar\" style=\"justify-content:flex-end\"><div class=\"bh\" style=\"width:67%\"></div></div>\n          <div class=\"compare-bar\"><div class=\"ba\" style=\"width:33%\"></div></div>\n        </div></div></div>\n        <div class=\"ov-right\">\n          <div class=\"card\"><div class=\"card-head\"><h3>Comparison radar</h3><span class=\"eyebrow\">Relative</span></div>\n            <div class=\"chart-box tall\"><canvas id=\"chCompare\" width=\"565\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 565px;\"></canvas></div></div>\n          <div class=\"card\" style=\"flex:1\"><div class=\"card-head\"><h3>Shot outcome</h3><span class=\"eyebrow\">on / off / blocked</span></div>\n            <div class=\"grid grid-2\">\n              <div><div class=\"donut-label\" style=\"color:var(--home)\">South Korea</div><div class=\"chart-box\" style=\"height:210px\"><canvas id=\"chShotDonutH\" width=\"300\" height=\"210\" style=\"display: block; box-sizing: border-box; height: 210px; width: 300px;\"></canvas></div></div>\n              <div><div class=\"donut-label\" style=\"color:var(--away)\">Czech Republic</div><div class=\"chart-box\" style=\"height:210px\"><canvas id=\"chShotDonutA\" width=\"300\" height=\"210\" style=\"display: block; box-sizing: border-box; height: 210px; width: 300px;\"></canvas></div></div>\n            </div></div>\n        </div>\n      </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn active\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn \" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn \" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn \" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn \" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "away/attack": {
+  "activePills": [
+   "away"
+  ],
+  "activeTabs": [
+   "attack"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.85)",
+      "borderColor": null,
+      "data": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "label": "Successful dribbles"
+     }
+    ],
+    "key": "tp",
+    "labels": [
+     "Sulc",
+     "Provod",
+     "Sojka",
+     "Zeleny"
+    ],
+    "type": "bar"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.55)",
+      "borderColor": null,
+      "data": [
+       59,
+       48,
+       48,
+       47,
+       43,
+       43,
+       38,
+       37
+      ],
+      "label": "Touches"
+     }
+    ],
+    "key": "ts",
+    "labels": [
+     "Krejci",
+     "Coufal",
+     "Sojka",
+     "Zeleny",
+     "Chaloupek",
+     "Soucek",
+     "Hranac",
+     "Kovar"
+    ],
+    "type": "bar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Attack · Czech Republic</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\">\n      <div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Sulc P.</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">1/2 (50%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">2</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Provod L.</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">1/1 (100%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">3</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Sojka A.</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">1/1 (100%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">4</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Zeleny J.</div>\n        <div class=\"ppos\">Wingback</div>\n        <div class=\"pstat\">1/1 (100%)</div>\n      </div></div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n        <div class=\"card\"><div class=\"card-head\"><h3>Successful dribbles — top players</h3><span class=\"eyebrow\">Czech Republic</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamPrimary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n        <div class=\"card\"><div class=\"card-head\"><h3>Touches</h3><span class=\"eyebrow\">Distribution</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamSecondary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n      </div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">15 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-attack\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Touches in opposition box\" class=\"num\">Touches in opposition box</th><th data-col=\"Successful dribbles\" class=\"num\">Successful dribbles</th><th data-col=\"Big chances missed\" class=\"num\">Big chances missed</th><th data-col=\"Touches\" class=\"num\">Touches</th><th data-col=\"Fouls suffered\" class=\"num\">Fouls suffered</th><th data-col=\"Offsides\" class=\"num\">Offsides</th></tr></thead><tbody><tr><td class=\"pname\">Hlozek A.</td><td class=\"ppos\">Forward</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">8</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sadilek M.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">17</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Schick P.</td><td class=\"ppos\">Striker</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">11</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chaloupek S.</td><td class=\"ppos\">Centre back</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">43</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chytil M.</td><td class=\"ppos\">Forward</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Coufal V.</td><td class=\"ppos\">Wingback</td><td class=\"num\">1</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">48</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Krejci L.</td><td class=\"ppos\">Centre back</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">59</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Soucek T.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">1</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">43</td><td class=\"num\">-</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Sulc P.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">1</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">-</td><td class=\"num\">27</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chory T.</td><td class=\"ppos\">Forward</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">11</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hranac R.</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">38</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kovar M.</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">37</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Provod L.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">-</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td><td class=\"num\">32</td><td class=\"num\">1</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Sojka A.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td><td class=\"num\">48</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Zeleny J.</td><td class=\"ppos\">Wingback</td><td class=\"num\">-</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td><td class=\"num\">47</td><td class=\"num\">1</td><td class=\"num\">-</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn active\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "away/defense": {
+  "activePills": [
+   "away"
+  ],
+  "activeTabs": [
+   "defense"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.85)",
+      "borderColor": null,
+      "data": [
+       7,
+       5,
+       5,
+       4,
+       3,
+       3,
+       2,
+       2
+      ],
+      "label": "Duels won"
+     }
+    ],
+    "key": "tp",
+    "labels": [
+     "Krejci",
+     "Sulc",
+     "Chory",
+     "Provod",
+     "Zeleny",
+     "Sojka",
+     "Schick",
+     "Hranac"
+    ],
+    "type": "bar"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.55)",
+      "borderColor": null,
+      "data": [
+       2,
+       2,
+       2,
+       1
+      ],
+      "label": "Tackles won"
+     }
+    ],
+    "key": "ts",
+    "labels": [
+     "Krejci",
+     "Sulc",
+     "Provod",
+     "Sojka"
+    ],
+    "type": "bar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Defense · Czech Republic</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\">\n      <div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Krejci L.</div>\n        <div class=\"ppos\">Centre back</div>\n        <div class=\"pstat\">7/13 (54%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">2</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Sulc P.</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">5/8 (63%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">3</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Chory T.</div>\n        <div class=\"ppos\">Forward</div>\n        <div class=\"pstat\">5/11 (45%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">4</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Provod L.</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">4/8 (50%)</div>\n      </div></div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n        <div class=\"card\"><div class=\"card-head\"><h3>Duels won — top players</h3><span class=\"eyebrow\">Czech Republic</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamPrimary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n        <div class=\"card\"><div class=\"card-head\"><h3>Tackles won</h3><span class=\"eyebrow\">Distribution</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamSecondary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n      </div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">15 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-defense\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Duels won\" class=\"num\">Duels won</th><th data-col=\"Aerial duels won\" class=\"num\">Aerial duels won</th><th data-col=\"Ground duels won\" class=\"num\">Ground duels won</th><th data-col=\"Tackles won\" class=\"num\">Tackles won</th><th data-col=\"Fouls committed\" class=\"num\">Fouls committed</th><th data-col=\"Interceptions\" class=\"num\">Interceptions</th><th data-col=\"Clearances\" class=\"num\">Clearances</th><th data-col=\"Errors leading to goal\" class=\"num\">Errors leading to goal</th><th data-col=\"Errors leading to shot\" class=\"num\">Errors leading to shot</th></tr></thead><tbody><tr><td class=\"pname\">Krejci L.</td><td class=\"ppos\">Centre back</td><td class=\"num\">7/13 (54%)</td><td class=\"num\">3/6 (50%)</td><td class=\"num\">4/7 (57%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sulc P.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">5/8 (63%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">4/7 (57%)</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chory T.</td><td class=\"ppos\">Forward</td><td class=\"num\">5/11 (45%)</td><td class=\"num\">4/9 (44%)</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Provod L.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">4/8 (50%)</td><td class=\"num\">0/3 (0%)</td><td class=\"num\">4/5 (80%)</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Zeleny J.</td><td class=\"ppos\">Wingback</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">5</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sojka A.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3/7 (43%)</td><td class=\"num\">-</td><td class=\"num\">3/7 (43%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Schick P.</td><td class=\"ppos\">Striker</td><td class=\"num\">2/6 (33%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hranac R.</td><td class=\"ppos\">Centre back</td><td class=\"num\">2/7 (29%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">0/4 (0%)</td><td class=\"num\">-</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Soucek T.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">2/7 (29%)</td><td class=\"num\">2/4 (50%)</td><td class=\"num\">0/3 (0%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chaloupek S.</td><td class=\"ppos\">Centre back</td><td class=\"num\">2/8 (25%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Coufal V.</td><td class=\"ppos\">Wingback</td><td class=\"num\">2/8 (25%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">-</td><td class=\"num\">3</td><td class=\"num\">1</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hlozek A.</td><td class=\"ppos\">Forward</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chytil M.</td><td class=\"ppos\">Forward</td><td class=\"num\">0/2 (0%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sadilek M.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">0/2 (0%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kovar M.</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn active\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "away/goalkeeping": {
+  "activePills": [
+   "away"
+  ],
+  "activeTabs": [
+   "goalkeeping"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": [
+       "rgba(52,211,153,.85)",
+       "rgba(239,68,68,.85)"
+      ],
+      "borderColor": "#0f4234",
+      "data": [
+       4,
+       2
+      ],
+      "label": null
+     }
+    ],
+    "key": "gk0",
+    "labels": [
+     "Saves",
+     "Conceded"
+    ],
+    "type": "doughnut"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Goalkeeping · Czech Republic</div>\n      <div class=\"section-sub\">Shot-stopping and distribution — goalkeeper profile</div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n        <div class=\"card\">\n          <div class=\"card-head\"><h3>🧤 Kovar M.</h3><span class=\"eyebrow\">Goalkeeper</span></div>\n          <div class=\"chart-box\"><canvas id=\"chGk0\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div>\n            <div style=\"text-align:center;color:var(--chalk-dim);font-size:12px;margin-top:6px\">Shots on target faced: <strong style=\"color:var(--chalk)\">6</strong></div>\n        </div>\n        <div class=\"card\">\n          <div class=\"card-head\"><h3>Key numbers</h3><span class=\"eyebrow\">Czech Republic</span></div>\n          <div class=\"gk-tiles\"><div class=\"stat-tile away good\"><div class=\"accent-bar\"></div><div class=\"label\">Saves</div><div class=\"value\">4</div></div><div class=\"stat-tile away good\"><div class=\"accent-bar\"></div><div class=\"label\">Save %</div><div class=\"value\">67%</div></div><div class=\"stat-tile away\"><div class=\"accent-bar\"></div><div class=\"label\">Goals conceded</div><div class=\"value\">2</div></div><div class=\"stat-tile away\"><div class=\"accent-bar\"></div><div class=\"label\">Goals prevented</div><div class=\"value\">0.06</div></div><div class=\"stat-tile away\"><div class=\"accent-bar\"></div><div class=\"label\">xGOT faced</div><div class=\"value\">2.06</div></div><div class=\"stat-tile away\"><div class=\"accent-bar\"></div><div class=\"label\">Punches</div><div class=\"value\">-</div></div><div class=\"stat-tile away\"><div class=\"accent-bar\"></div><div class=\"label\">Throws</div><div class=\"value\">6</div></div><div class=\"stat-tile away\"><div class=\"accent-bar\"></div><div class=\"label\">Sweeper actions</div><div class=\"value\">2</div></div></div>\n        </div>\n      </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn active\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "away/passes": {
+  "activePills": [
+   "away"
+  ],
+  "activeTabs": [
+   "passes"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.9)",
+      "borderColor": "#fff",
+      "data": [
+       {
+        "name": "Krejci",
+        "x": 69,
+        "y": 45
+       },
+       {
+        "name": "Hranac",
+        "x": 83,
+        "y": 36
+       },
+       {
+        "name": "Sojka",
+        "x": 79,
+        "y": 33
+       },
+       {
+        "name": "Soucek",
+        "x": 74,
+        "y": 34
+       },
+       {
+        "name": "Zeleny",
+        "x": 79,
+        "y": 28
+       },
+       {
+        "name": "Chaloupek",
+        "x": 62,
+        "y": 29
+       },
+       {
+        "name": "Provod",
+        "x": 77,
+        "y": 22
+       },
+       {
+        "name": "Coufal",
+        "x": 65,
+        "y": 26
+       },
+       {
+        "name": "Sulc",
+        "x": 72,
+        "y": 18
+       },
+       {
+        "name": "Kovar",
+        "x": 35,
+        "y": 26
+       },
+       {
+        "name": "Sadilek",
+        "x": 73,
+        "y": 11
+       },
+       {
+        "name": "Chory",
+        "x": 63,
+        "y": 8
+       },
+       {
+        "name": "Hlozek",
+        "x": 100,
+        "y": 4
+       },
+       {
+        "name": "Schick",
+        "x": 60,
+        "y": 5
+       },
+       {
+        "name": "Chytil",
+        "x": 100,
+        "y": 2
+       }
+      ],
+      "label": null
+     }
+    ],
+    "key": "passScatter",
+    "labels": [],
+    "type": "scatter"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.85)",
+      "borderColor": null,
+      "data": [
+       1,
+       1,
+       1
+      ],
+      "label": "Key passes"
+     }
+    ],
+    "key": "tp",
+    "labels": [
+     "Sojka",
+     "Coufal",
+     "Chytil"
+    ],
+    "type": "bar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Passes · Czech Republic</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\"><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Accurate passes</div>\n        <div class=\"pname\">Hranac R.</div>\n        <div class=\"ppos\">Centre back</div>\n        <div class=\"pstat\">83% <small>30/36</small></div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Acc. final third</div>\n        <div class=\"pname\">Zeleny J.</div>\n        <div class=\"ppos\">Wingback</div>\n        <div class=\"pstat\">8 <small>of 9 · 89%</small></div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Acc. long passes</div>\n        <div class=\"pname\">Kovar M.</div>\n        <div class=\"ppos\">Goalkeeper</div>\n        <div class=\"pstat\">8 <small>of 25 · 32%</small></div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Acc. crosses</div>\n        <div class=\"pname\">Sojka A.</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">1 <small>of 1 · 100%</small></div>\n      </div></div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n      <div class=\"card\"><div class=\"card-head\"><h3>Key passes — top players</h3><span class=\"eyebrow\">Czech Republic</span></div>\n        <div class=\"chart-box\"><canvas id=\"chTeamPrimary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n      <div class=\"card\"><div class=\"card-head\"><h3>Passing map</h3><span class=\"eyebrow\">Volume vs accuracy</span></div>\n        <div class=\"chart-box\"><canvas id=\"chPassScatter\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n    </div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">15 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-passes\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Accurate passes\" class=\"num\">Accurate passes</th><th data-col=\"Big chances created\" class=\"num\">Big chances created</th><th data-col=\"Key passes\" class=\"num\">Key passes</th><th data-col=\"Assists\" class=\"num\">Assists</th><th data-col=\"Expected assists (xA)\" class=\"num\">Expected assists (xA)</th><th data-col=\"Accurate passes in final third\" class=\"num\">Accurate passes in final third</th><th data-col=\"Accurate long passes\" class=\"num\">Accurate long passes</th><th data-col=\"Accurate crosses\" class=\"num\">Accurate crosses</th></tr></thead><tbody><tr><td class=\"pname\">Krejci L.</td><td class=\"ppos\">Centre back</td><td class=\"num\">31/45 (69%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">4/13 (31%)</td><td class=\"num\">0/6 (0%)</td><td class=\"num\">0/1 (0%)</td></tr><tr><td class=\"pname\">Hranac R.</td><td class=\"ppos\">Centre back</td><td class=\"num\">30/36 (83%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">6/10 (60%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sojka A.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">26/33 (79%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.17</td><td class=\"num\">8/12 (67%)</td><td class=\"num\">3/4 (75%)</td><td class=\"num\">1/1 (100%)</td></tr><tr><td class=\"pname\">Soucek T.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">25/34 (74%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">2/5 (40%)</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">1/1 (100%)</td></tr><tr><td class=\"pname\">Zeleny J.</td><td class=\"ppos\">Wingback</td><td class=\"num\">22/28 (79%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.04</td><td class=\"num\">8/9 (89%)</td><td class=\"num\">0/2 (0%)</td><td class=\"num\">1/3 (33%)</td></tr><tr><td class=\"pname\">Chaloupek S.</td><td class=\"ppos\">Centre back</td><td class=\"num\">18/29 (62%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">3/8 (38%)</td><td class=\"num\">2/9 (22%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Provod L.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">17/22 (77%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">8/12 (67%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">0/1 (0%)</td></tr><tr><td class=\"pname\">Coufal V.</td><td class=\"ppos\">Wingback</td><td class=\"num\">17/26 (65%)</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">0.08</td><td class=\"num\">3/10 (30%)</td><td class=\"num\">0/4 (0%)</td><td class=\"num\">0/6 (0%)</td></tr><tr><td class=\"pname\">Sulc P.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">13/18 (72%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">5/7 (71%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kovar M.</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">9/26 (35%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2/9 (22%)</td><td class=\"num\">8/25 (32%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sadilek M.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">8/11 (73%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">3/6 (50%)</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">0/2 (0%)</td></tr><tr><td class=\"pname\">Chory T.</td><td class=\"ppos\">Forward</td><td class=\"num\">5/8 (63%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2/4 (50%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hlozek A.</td><td class=\"ppos\">Forward</td><td class=\"num\">4/4 (100%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.03</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Schick P.</td><td class=\"ppos\">Striker</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chytil M.</td><td class=\"ppos\">Forward</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.06</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn active\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "away/shots": {
+  "activePills": [
+   "away"
+  ],
+  "activeTabs": [
+   "shots"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(239,68,68,.9)",
+      "borderColor": "#fff",
+      "data": [
+       {
+        "name": "Hlozek",
+        "x": 0.18,
+        "y": 2
+       },
+       {
+        "name": "Sadilek",
+        "x": 0.15,
+        "y": 2
+       },
+       {
+        "name": "Krejci",
+        "x": 0.21,
+        "y": 1
+       },
+       {
+        "name": "Soucek",
+        "x": 0.28,
+        "y": 1
+       },
+       {
+        "name": "Sulc",
+        "x": 0.01,
+        "y": 1
+       }
+      ],
+      "label": null
+     }
+    ],
+    "key": "shotScatter",
+    "labels": [],
+    "type": "scatter"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Shots · Czech Republic</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\"><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best total shots</div>\n        <div class=\"pname\">Hlozek A.</div>\n        <div class=\"ppos\">Forward</div>\n        <div class=\"pstat\">2</div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best on target</div>\n        <div class=\"pname\">Sadilek M.</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">2</div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best xG</div>\n        <div class=\"pname\">Soucek T.</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">0.28</div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best inside box</div>\n        <div class=\"pname\">Hlozek A.</div>\n        <div class=\"ppos\">Forward</div>\n        <div class=\"pstat\">2</div>\n      </div></div><div class=\"card\" style=\"margin-bottom:20px\"><div class=\"card-head\"><h3>Shooting map</h3><span class=\"eyebrow\">xG vs shots</span></div>\n      <div class=\"chart-box tall\"><canvas id=\"chShotScatter\" width=\"1190\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 1190px;\"></canvas></div></div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">15 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-shots\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Total shots\" class=\"num\">Total shots</th><th data-col=\"Goals\" class=\"num\">Goals</th><th data-col=\"Expected goals (xG)\" class=\"num\">Expected goals (xG)</th><th data-col=\"xG on target (xGOT)\" class=\"num\">xG on target (xGOT)</th><th data-col=\"Shots on target\" class=\"num\">Shots on target</th><th data-col=\"Shots off target\" class=\"num\">Shots off target</th><th data-col=\"Blocked shots\" class=\"num\">Blocked shots</th><th data-col=\"Shots inside the box\" class=\"num\">Shots inside the box</th><th data-col=\"Shots outside the box\" class=\"num\">Shots outside the box</th><th data-col=\"Headed shots\" class=\"num\">Headed shots</th></tr></thead><tbody><tr><td class=\"pname\">Hlozek A.</td><td class=\"ppos\">Forward</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">0.18</td><td class=\"num\">0.75</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Sadilek M.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">0.15</td><td class=\"num\">0.74</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Krejci L.</td><td class=\"ppos\">Centre back</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">0.21</td><td class=\"num\">0.58</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Soucek T.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.28</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sulc P.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chaloupek S.</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chory T.</td><td class=\"ppos\">Forward</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Chytil M.</td><td class=\"ppos\">Forward</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Coufal V.</td><td class=\"ppos\">Wingback</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hranac R.</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kovar M.</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Provod L.</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Schick P.</td><td class=\"ppos\">Striker</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Sojka A.</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Zeleny J.</td><td class=\"ppos\">Wingback</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn active\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "home/attack": {
+  "activePills": [
+   "home"
+  ],
+  "activeTabs": [
+   "attack"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.85)",
+      "borderColor": null,
+      "data": [
+       5,
+       2,
+       1
+      ],
+      "label": "Successful dribbles"
+     }
+    ],
+    "key": "tp",
+    "labels": [
+     "Lee Kang-In",
+     "Hwang In-Beom",
+     "Hwang Hee-Chan"
+    ],
+    "type": "bar"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.55)",
+      "borderColor": null,
+      "data": [
+       93,
+       80,
+       76,
+       72,
+       64,
+       63,
+       55,
+       49
+      ],
+      "label": "Touches"
+     }
+    ],
+    "key": "ts",
+    "labels": [
+     "Hwang In-Beom",
+     "Lee Han-Beom",
+     "Lee Gi-Hyuk",
+     "Paik Seung-Ho",
+     "Kim Min-Jae",
+     "Lee Kang-In",
+     "Seol Young-Woo",
+     "Lee Tae-Seok"
+    ],
+    "type": "bar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Attack · South Korea</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\">\n      <div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Lee Kang-In</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">5/6 (83%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">2</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Hwang In-Beom</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">2/2 (100%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">3</div>\n        <div class=\"pcat\">Successful dribbles</div>\n        <div class=\"pname\">Hwang Hee-Chan</div>\n        <div class=\"ppos\">Forward</div>\n        <div class=\"pstat\">1/2 (50%)</div>\n      </div></div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n        <div class=\"card\"><div class=\"card-head\"><h3>Successful dribbles — top players</h3><span class=\"eyebrow\">South Korea</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamPrimary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n        <div class=\"card\"><div class=\"card-head\"><h3>Touches</h3><span class=\"eyebrow\">Distribution</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamSecondary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n      </div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">16 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-attack\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Touches in opposition box\" class=\"num\">Touches in opposition box</th><th data-col=\"Successful dribbles\" class=\"num\">Successful dribbles</th><th data-col=\"Big chances missed\" class=\"num\">Big chances missed</th><th data-col=\"Touches\" class=\"num\">Touches</th><th data-col=\"Fouls suffered\" class=\"num\">Fouls suffered</th><th data-col=\"Offsides\" class=\"num\">Offsides</th></tr></thead><tbody><tr><td class=\"pname\">Hwang In-Beom</td><td class=\"ppos\">Midfielder</td><td class=\"num\">5</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">-</td><td class=\"num\">93</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Jae-Sung</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">5</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">1</td><td class=\"num\">45</td><td class=\"num\">2</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Son Heung-Min</td><td class=\"ppos\">Striker</td><td class=\"num\">4</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">1</td><td class=\"num\">37</td><td class=\"num\">2</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Hwang Hee-Chan</td><td class=\"ppos\">Forward</td><td class=\"num\">3</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">-</td><td class=\"num\">16</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Eom Ji-Sung</td><td class=\"ppos\">Midfielder</td><td class=\"num\">1</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">9</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Han-Beom</td><td class=\"ppos\">Centre back</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">80</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Kang-In</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">1</td><td class=\"num\">5/6 (83%)</td><td class=\"num\">-</td><td class=\"num\">63</td><td class=\"num\">4</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Tae-Seok</td><td class=\"ppos\">Wingback</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">49</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Oh Hyeon-Gyu</td><td class=\"ppos\">Forward</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">10</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Paik Seung-Ho</td><td class=\"ppos\">Midfielder</td><td class=\"num\">1</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">72</td><td class=\"num\">2</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Seol Young-Woo</td><td class=\"ppos\">Wingback</td><td class=\"num\">1</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">55</td><td class=\"num\">-</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Kim Jin-Gyu</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">6</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Min-Jae</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">64</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Seung-Gyu</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">39</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Gi-Hyuk</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">76</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Park Jin-Seob</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">11</td><td class=\"num\">-</td><td class=\"num\">-</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn active\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "home/defense": {
+  "activePills": [
+   "home"
+  ],
+  "activeTabs": [
+   "defense"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.85)",
+      "borderColor": null,
+      "data": [
+       10,
+       6,
+       6,
+       5,
+       4,
+       4,
+       3,
+       3
+      ],
+      "label": "Duels won"
+     }
+    ],
+    "key": "tp",
+    "labels": [
+     "Lee Kang-In",
+     "Kim Min-Jae",
+     "Lee Han-Beom",
+     "Lee Gi-Hyuk",
+     "Lee Jae-Sung",
+     "Lee Tae-Seok",
+     "Eom Ji-Sung",
+     "Oh Hyeon-Gyu"
+    ],
+    "type": "bar"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.55)",
+      "borderColor": null,
+      "data": [
+       2,
+       1,
+       1
+      ],
+      "label": "Tackles won"
+     }
+    ],
+    "key": "ts",
+    "labels": [
+     "Eom Ji-Sung",
+     "Lee Han-Beom",
+     "Lee Tae-Seok"
+    ],
+    "type": "bar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Defense · South Korea</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\">\n      <div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Lee Kang-In</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">10/14 (71%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">2</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Kim Min-Jae</div>\n        <div class=\"ppos\">Centre back</div>\n        <div class=\"pstat\">6/9 (67%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">3</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Lee Han-Beom</div>\n        <div class=\"ppos\">Centre back</div>\n        <div class=\"pstat\">6/11 (55%)</div>\n      </div>\n      <div class=\"performer\">\n        <div class=\"rank\">4</div>\n        <div class=\"pcat\">Duels won</div>\n        <div class=\"pname\">Lee Gi-Hyuk</div>\n        <div class=\"ppos\">Centre back</div>\n        <div class=\"pstat\">5/9 (56%)</div>\n      </div></div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n        <div class=\"card\"><div class=\"card-head\"><h3>Duels won — top players</h3><span class=\"eyebrow\">South Korea</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamPrimary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n        <div class=\"card\"><div class=\"card-head\"><h3>Tackles won</h3><span class=\"eyebrow\">Distribution</span></div>\n          <div class=\"chart-box\"><canvas id=\"chTeamSecondary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n      </div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">16 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-defense\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Duels won\" class=\"num\">Duels won</th><th data-col=\"Aerial duels won\" class=\"num\">Aerial duels won</th><th data-col=\"Ground duels won\" class=\"num\">Ground duels won</th><th data-col=\"Tackles won\" class=\"num\">Tackles won</th><th data-col=\"Fouls committed\" class=\"num\">Fouls committed</th><th data-col=\"Interceptions\" class=\"num\">Interceptions</th><th data-col=\"Clearances\" class=\"num\">Clearances</th><th data-col=\"Errors leading to goal\" class=\"num\">Errors leading to goal</th><th data-col=\"Errors leading to shot\" class=\"num\">Errors leading to shot</th></tr></thead><tbody><tr><td class=\"pname\">Lee Kang-In</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">10/14 (71%)</td><td class=\"num\">-</td><td class=\"num\">10/14 (71%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Min-Jae</td><td class=\"ppos\">Centre back</td><td class=\"num\">6/9 (67%)</td><td class=\"num\">4/5 (80%)</td><td class=\"num\">2/4 (50%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">2</td><td class=\"num\">2</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Han-Beom</td><td class=\"ppos\">Centre back</td><td class=\"num\">6/11 (55%)</td><td class=\"num\">5/7 (71%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">5</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Gi-Hyuk</td><td class=\"ppos\">Centre back</td><td class=\"num\">5/9 (56%)</td><td class=\"num\">4/6 (67%)</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">3</td><td class=\"num\">8</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Jae-Sung</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">4/8 (50%)</td><td class=\"num\">2/4 (50%)</td><td class=\"num\">2/4 (50%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Tae-Seok</td><td class=\"ppos\">Wingback</td><td class=\"num\">4/9 (44%)</td><td class=\"num\">3/6 (50%)</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">6</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Eom Ji-Sung</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3/3 (100%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Oh Hyeon-Gyu</td><td class=\"ppos\">Forward</td><td class=\"num\">3/4 (75%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Paik Seung-Ho</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3/4 (75%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">4</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hwang In-Beom</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Park Jin-Seob</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hwang Hee-Chan</td><td class=\"ppos\">Forward</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Son Heung-Min</td><td class=\"ppos\">Striker</td><td class=\"num\">2/4 (50%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Jin-Gyu</td><td class=\"ppos\">Midfielder</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Seol Young-Woo</td><td class=\"ppos\">Wingback</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">-</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">0/1 (0%)</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Seung-Gyu</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn active\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "home/goalkeeping": {
+  "activePills": [
+   "home"
+  ],
+  "activeTabs": [
+   "goalkeeping"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": [
+       "rgba(52,211,153,.85)",
+       "rgba(239,68,68,.85)"
+      ],
+      "borderColor": "#0f4234",
+      "data": [
+       3,
+       1
+      ],
+      "label": null
+     }
+    ],
+    "key": "gk0",
+    "labels": [
+     "Saves",
+     "Conceded"
+    ],
+    "type": "doughnut"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Goalkeeping · South Korea</div>\n      <div class=\"section-sub\">Shot-stopping and distribution — goalkeeper profile</div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n        <div class=\"card\">\n          <div class=\"card-head\"><h3>🧤 Kim Seung-Gyu</h3><span class=\"eyebrow\">Goalkeeper</span></div>\n          <div class=\"chart-box\"><canvas id=\"chGk0\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div>\n            <div style=\"text-align:center;color:var(--chalk-dim);font-size:12px;margin-top:6px\">Shots on target faced: <strong style=\"color:var(--chalk)\">4</strong></div>\n        </div>\n        <div class=\"card\">\n          <div class=\"card-head\"><h3>Key numbers</h3><span class=\"eyebrow\">South Korea</span></div>\n          <div class=\"gk-tiles\"><div class=\"stat-tile home good\"><div class=\"accent-bar\"></div><div class=\"label\">Saves</div><div class=\"value\">3</div></div><div class=\"stat-tile home good\"><div class=\"accent-bar\"></div><div class=\"label\">Save %</div><div class=\"value\">75%</div></div><div class=\"stat-tile home\"><div class=\"accent-bar\"></div><div class=\"label\">Goals conceded</div><div class=\"value\">1</div></div><div class=\"stat-tile home\"><div class=\"accent-bar\"></div><div class=\"label\">Goals prevented</div><div class=\"value\">1.07</div></div><div class=\"stat-tile home\"><div class=\"accent-bar\"></div><div class=\"label\">xGOT faced</div><div class=\"value\">2.07</div></div><div class=\"stat-tile home\"><div class=\"accent-bar\"></div><div class=\"label\">Punches</div><div class=\"value\">-</div></div><div class=\"stat-tile home\"><div class=\"accent-bar\"></div><div class=\"label\">Throws</div><div class=\"value\">2</div></div><div class=\"stat-tile home\"><div class=\"accent-bar\"></div><div class=\"label\">Sweeper actions</div><div class=\"value\">1</div></div></div>\n        </div>\n      </div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn active\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "home/passes": {
+  "activePills": [
+   "home"
+  ],
+  "activeTabs": [
+   "passes"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.9)",
+      "borderColor": "#fff",
+      "data": [
+       {
+        "name": "Hwang In-Beom",
+        "x": 90,
+        "y": 81
+       },
+       {
+        "name": "Lee Gi-Hyuk",
+        "x": 94,
+        "y": 62
+       },
+       {
+        "name": "Paik Seung-Ho",
+        "x": 89,
+        "y": 63
+       },
+       {
+        "name": "Lee Han-Beom",
+        "x": 84,
+        "y": 63
+       },
+       {
+        "name": "Kim Min-Jae",
+        "x": 94,
+        "y": 54
+       },
+       {
+        "name": "Lee Kang-In",
+        "x": 100,
+        "y": 38
+       },
+       {
+        "name": "Seol Young-Woo",
+        "x": 94,
+        "y": 32
+       },
+       {
+        "name": "Lee Jae-Sung",
+        "x": 76,
+        "y": 33
+       },
+       {
+        "name": "Lee Tae-Seok",
+        "x": 84,
+        "y": 25
+       },
+       {
+        "name": "Son Heung-Min",
+        "x": 91,
+        "y": 22
+       },
+       {
+        "name": "Kim Seung-Gyu",
+        "x": 56,
+        "y": 34
+       },
+       {
+        "name": "Hwang Hee-Chan",
+        "x": 91,
+        "y": 11
+       },
+       {
+        "name": "Park Jin-Seob",
+        "x": 67,
+        "y": 9
+       },
+       {
+        "name": "Oh Hyeon-Gyu",
+        "x": 57,
+        "y": 7
+       },
+       {
+        "name": "Kim Jin-Gyu",
+        "x": 75,
+        "y": 4
+       },
+       {
+        "name": "Eom Ji-Sung",
+        "x": 67,
+        "y": 3
+       }
+      ],
+      "label": null
+     }
+    ],
+    "key": "passScatter",
+    "labels": [],
+    "type": "scatter"
+   },
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.85)",
+      "borderColor": null,
+      "data": [
+       3,
+       3,
+       2,
+       2,
+       1,
+       1,
+       1,
+       1
+      ],
+      "label": "Key passes"
+     }
+    ],
+    "key": "tp",
+    "labels": [
+     "Lee Kang-In",
+     "Lee Jae-Sung",
+     "Kim Min-Jae",
+     "Lee Tae-Seok",
+     "Hwang In-Beom",
+     "Seol Young-Woo",
+     "Son Heung-Min",
+     "Oh Hyeon-Gyu"
+    ],
+    "type": "bar"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Passes · South Korea</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\"><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Accurate passes</div>\n        <div class=\"pname\">Lee Kang-In</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">100% <small>38/38</small></div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Acc. final third</div>\n        <div class=\"pname\">Lee Kang-In</div>\n        <div class=\"ppos\">Attacking midfielder</div>\n        <div class=\"pstat\">18 <small>of 18 · 100%</small></div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Acc. long passes</div>\n        <div class=\"pname\">Kim Seung-Gyu</div>\n        <div class=\"ppos\">Goalkeeper</div>\n        <div class=\"pstat\">8 <small>of 23 · 35%</small></div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Acc. crosses</div>\n        <div class=\"pname\">Eom Ji-Sung</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">1 <small>of 1 · 100%</small></div>\n      </div></div><div class=\"grid grid-2\" style=\"margin-bottom:20px\">\n      <div class=\"card\"><div class=\"card-head\"><h3>Key passes — top players</h3><span class=\"eyebrow\">South Korea</span></div>\n        <div class=\"chart-box\"><canvas id=\"chTeamPrimary\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n      <div class=\"card\"><div class=\"card-head\"><h3>Passing map</h3><span class=\"eyebrow\">Volume vs accuracy</span></div>\n        <div class=\"chart-box\"><canvas id=\"chPassScatter\" width=\"565\" height=\"320\" style=\"display: block; box-sizing: border-box; height: 320px; width: 565px;\"></canvas></div></div>\n    </div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">16 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-passes\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Accurate passes\" class=\"num\">Accurate passes</th><th data-col=\"Big chances created\" class=\"num\">Big chances created</th><th data-col=\"Key passes\" class=\"num\">Key passes</th><th data-col=\"Assists\" class=\"num\">Assists</th><th data-col=\"Expected assists (xA)\" class=\"num\">Expected assists (xA)</th><th data-col=\"Accurate passes in final third\" class=\"num\">Accurate passes in final third</th><th data-col=\"Accurate long passes\" class=\"num\">Accurate long passes</th><th data-col=\"Accurate crosses\" class=\"num\">Accurate crosses</th></tr></thead><tbody><tr><td class=\"pname\">Hwang In-Beom</td><td class=\"ppos\">Midfielder</td><td class=\"num\">73/81 (90%)</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">0.50</td><td class=\"num\">12/14 (86%)</td><td class=\"num\">1/4 (25%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Gi-Hyuk</td><td class=\"ppos\">Centre back</td><td class=\"num\">58/62 (94%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.02</td><td class=\"num\">7/9 (78%)</td><td class=\"num\">4/6 (67%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Paik Seung-Ho</td><td class=\"ppos\">Midfielder</td><td class=\"num\">56/63 (89%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.05</td><td class=\"num\">15/17 (88%)</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Han-Beom</td><td class=\"ppos\">Centre back</td><td class=\"num\">53/63 (84%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.03</td><td class=\"num\">6/11 (55%)</td><td class=\"num\">3/7 (43%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Min-Jae</td><td class=\"ppos\">Centre back</td><td class=\"num\">51/54 (94%)</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">3/4 (75%)</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Kang-In</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">38/38 (100%)</td><td class=\"num\">1</td><td class=\"num\">3</td><td class=\"num\">1</td><td class=\"num\">0.21</td><td class=\"num\">18/18 (100%)</td><td class=\"num\">3/3 (100%)</td><td class=\"num\">0/3 (0%)</td></tr><tr><td class=\"pname\">Seol Young-Woo</td><td class=\"ppos\">Wingback</td><td class=\"num\">30/32 (94%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.05</td><td class=\"num\">8/8 (100%)</td><td class=\"num\">3/3 (100%)</td><td class=\"num\">1/3 (33%)</td></tr><tr><td class=\"pname\">Lee Jae-Sung</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">25/33 (76%)</td><td class=\"num\">1</td><td class=\"num\">3</td><td class=\"num\">-</td><td class=\"num\">0.10</td><td class=\"num\">7/11 (64%)</td><td class=\"num\">1/3 (33%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Tae-Seok</td><td class=\"ppos\">Wingback</td><td class=\"num\">21/25 (84%)</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">0.34</td><td class=\"num\">9/11 (82%)</td><td class=\"num\">4/5 (80%)</td><td class=\"num\">1/3 (33%)</td></tr><tr><td class=\"pname\">Son Heung-Min</td><td class=\"ppos\">Striker</td><td class=\"num\">20/22 (91%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.04</td><td class=\"num\">8/9 (89%)</td><td class=\"num\">-</td><td class=\"num\">0/2 (0%)</td></tr><tr><td class=\"pname\">Kim Seung-Gyu</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">19/34 (56%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2/12 (17%)</td><td class=\"num\">8/23 (35%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hwang Hee-Chan</td><td class=\"ppos\">Forward</td><td class=\"num\">10/11 (91%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2/2 (100%)</td><td class=\"num\">1/1 (100%)</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Park Jin-Seob</td><td class=\"ppos\">Midfielder</td><td class=\"num\">6/9 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Oh Hyeon-Gyu</td><td class=\"ppos\">Forward</td><td class=\"num\">4/7 (57%)</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">3/5 (60%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Jin-Gyu</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3/4 (75%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">3/4 (75%)</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Eom Ji-Sung</td><td class=\"ppos\">Midfielder</td><td class=\"num\">2/3 (67%)</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">0.01</td><td class=\"num\">1/2 (50%)</td><td class=\"num\">-</td><td class=\"num\">1/1 (100%)</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn active\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ },
+ "home/shots": {
+  "activePills": [
+   "home"
+  ],
+  "activeTabs": [
+   "shots"
+  ],
+  "buttons": {
+   "exportPdf": "",
+   "reset": ""
+  },
+  "charts": [
+   {
+    "datasets": [
+     {
+      "backgroundColor": "rgba(59,130,246,.9)",
+      "borderColor": "#fff",
+      "data": [
+       {
+        "name": "Son Heung-Min",
+        "x": 1.01,
+        "y": 6
+       },
+       {
+        "name": "Hwang In-Beom",
+        "x": 0.36,
+        "y": 3
+       },
+       {
+        "name": "Lee Jae-Sung",
+        "x": 0.45,
+        "y": 2
+       },
+       {
+        "name": "Kim Jin-Gyu",
+        "x": 0.06,
+        "y": 1
+       },
+       {
+        "name": "Lee Han-Beom",
+        "x": 0.04,
+        "y": 1
+       },
+       {
+        "name": "Lee Kang-In",
+        "x": 0.02,
+        "y": 1
+       },
+       {
+        "name": "Oh Hyeon-Gyu",
+        "x": 0.37,
+        "y": 1
+       }
+      ],
+      "label": null
+     }
+    ],
+    "key": "shotScatter",
+    "labels": [],
+    "type": "scatter"
+   }
+  ],
+  "footMatch": "South Korea  vs  Czech Republic",
+  "html": "<div class=\"section-title\">Shots · South Korea</div>\n      <div class=\"section-sub\">Player-by-player breakdown — click a column to sort</div><div class=\"performers\"><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best total shots</div>\n        <div class=\"pname\">Son Heung-Min</div>\n        <div class=\"ppos\">Striker</div>\n        <div class=\"pstat\">6</div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best on target</div>\n        <div class=\"pname\">Hwang In-Beom</div>\n        <div class=\"ppos\">Midfielder</div>\n        <div class=\"pstat\">2</div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best xG</div>\n        <div class=\"pname\">Son Heung-Min</div>\n        <div class=\"ppos\">Striker</div>\n        <div class=\"pstat\">1.01</div>\n      </div><div class=\"performer\">\n        <div class=\"rank\">1</div>\n        <div class=\"pcat\">Best inside box</div>\n        <div class=\"pname\">Son Heung-Min</div>\n        <div class=\"ppos\">Striker</div>\n        <div class=\"pstat\">4</div>\n      </div></div><div class=\"card\" style=\"margin-bottom:20px\"><div class=\"card-head\"><h3>Shooting map</h3><span class=\"eyebrow\">xG vs shots</span></div>\n      <div class=\"chart-box tall\"><canvas id=\"chShotScatter\" width=\"1190\" height=\"420\" style=\"display: block; box-sizing: border-box; height: 420px; width: 1190px;\"></canvas></div></div><div class=\"card\"><div class=\"card-head\"><h3>All players</h3><span class=\"eyebrow\">16 listed</span></div>\n      <div class=\"table-wrap\"><table class=\"player-table\" id=\"tbl-shots\"><thead><tr><th data-col=\"Player\" class=\"\">Player</th><th data-col=\"Position\" class=\"\">Position</th><th data-col=\"Total shots\" class=\"num\">Total shots</th><th data-col=\"Goals\" class=\"num\">Goals</th><th data-col=\"Expected goals (xG)\" class=\"num\">Expected goals (xG)</th><th data-col=\"xG on target (xGOT)\" class=\"num\">xG on target (xGOT)</th><th data-col=\"Shots on target\" class=\"num\">Shots on target</th><th data-col=\"Shots off target\" class=\"num\">Shots off target</th><th data-col=\"Blocked shots\" class=\"num\">Blocked shots</th><th data-col=\"Shots inside the box\" class=\"num\">Shots inside the box</th><th data-col=\"Shots outside the box\" class=\"num\">Shots outside the box</th><th data-col=\"Headed shots\" class=\"num\">Headed shots</th></tr></thead><tbody><tr><td class=\"pname\">Son Heung-Min</td><td class=\"ppos\">Striker</td><td class=\"num\">6</td><td class=\"num\">-</td><td class=\"num\">1.01</td><td class=\"num\">0.30</td><td class=\"num\">1</td><td class=\"num\">2</td><td class=\"num\">3</td><td class=\"num\">4</td><td class=\"num\">2</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hwang In-Beom</td><td class=\"ppos\">Midfielder</td><td class=\"num\">3</td><td class=\"num\">1</td><td class=\"num\">0.36</td><td class=\"num\">0.91</td><td class=\"num\">2</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Jae-Sung</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">0.45</td><td class=\"num\">0.24</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">2</td><td class=\"num\">-</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Kim Jin-Gyu</td><td class=\"ppos\">Midfielder</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.06</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Han-Beom</td><td class=\"ppos\">Centre back</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.04</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">1</td></tr><tr><td class=\"pname\">Lee Kang-In</td><td class=\"ppos\">Attacking midfielder</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">0.02</td><td class=\"num\">0.04</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Oh Hyeon-Gyu</td><td class=\"ppos\">Forward</td><td class=\"num\">1</td><td class=\"num\">1</td><td class=\"num\">0.37</td><td class=\"num\">0.57</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">1</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Eom Ji-Sung</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Hwang Hee-Chan</td><td class=\"ppos\">Forward</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Min-Jae</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Kim Seung-Gyu</td><td class=\"ppos\">Goalkeeper</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Gi-Hyuk</td><td class=\"ppos\">Centre back</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Lee Tae-Seok</td><td class=\"ppos\">Wingback</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Paik Seung-Ho</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Park Jin-Seob</td><td class=\"ppos\">Midfielder</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr><tr><td class=\"pname\">Seol Young-Woo</td><td class=\"ppos\">Wingback</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td><td class=\"num\">-</td></tr></tbody></table></div></div>",
+  "scorebar": "\n      <div class=\"score-top\">\n        <div class=\"score-team home\"><span class=\"dot\"></span><span>South Korea</span></div>\n        <div class=\"score-mid\">\n          <div class=\"score-line\"><span class=\"sc-h\">2</span><span class=\"sc-sep\">–</span><span class=\"sc-a\">1</span></div>\n          <div class=\"date\">Full time</div>\n        </div>\n        <div class=\"score-team away\"><span>Czech Republic</span><span class=\"dot\"></span></div>\n      </div>\n      ",
+  "tabNav": "<button class=\"tab-btn\" data-tab=\"overall\" onclick=\"App.setTab('overall')\">Overall</button><button class=\"tab-btn active\" data-tab=\"shots\" onclick=\"App.setTab('shots')\">Shots</button><button class=\"tab-btn\" data-tab=\"attack\" onclick=\"App.setTab('attack')\">Attack</button><button class=\"tab-btn\" data-tab=\"passes\" onclick=\"App.setTab('passes')\">Passes</button><button class=\"tab-btn\" data-tab=\"defense\" onclick=\"App.setTab('defense')\">Defense</button><button class=\"tab-btn\" data-tab=\"goalkeeping\" onclick=\"App.setTab('goalkeeping')\">Goalkeeping</button>",
+  "toggleDisplay": "flex"
+ }
+}

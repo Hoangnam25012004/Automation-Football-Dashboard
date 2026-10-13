@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Match Performance Analysis</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -112,32 +111,6 @@ body::before{
 }
 .upload-hero h2 em{color:var(--good);font-style:normal}
 .upload-hero p{color:var(--chalk-dim);font-size:16px;max-width:520px;margin:0 auto;line-height:1.6}
-
-.drop-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-bottom:28px}
-@media(max-width:680px){.drop-grid{grid-template-columns:1fr}}
-.drop-zone{
-  border:2px dashed var(--border);border-radius:var(--radius);
-  padding:36px 24px;text-align:center;cursor:pointer;
-  transition:all .2s ease;background:rgba(15,66,52,.4);position:relative;
-}
-.drop-zone:hover,.drop-zone.dragover{border-color:var(--good);background:rgba(15,66,52,.7)}
-.drop-zone.loaded{border-style:solid;border-color:var(--good);background:rgba(52,211,153,.08)}
-.drop-icon{
-  width:56px;height:56px;margin:0 auto 16px;border-radius:14px;
-  background:var(--panel);display:grid;place-items:center;
-  border:1px solid var(--border);
-}
-.drop-zone.loaded .drop-icon{background:var(--good);border-color:var(--good)}
-.drop-icon svg{width:28px;height:28px;color:var(--chalk-dim)}
-.drop-zone.loaded .drop-icon svg{color:#04231a}
-.drop-zone h3{font-size:16px;margin-bottom:6px;font-weight:700}
-.drop-zone .hint{font-size:13px;color:var(--chalk-dim)}
-.drop-zone .filename{font-size:13px;color:var(--good);font-weight:600;margin-top:8px;word-break:break-all}
-.drop-zone .tag{
-  position:absolute;top:14px;right:14px;font-size:10px;letter-spacing:1px;
-  text-transform:uppercase;color:var(--chalk-dim);font-weight:700;
-}
-.drop-zone.loaded .tag{color:var(--good)}
 
 .upload-cta{text-align:center}
 .upload-cta .btn-primary{font-size:15px;padding:14px 36px}
@@ -476,6 +449,22 @@ body::before{
 
 /* PDF export mode tweaks */
 .pdf-rendering .tab-content{display:block !important;page-break-after:always}
+
+/* ============ URL FORM (paste a Flashscore match link) ============ */
+.url-form{max-width:680px;margin:0 auto 28px;width:100%}
+.url-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.url-input{
+  width:100%;font-family:var(--font-mono);font-size:14px;color:var(--chalk);
+  background:rgba(15,66,52,.4);border:2px solid var(--border);border-radius:var(--radius);
+  padding:16px 18px;outline:none;transition:border-color .2s ease,background .2s ease;
+}
+.url-input::placeholder{color:var(--chalk-dim);opacity:.75}
+.url-input:hover,.url-input:focus{border-color:var(--good);background:rgba(15,66,52,.7)}
+.url-input.invalid{border-color:var(--bad)}
+.url-hint{font-size:12.5px;color:var(--chalk-dim);margin-top:10px;text-align:center;line-height:1.5}
+.url-hint code{font-family:var(--font-mono);color:var(--chalk)}
+.url-error{font-size:13px;color:var(--bad);margin-top:8px;text-align:center;font-weight:600}
+.url-error:empty{display:none}
 </style>
 </head>
 <body>
@@ -508,46 +497,18 @@ body::before{
   <div class="upload-hero">
     <div class="kicker">90 minutes · 22 players · one story</div>
     <h2>Turn match data into<br><em>tactical insight</em></h2>
-    <p>Drop in your two Flashscore exports — player stats and lineups — and get a full performance dashboard for both teams, ready to read or export as a report.</p>
+    <p>Paste a Flashscore match link and get a full performance dashboard for both teams, ready to read or export as a report.</p>
   </div>
 
-  <div class="drop-grid">
-    <div class="drop-zone" id="dropStats" onclick="document.getElementById('fileStats').click()">
-      <span class="tag">Required</span>
-      <div class="drop-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
-      </div>
-      <h3>Player Stats</h3>
-      <div class="hint">flashscore_…xlsx — the stats export</div>
-      <div class="filename" id="nameStats"></div>
-      <input type="file" id="fileStats" accept=".xlsx,.xls" hidden>
-    </div>
-
-    <div class="drop-zone" id="dropLineup" onclick="document.getElementById('fileLineup').click()">
-      <span class="tag">Optional</span>
-      <div class="drop-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
-      </div>
-      <h3>Lineups</h3>
-      <div class="hint">lineups_…xlsx — formation & subs</div>
-      <div class="filename" id="nameLineup"></div>
-      <input type="file" id="fileLineup" accept=".xlsx,.xls" hidden>
-    </div>
-
-    <div class="drop-zone" id="dropSummary" onclick="document.getElementById('fileSummary').click()">
-      <span class="tag">Optional</span>
-      <div class="drop-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l2 5 4-14 2 7h6"/></svg>
-      </div>
-      <h3>Match Summary</h3>
-      <div class="hint">summary_…xlsx — timeline & logos</div>
-      <div class="filename" id="nameSummary"></div>
-      <input type="file" id="fileSummary" accept=".xlsx,.xls" hidden>
-    </div>
+  <div class="url-form" id="urlForm">
+    <label class="url-label" for="flashUrl">Flashscore match link</label>
+    <input type="url" class="url-input" id="flashUrl" placeholder="https://www.flashscore.com/match/football/…" autocomplete="off" spellcheck="false" inputmode="url">
+    <div class="url-hint">Works with finished football matches. Keep the <code>?mid=</code> part of the link if it has one.</div>
+    <div class="url-error" id="urlError" aria-live="polite"></div>
   </div>
 
   <div class="upload-cta">
-    <button class="btn btn-primary" id="btnBuild" onclick="App.build()" disabled>Build dashboard</button>
+    <button class="btn btn-primary" id="btnGenerate" onclick="App.buildFromUrl()" disabled>Generate report</button>
     <button class="demo-link" onclick="App.loadDemo()">or explore with sample data (Korea vs Czech Republic)</button>
   </div>
 </section>
@@ -563,7 +524,7 @@ body::before{
   <nav class="tab-nav" id="tabNav"></nav>
   <div id="tabContents"></div>
   <div class="footer-note">
-    Match Performance Analysis · Data from Flashscore exports · <span id="footMatch"></span>
+    Match Performance Analysis · Data from Flashscore · <span id="footMatch"></span>
   </div>
 </main>
 
@@ -581,208 +542,14 @@ window.__DEMO_IMAGES="{\"formation\": \"data:image/png;base64,iVBORw0KGgoAAAANSU
 </script>
 <script>
 /* ============================================================
-   JSZipLite — minimal ZIP reader (store + deflate) for xlsx
-   Just enough to pull text files and image bytes out of an .xlsx.
-   Uses the browser's DecompressionStream when available, with a
-   tiny inflate fallback.
-   ============================================================ */
-const JSZipLite = (()=>{
-
-  async function load(arrayBuffer){
-    const view=new DataView(arrayBuffer);
-    const bytes=new Uint8Array(arrayBuffer);
-    // find End Of Central Directory (EOCD): signature 0x06054b50
-    let eocd=-1;
-    for(let i=bytes.length-22;i>=0;i--){
-      if(view.getUint32(i,true)===0x06054b50){eocd=i;break;}
-    }
-    if(eocd<0) throw new Error('Not a zip file');
-    const cdCount=view.getUint16(eocd+10,true);
-    let cdOffset=view.getUint32(eocd+16,true);
-
-    const entries={};
-    let p=cdOffset;
-    for(let n=0;n<cdCount;n++){
-      if(view.getUint32(p,true)!==0x02014b50) break;
-      const method=view.getUint16(p+10,true);
-      const compSize=view.getUint32(p+20,true);
-      const nameLen=view.getUint16(p+28,true);
-      const extraLen=view.getUint16(p+30,true);
-      const commentLen=view.getUint16(p+32,true);
-      const localOffset=view.getUint32(p+42,true);
-      const name=textDecode(bytes.subarray(p+46,p+46+nameLen));
-      entries[name]={method,compSize,localOffset};
-      p+=46+nameLen+extraLen+commentLen;
-    }
-
-    // resolve each local header to get the actual data start
-    async function rawData(entry){
-      const lo=entry.localOffset;
-      if(view.getUint32(lo,true)!==0x04034b50) throw new Error('bad local header');
-      const nameLen=view.getUint16(lo+26,true);
-      const extraLen=view.getUint16(lo+28,true);
-      const dataStart=lo+30+nameLen+extraLen;
-      const comp=bytes.subarray(dataStart,dataStart+entry.compSize);
-      if(entry.method===0) return comp;           // stored
-      if(entry.method===8) return await inflateRaw(comp); // deflate
-      throw new Error('unsupported method '+entry.method);
-    }
-
-    // cache
-    const cache={};
-    async function getBytes(name){
-      if(!(name in entries)) return null;
-      if(cache[name]) return cache[name];
-      const d=await rawData(entries[name]);
-      cache[name]=d; return d;
-    }
-
-    return {
-      names:()=>Object.keys(entries),
-      async textAsync(name){const b=await getBytes(name);return b?textDecode(b):null;},
-      async bytesAsync(name){return await getBytes(name);},
-      // sync-ish wrappers used by caller (they await internally)
-      text:(name)=>null,   // replaced below by buffered map
-      bytes:(name)=>null,
-      _prime:async function(){
-        // pre-decode everything we might need (small files)
-        const want=Object.keys(entries).filter(n=>
-          n.endsWith('.xml')||n.endsWith('.rels')||/xl\/media\//.test(n));
-        const map={};
-        for(const n of want){ map[n]=await getBytes(n); }
-        this.text=(name)=>map[name]?textDecode(map[name]):null;
-        this.bytes=(name)=>map[name]||null;
-        return this;
-      }
-    };
-  }
-
-  // public loader that returns a primed (sync-access) zip
-  async function loadPrimed(arrayBuffer){
-    const z=await load(arrayBuffer);
-    return await z._prime();
-  }
-
-  function textDecode(bytes){
-    return new TextDecoder('utf-8').decode(bytes);
-  }
-
-  /* ---- raw DEFLATE inflate ---- */
-  async function inflateRaw(bytes){
-    // Prefer native DecompressionStream('deflate-raw')
-    if(typeof DecompressionStream!=='undefined'){
-      try{
-        const ds=new DecompressionStream('deflate-raw');
-        const stream=new Blob([bytes]).stream().pipeThrough(ds);
-        const ab=await new Response(stream).arrayBuffer();
-        return new Uint8Array(ab);
-      }catch(e){ /* fall through */ }
-    }
-    // Fallback: tiny tinflate
-    return tinflate(bytes);
-  }
-
-  /* ---- minimal tinflate (raw deflate) fallback ---- */
-  function tinflate(data){
-    let pos=0,bitBuf=0,bitCnt=0;
-    const out=[];
-    function getBit(){
-      if(bitCnt===0){bitBuf=data[pos++];bitCnt=8;}
-      const b=bitBuf&1;bitBuf>>=1;bitCnt--;return b;
-    }
-    function getBits(n){let v=0;for(let i=0;i<n;i++)v|=getBit()<<i;return v;}
-    function buildTree(lengths){
-      const max=Math.max(...lengths);
-      const blCount=new Array(max+1).fill(0);
-      lengths.forEach(l=>{if(l)blCount[l]++;});
-      const nextCode=new Array(max+1).fill(0);
-      let code=0;
-      for(let bits=1;bits<=max;bits++){code=(code+blCount[bits-1])<<1;nextCode[bits]=code;}
-      const codes=new Array(lengths.length);
-      lengths.forEach((l,i)=>{if(l){codes[i]=nextCode[l]++;}});
-      return {lengths,codes,max};
-    }
-    function decodeSym(tree){
-      let code=0,len=0;
-      while(true){
-        code=(code<<1)|getBit();len++;
-        for(let i=0;i<tree.lengths.length;i++){
-          if(tree.lengths[i]===len&&tree.codes[i]===code) return i;
-        }
-        if(len>tree.max+1) throw new Error('inflate err');
-      }
-    }
-    const LEN_BASE=[3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258];
-    const LEN_EXTRA=[0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0];
-    const DIST_BASE=[1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,257,385,513,769,1025,1537,2049,3073,4097,6145,8193,12289,16385,24577];
-    const DIST_EXTRA=[0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13];
-    let final=0;
-    do{
-      final=getBit();
-      const type=getBits(2);
-      if(type===0){
-        bitCnt=0;const len=data[pos]|(data[pos+1]<<8);pos+=4;
-        for(let i=0;i<len;i++)out.push(data[pos++]);
-      }else{
-        let litTree,distTree;
-        if(type===1){
-          const litLen=new Array(288);
-          for(let i=0;i<144;i++)litLen[i]=8;
-          for(let i=144;i<256;i++)litLen[i]=9;
-          for(let i=256;i<280;i++)litLen[i]=7;
-          for(let i=280;i<288;i++)litLen[i]=8;
-          litTree=buildTree(litLen);
-          distTree=buildTree(new Array(30).fill(5));
-        }else{
-          const hlit=getBits(5)+257,hdist=getBits(5)+1,hclen=getBits(4)+4;
-          const order=[16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15];
-          const clLen=new Array(19).fill(0);
-          for(let i=0;i<hclen;i++)clLen[order[i]]=getBits(3);
-          const clTree=buildTree(clLen);
-          const lens=[];
-          while(lens.length<hlit+hdist){
-            const sym=decodeSym(clTree);
-            if(sym<16)lens.push(sym);
-            else if(sym===16){const r=getBits(2)+3,prev=lens[lens.length-1];for(let i=0;i<r;i++)lens.push(prev);}
-            else if(sym===17){const r=getBits(3)+3;for(let i=0;i<r;i++)lens.push(0);}
-            else{const r=getBits(7)+11;for(let i=0;i<r;i++)lens.push(0);}
-          }
-          litTree=buildTree(lens.slice(0,hlit));
-          distTree=buildTree(lens.slice(hlit));
-        }
-        while(true){
-          const sym=decodeSym(litTree);
-          if(sym===256)break;
-          if(sym<256)out.push(sym);
-          else{
-            const li=sym-257;
-            const len=LEN_BASE[li]+getBits(LEN_EXTRA[li]);
-            const dsym=decodeSym(distTree);
-            const dist=DIST_BASE[dsym]+getBits(DIST_EXTRA[dsym]);
-            const start=out.length-dist;
-            for(let i=0;i<len;i++)out.push(out[start+i]);
-          }
-        }
-      }
-    }while(!final);
-    return new Uint8Array(out);
-  }
-
-  return { load:loadPrimed };
-})();
-
-</script>
-<script>
-/* ============================================================
-   APP — core: state, parsing, file handling, navigation
+   APP — core: state, URL form + local API, navigation
    ============================================================ */
 
 const state = {
-  statsFile:null, lineupFile:null, summaryFile:null,
   data:null,            // { matchTitle, matchDate, home, away, teams:{CODE:{tab:{headers,rows}}} }
   lineupImages:{},      // { formation, starting_xi, substituted, substitutes, coaches } -> dataURL
   lineupText:null,      // OCR'd + roster-reconciled lineups (cached once per match)
-  summary:null,         // { events:[...], homeLogo, awayLogo, finalScore } from summary_*.xlsx
+  summary:null,         // { events:[...], homeLogo, awayLogo, finalScore } from the crawler (server.py)
   currentTeam:'all',
   currentTab:'overall',
   charts:{},
@@ -844,200 +611,75 @@ function showLoading(m){document.getElementById('loadingMsg').textContent=m||'Wo
 function hideLoading(){document.getElementById('loading').classList.remove('show');}
 function destroyCharts(){Object.values(state.charts).forEach(c=>{try{c.destroy()}catch(e){}});state.charts={};}
 
-/* ---------- stats workbook parsing ---------- */
-async function readWorkbook(file){
-  const buf=await file.arrayBuffer();
-  return XLSX.read(buf,{type:'array'});
+/* ---------- URL form: paste a Flashscore match link (crawled by server.py) ---------- */
+const FLASH_URL_RE=/^https:\/\/(www\.)?flashscore\.com\/match\/football\//i;
+function setUrlError(msg){
+  const el=document.getElementById('urlError'); if(el) el.textContent=msg||'';
+  const input=document.getElementById('flashUrl'); if(input) input.classList.toggle('invalid',!!msg);
 }
-function parseStatsSheet(ws){
-  const aoa=XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
-  let hIdx=aoa.findIndex(r=>r.some(c=>String(c).trim().toLowerCase()==='player'));
-  if(hIdx<0) hIdx=3;
-  const headers=(aoa[hIdx]||[]).map(h=>String(h).trim()).filter(h=>h);
-  const rows=[];
-  for(let i=hIdx+1;i<aoa.length;i++){
-    const r=aoa[i]; if(!r||!r.some(c=>c!==''&&c!=null)) continue;
-    const o={}; headers.forEach((h,ci)=>{o[h]=(r[ci]==null||r[ci]==='')?'-':r[ci];});
-    if(o['Player']&&o['Player']!=='-') rows.push(o);
-  }
-  return {headers,rows};
+function setupUrlForm(){
+  const input=document.getElementById('flashUrl'),btn=document.getElementById('btnGenerate');
+  if(!input||!btn) return;
+  const sync=()=>{btn.disabled=!FLASH_URL_RE.test(input.value.trim());};
+  input.addEventListener('input',()=>{setUrlError('');sync();});
+  input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();App.buildFromUrl();}});
+  sync();
 }
-function parseStatsWorkbook(wb){
-  const codes=[]; const byTeam={};
-  wb.SheetNames.forEach(name=>{
-    const m=name.match(/^(.+?)\s*-\s*(.+)$/); if(!m) return;
-    const team=m[1].trim(), tab=m[2].trim();
-    if(team.toLowerCase()==='summary') return;
-    if(!codes.includes(team)) codes.push(team);
-    byTeam[team]=byTeam[team]||{};
-    byTeam[team][tab]=parseStatsSheet(wb.Sheets[name]);
-  });
-  if(codes.length<2) throw new Error('Expected two teams (sheets like "KOR - Shots"). Found: '+(codes.join(', ')||'none'));
-  let matchTitle=codes[0]+' vs '+codes[1], matchDate='';
-  if(wb.Sheets['Summary']){
-    XLSX.utils.sheet_to_json(wb.Sheets['Summary'],{header:1}).forEach(r=>r.forEach(c=>{
-      if(typeof c==='string'&&c.includes(' vs ')) matchTitle=c.trim();
-    }));
-  }
-  const dm=matchTitle.match(/\(([^)]+)\)/);
-  if(dm){matchDate=dm[1];matchTitle=matchTitle.replace(/\s*\([^)]+\)/,'').trim();}
-  const [home,away]=codes;
-  return {matchTitle,matchDate,home,away,teams:{[home]:byTeam[home],[away]:byTeam[away]}};
-}
-
-/* ---------- lineup workbook: extract embedded images via zip ---------- */
-/* xlsx is a zip; images live in xl/media/. We map each sheet to its image
-   through drawing relationships so the right picture lands on the right section. */
-async function parseLineupWorkbook(file){
-  const out={};
-  try{
-    const buf=await file.arrayBuffer();
-    const zip=await JSZipLite.load(buf);
-    // workbook sheet order
-    const wbXml=zip.text('xl/workbook.xml')||'';
-    const sheetNames=[...wbXml.matchAll(/<sheet[^>]*name="([^"]+)"/g)].map(m=>m[1]);
-    // For each sheetN.xml, find its drawing, then media
-    const sectionKey=(name)=>{
-      const n=name.toLowerCase();
-      if(n.includes('formation')) return 'formation';
-      if(n.includes('starting')) return 'starting_xi';
-      if(n.includes('substituted')) return 'substituted';
-      if(n.includes('substitute')) return 'substitutes';
-      if(n.includes('coach')) return 'coaches';
-      return null;
-    };
-    // sheet file order: sheet1.xml = first sheet, etc.
-    for(let i=0;i<sheetNames.length;i++){
-      const key=sectionKey(sheetNames[i]); if(!key) continue;
-      const sheetPath=`xl/worksheets/sheet${i+1}.xml`;
-      const sheetXml=zip.text(sheetPath); if(!sheetXml) continue;
-      const drawM=sheetXml.match(/<drawing[^>]*r:id="([^"]+)"/);
-      if(!drawM) continue;
-      const relsPath=`xl/worksheets/_rels/sheet${i+1}.xml.rels`;
-      const relsXml=zip.text(relsPath); if(!relsXml) continue;
-      const drawTarget=relTarget(relsXml,drawM[1]); if(!drawTarget) continue;
-      const drawPath=normalizePath('xl/worksheets/',drawTarget);
-      const drawXml=zip.text(drawPath); if(!drawXml) continue;
-      const embM=drawXml.match(/r:embed="([^"]+)"/);
-      if(!embM) continue;
-      const drawRels=zip.text(drawPath.replace(/([^/]+)$/,'_rels/$1.rels'));
-      if(!drawRels) continue;
-      const imgTarget=relTarget(drawRels,embM[1]); if(!imgTarget) continue;
-      const imgPath=normalizePath(drawPath.replace(/[^/]+$/,''),imgTarget);
-      const bytes=zip.bytes(imgPath); if(!bytes) continue;
-      out[key]=bytesToDataURL(bytes,imgPath);
+/* local API of server.py: POST /api/matches → jobId, then poll GET /api/matches/{jobId} */
+const Api={
+  async start(url){
+    let r;
+    try{ r=await fetch('/api/matches',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url})}); }
+    catch(e){ throw new Error('Cannot reach the local server. Run "python server.py" and open http://127.0.0.1:8778'); }
+    const j=await r.json().catch(()=>null);
+    if(!r.ok||!j){
+      const err=(j&&j.error)||{};
+      throw new Error(err.message?err.message+(err.hint?' '+err.hint:''):'Server error '+r.status+' — open this page from http://127.0.0.1:8778 (python server.py).');
     }
-  }catch(e){console.warn('lineup image extraction failed',e);}
-  return out;
-}
-function relTarget(relsXml,id){
-  // Relationship attributes can appear in any order, so scan each tag.
-  const tags=relsXml.match(/<Relationship\b[^>]*>/g)||[];
-  for(const tag of tags){
-    const idM=tag.match(/\bId="([^"]+)"/);
-    if(idM&&idM[1]===id){
-      const tM=tag.match(/\bTarget="([^"]+)"/);
-      return tM?tM[1]:null;
+    return j.jobId;
+  },
+  async wait(jobId,onProgress){
+    const t0=Date.now();
+    for(;;){
+      let r;
+      try{ r=await fetch('/api/matches/'+encodeURIComponent(jobId),{cache:'no-store'}); }
+      catch(e){ throw new Error('Lost contact with the local server.'); }
+      const j=await r.json().catch(()=>null);
+      if(!r.ok||!j) throw new Error((j&&j.error&&j.error.message)||'Lost contact with the local server (HTTP '+r.status+').');
+      if(j.progress&&onProgress) onProgress(j.progress);
+      if(j.status==='done') return j;
+      if(j.status==='error'){const err=j.error||{};throw new Error((err.message||'Could not read that match.')+(err.hint?' '+err.hint:''));}
+      if(Date.now()-t0>180000) throw new Error('Timed out while reading the match.');
+      await new Promise(res=>setTimeout(res,1000));
     }
-  }
-  return null;
-}
-function normalizePath(base,target){
-  if(target.startsWith('/')) return target.slice(1);
-  let parts=(base+target).split('/'); const stack=[];
-  parts.forEach(p=>{ if(p==='..') stack.pop(); else if(p!=='.'&&p!=='') stack.push(p); });
-  return stack.join('/');
-}
-function bytesToDataURL(bytes,path){
-  const ext=(path.match(/\.(\w+)$/)||[])[1]||'png';
-  const mime=ext==='jpg'||ext==='jpeg'?'image/jpeg':'image/png';
-  let bin=''; const chunk=0x8000;
-  for(let i=0;i<bytes.length;i+=chunk) bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+chunk));
-  return `data:${mime};base64,`+btoa(bin);
-}
-
-/* ---------- summary workbook: timeline (sheet) + logos (embedded images) ---------- */
-async function parseSummaryWorkbook(file){
-  const buf=await file.arrayBuffer();
-  const out={events:[], homeLogo:null, awayLogo:null, finalScore:null};
-  // Timeline sheet via SheetJS
-  try{
-    const wb=XLSX.read(buf,{type:'array'});
-    const ws=wb.Sheets['Timeline'];
-    if(ws){
-      const aoa=XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
-      let h=aoa.findIndex(r=>r.some(c=>String(c).trim()==='Minute'));
-      if(h<0) h=1;
-      const headers=(aoa[h]||[]).map(x=>String(x).trim());
-      const col=name=>headers.indexOf(name);
-      for(let i=h+1;i<aoa.length;i++){
-        const r=aoa[i]; if(!r||!r.some(c=>c!==''&&c!=null)) continue;
-        const g=name=>{const ci=col(name);return ci<0?'':String(r[ci]==null?'':r[ci]).trim();};
-        const ev={minute:g('Minute'),half:g('Half'),side:g('Side').toLowerCase(),
-          team:g('Team'),type:g('Type'),player:g('Player'),detail:g('Detail'),score:g('Score')};
-        if(ev.player||ev.minute) out.events.push(ev);
-      }
-    }
-    const sw=wb.Sheets['Summary'];
-    if(sw){
-      XLSX.utils.sheet_to_json(sw,{header:1,defval:''}).forEach(row=>row.forEach(c=>{
-        const m=String(c).match(/Final score:\s*(\d+)\s*-\s*(\d+)/i);
-        if(m) out.finalScore={h:+m[1],a:+m[2]};
-      }));
-    }
-  }catch(e){console.warn('summary timeline parse failed',e);}
-  // logos: embedded images (image1=home, image2=away — insertion order)
-  try{
-    const zip=await JSZipLite.load(buf);
-    const media=zip.names().filter(n=>/xl\/media\/image\d+\.(png|jpe?g)/i.test(n))
-      .sort((a,b)=>(+(a.match(/(\d+)\./)||[])[1]||0)-(+(b.match(/(\d+)\./)||[])[1]||0));
-    if(media[0]){const b=zip.bytes(media[0]); if(b) out.homeLogo=bytesToDataURL(b,media[0]);}
-    if(media[1]){const b=zip.bytes(media[1]); if(b) out.awayLogo=bytesToDataURL(b,media[1]);}
-  }catch(e){console.warn('summary logo extract failed',e);}
-  return out;
-}
-
-/* ---------- dropzones ---------- */
-function setupDropzones(){
-  wireDrop('dropStats','fileStats','nameStats','statsFile');
-  wireDrop('dropLineup','fileLineup','nameLineup','lineupFile');
-  wireDrop('dropSummary','fileSummary','nameSummary','summaryFile');
-}
-function wireDrop(zoneId,inputId,nameId,key){
-  const zone=document.getElementById(zoneId),input=document.getElementById(inputId);
-  input.addEventListener('change',e=>{const f=e.target.files[0];if(f)handleFile(f,zone,nameId,key);});
-  ['dragover','dragenter'].forEach(ev=>zone.addEventListener(ev,e=>{e.preventDefault();zone.classList.add('dragover');}));
-  ['dragleave','dragend','drop'].forEach(ev=>zone.addEventListener(ev,e=>{e.preventDefault();zone.classList.remove('dragover');}));
-  zone.addEventListener('drop',e=>{const f=e.dataTransfer.files[0];if(f)handleFile(f,zone,nameId,key);});
-}
-function handleFile(f,zone,nameId,key){
-  if(!/\.xlsx?$/i.test(f.name)){toast('Choose an .xlsx file',true);return;}
-  state[key]=f; zone.classList.add('loaded');
-  document.getElementById(nameId).textContent=f.name;
-  document.getElementById('btnBuild').disabled=!state.statsFile;
-}
+  },
+};
 
 /* ---------- build / reset / navigation ---------- */
 const App = {
-  async build(){
-    if(!state.statsFile){toast('Add a player stats file first',true);return;}
-    showLoading('Reading the match…');
+  async buildFromUrl(){
+    const input=document.getElementById('flashUrl');
+    const url=(input?input.value:'').trim();
+    if(!FLASH_URL_RE.test(url)){setUrlError('Paste a Flashscore football match link (https://www.flashscore.com/match/football/…).');return;}
+    setUrlError('');
+    showLoading('Opening match page…');
     try{
-      const wb=await readWorkbook(state.statsFile);
-      state.data=parseStatsWorkbook(wb);
-      state.lineupText=null;
-      if(state.lineupFile){
-        showLoading('Extracting lineups…');
-        state.lineupImages=await parseLineupWorkbook(state.lineupFile);
-      } else state.lineupImages={};
-      if(state.summaryFile){
-        showLoading('Reading match summary…');
-        state.summary=await parseSummaryWorkbook(state.summaryFile);
-      } else state.summary=null;
+      const jobId=await Api.start(url);
+      const job=await Api.wait(jobId,p=>{if(p&&p.message)showLoading(p.message);});
+      const res=job.result||{};
+      if(!res.stats) throw new Error('The server returned no player stats for this match.');
+      // same shapes as the demo (OCR) path: lineupText is structured line-up data (no OCR),
+      // lineupImages only switches the Match story cards on (see design doc §5.4)
+      state.data=res.stats;
+      state.summary=res.summary||null;
+      state.lineupImages=res.lineupImages||{};
+      state.lineupText=res.lineups||null;
       showLoading('Drawing the dashboard…');
       await new Promise(r=>setTimeout(r,120));
       App.enter();
-    }catch(e){console.error(e);hideLoading();toast(e.message||'Could not read that file',true);}
+      const warn=res.warnings||[];
+      if(warn.length){console.warn('Report warnings',warn);toast(warn[0].message+(warn.length>1?` (+${warn.length-1} more)`:''));}
+    }catch(e){console.error(e);hideLoading();setUrlError(e.message||'Could not read that match.');toast(e.message||'Could not read that match',true);}
   },
   async loadDemo(){
     showLoading('Loading sample match…');
@@ -1062,17 +704,15 @@ const App = {
     hideLoading(); window.scrollTo(0,0);
   },
   reset(){
-    state.statsFile=state.lineupFile=state.summaryFile=state.data=null;
+    state.data=null;
     state.lineupImages={}; state.lineupText=null; state.summary=null; state.currentTeam='all'; state.currentTab='overall';
     destroyCharts();
     document.getElementById('dashboard').classList.remove('active');
     document.getElementById('uploadScreen').style.display='flex';
     document.getElementById('btnReset').style.display='none';
     document.getElementById('btnExport').style.display='none';
-    document.querySelectorAll('.drop-zone').forEach(z=>z.classList.remove('loaded'));
-    ['nameStats','nameLineup','nameSummary'].forEach(id=>document.getElementById(id).textContent='');
-    ['fileStats','fileLineup','fileSummary'].forEach(id=>document.getElementById(id).value='');
-    document.getElementById('btnBuild').disabled=true;
+    const urlInput=document.getElementById('flashUrl'); if(urlInput) urlInput.value='';
+    setUrlError(''); const gen=document.getElementById('btnGenerate'); if(gen) gen.disabled=true;
     window.scrollTo(0,0);
   },
   setTeam(team){
@@ -1088,7 +728,7 @@ const App = {
   async exportPDF(){ await Exporter.run(); },
 };
 
-document.addEventListener('DOMContentLoaded',setupDropzones);
+document.addEventListener('DOMContentLoaded',setupUrlForm);
 
 </script>
 <script>
@@ -1494,7 +1134,7 @@ const Render = (()=>{
       html+=`<div class="card" style="margin-top:24px">
         <div class="empty-state" style="padding:30px">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
-          <div>Add the <strong>lineups</strong> export to see formation, line-ups and substitutions here.</div>
+          <div>Line-ups are not available for this match.</div>
         </div></div>`;
     }
 
@@ -2441,7 +2081,7 @@ const Exporter = (()=>{
 
   function footer(pdf,pageW,pageH){
     pdf.setFontSize(8); pdf.setTextColor(174,188,180);
-    pdf.text('Match Performance Analysis · data from Flashscore exports',pageW/2,pageH-6,{align:'center'});
+    pdf.text('Match Performance Analysis · data from Flashscore',pageW/2,pageH-6,{align:'center'});
   }
 
   function waitFrames(n){return new Promise(res=>{let c=0;(function tick(){c++;c>=n?res():requestAnimationFrame(tick);})();});}

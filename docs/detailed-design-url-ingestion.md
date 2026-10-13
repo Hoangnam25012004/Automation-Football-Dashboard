@@ -2,8 +2,8 @@
 
 | Thuộc tính | Giá trị |
 | --- | --- |
-| Trạng thái | **v1.0 — Draft để duyệt** (chưa có code nào của phần mới được viết) |
-| Ngày | 2026-10-09 |
+| Trạng thái | **v1.2 — Đã triển khai Phase 0–5** (Phase 5 được duyệt và làm ngày 2026-10-13). Ghi nhận khi triển khai và các điểm lệch so với thiết kế: **[§13](#13-ghi-nhận-khi-triển-khai-2026-10-09)**; Phase 5: **[§13.5](#135-phase-5-2026-10-13)**. Thay đổi sau baseline chưa commit |
+| Ngày | 2026-10-09 (v1.0 thiết kế · v1.1 triển khai) |
 | Phạm vi | Thay luồng "3 file xlsx → upload vào web" bằng "1 link Flashscore → backend local crawl → dashboard / bảng player stats / match report (PDF)" |
 | Baseline | `match_report.html` SHA-256 `B47EE9FB…AC63F` (đủ 64 ký tự ở [phụ lục B](#phụ-lục-b--baseline-sha-256)) |
 | Tài liệu liên quan | [CLAUDE.md](../CLAUDE.md) |
@@ -174,18 +174,18 @@ Phương pháp: Playwright MCP (Chromium) và script Python Playwright 1.60 ch�
 | V17 | CSS `.section-sub` và `.card-head .eyebrow` | ✅ `display:none` ⇒ dòng phụ đề "recognised from the lineup sheet…" của Match story **không hiển thị** ⇒ không cần sửa copy ở đó |
 | V18 | Quét mọi tham chiếu tới phần tử upload trong HTML | ✅ Danh sách đầy đủ ở §7.5 — đây là "bán kính ảnh hưởng" của việc thay UI |
 
-### 2.1 Chưa kiểm chứng — phải làm ở Phase 4 (không được coi là đã đúng)
+### 2.1 Chưa kiểm chứng lúc thiết kế — kết quả kiểm ở Phase 4
 
-| ID | Nội dung |
-| --- | --- |
-| U1 | Loại sự kiện hiếm: own goal, penalty, thẻ đỏ, thẻ vàng thứ hai, VAR, bàn bị huỷ — tên `data-testid`/class/`<title>` của icon |
-| U2 | Trận có hiệp phụ / loạt luân lưu: `aria-label` của `<ol>`, cấu trúc hàng luân lưu |
-| U3 | Trận **không có** tab Player stats / không có lineups / có lineups nhưng không có sơ đồ |
-| U4 | Trận đang diễn ra, chưa đá, hoãn, huỷ: chữ trạng thái và hành vi trang |
-| U5 | Chuỗi trạng thái cho trận hiệp phụ/luân lưu (`AFTER EXTRA TIME`, `AFTER PENALTIES`?) |
-| U6 | Hai đội trùng mã 3 ký tự trong combobox |
-| U7 | Hành vi khi Flashscore chặn/captcha; chạy song song nhiều page |
-| U8 | Cặp đội có nhiều trận: hành vi khi bỏ `mid` |
+| ID | Nội dung | Kết quả Phase 4 (2026-10-09) |
+| --- | --- | --- |
+| U1 | Loại sự kiện hiếm: own goal, penalty, thẻ đỏ, thẻ vàng thứ hai, VAR, bàn bị huỷ — tên `data-testid`/class/`<title>` của icon | ✅ Đã quan sát trên ~50 trận (EPL, LaLiga, EFL Cup, DFB-Pokal, V.League 2, National League North): `footballOwnGoal-ico`, `penalty-goal`, `penalty-missed`, `redCard-ico`, `red-card-second`, `var` ("Goal Disallowed - offside"). Quy tắc phân loại cập nhật ở §6.5 và §13 |
+| U2 | Trận có hiệp phụ / loạt luân lưu: `aria-label` của `<ol>`, cấu trúc hàng luân lưu | ✅ `Extra Time`, `Penalties`. Hàng luân lưu có ô thời gian là thứ tự lượt sút ("1"…"7") ⇒ bị loại khỏi timeline |
+| U3 | Trận **không có** tab Player stats / không có lineups / có lineups nhưng không có sơ đồ | ✅ Giải nhỏ không có tab "Player stats" (và "Lineups") ⇒ `E_NO_PLAYER_STATS` sau ~8 s nhờ đọc thanh tab. ⚠ Chưa gặp trận có stats mà thiếu lineups/sơ đồ (đường xử lý đã có test bằng dữ liệu giả) |
+| U4 | Trận đang diễn ra, chưa đá, hoãn, huỷ: chữ trạng thái và hành vi trang | ✅ Trận chưa đá (lấy động từ lịch Premier League) ⇒ `E_MATCH_NOT_FINISHED`. ⚠ Chưa gặp trận đang đá/hoãn/huỷ (cùng nhánh xử lý) |
+| U5 | Chuỗi trạng thái cho trận hiệp phụ/luân lưu (`AFTER EXTRA TIME`, `AFTER PENALTIES`?) | ✅ Thấy `Finished`, `After Extra Time`, **`After 90 minutes`** (luân lưu ngay sau 90'). Tập "đã kết thúc" đã bổ sung |
+| U6 | Hai đội trùng mã 3 ký tự trong combobox | ⚠ Chưa gặp; có nhánh xử lý `W_TEAM_CODE_COLLISION` |
+| U7 | Hành vi khi Flashscore chặn/captcha; chạy song song nhiều page | ⚠ Không bị chặn trong suốt quá trình kiểm thử (~60 trận); song song nhiều page chưa làm (Phase 5) |
+| U8 | Cặp đội có nhiều trận: hành vi khi bỏ `mid` | ✅ Thiếu `mid` vẫn chạy và có `W_NO_MID`. Phát hiện thêm: **thứ tự 2 đội trong URL không phải nhà/khách** (vd `alaves…/ath-bilbao…` cho trận Athletic Bilbao v Alaves) — crawler không dựa vào thứ tự này |
 
 ---
 
@@ -240,23 +240,29 @@ Automation Football Dashboard/
 ├── .claude/launch.json                        (Phase 2 — thêm mục "app", giữ nguyên "static")
 ├── server.py                                  (mới — HTTP server + job runner)
 ├── crawler/
-│   ├── __init__.py
+│   ├── __init__.py        crawl(), CrawlError
+│   ├── __main__.py        CLI: python -m crawler <link> [--out result.json]
+│   ├── run.py             điều phối, tiến độ 10 bước, ngân sách 150 s, FS_DEBUG
 │   ├── urls.py            parse / validate / dựng URL tab (giữ mid)
-│   ├── browser.py         context, xử lý cookie, chặn tài nguyên
+│   ├── browser.py         context, xử lý cookie, chặn tài nguyên, goto có retry + ánh xạ lỗi
 │   ├── header.py          tên đội, ngày, trạng thái, tỉ số, logo
 │   ├── player_stats.py    7 tab × 2 đội
 │   ├── timeline.py        sự kiện (extractor mới)
 │   ├── lineups.py         lineups có cấu trúc + hình học sơ đồ
 │   ├── assemble.py        ghép JSON theo hợp đồng + cross-check + warnings
 │   └── errors.py          mã lỗi / cảnh báo
-├── tests/
-│   ├── fixtures/          fragment HTML/JSON chụp từ trang thật
-│   ├── golden/            snapshot DOM của luồng demo (baseline)
-│   ├── unit/   ·   e2e/   ·   live/
+├── tests/                 unittest (stdlib) — xem §13.3
+│   ├── _support.py · legacy_xlsx.py
+│   ├── fixtures/          fragment HTML/JSON chụp từ trang thật (9 trận)
+│   ├── golden/            demo_views.json — snapshot DOM của luồng demo (chụp từ baseline)
+│   ├── unit/   ·   e2e/   ·   live/      (live chỉ chạy khi FS_LIVE=1)
+│   └── output/            file tạm, PDF, ảnh chụp (bỏ qua trong git)
 ├── tools/
-│   ├── check_diff_budget.py
-│   └── verify_frozen.py
-└── requirements.txt       playwright==1.60.0 (runtime) · pytest (chỉ dev)
+│   ├── html_guard.py · verify_frozen.py · check_diff_budget.py
+│   ├── golden_demo.py     --write (từ baseline git) | --check | --stability
+│   └── capture_fixtures.py
+├── .gitignore
+└── requirements.txt       playwright==1.60.0 (runtime) · openpyxl, pillow (legacy + test)
 ```
 
 ### 3.4 Luồng xử lý
@@ -330,11 +336,14 @@ Ví dụ (rút gọn):
 | `E_URL_INVALID` | 400 | Không phải URL trận bóng đá `flashscore.com` (host, đường dẫn, môn thể thao) |
 | `E_BUSY` | 429 | Đang có job đang chạy và 1 job chờ |
 | `E_MATCH_NOT_FOUND` | 404 | Trang 404 / không có `.duelParticipant` |
-| `E_MATCH_NOT_FINISHED` | 422 | Trạng thái không thuộc tập "đã kết thúc" (✅ `FINISHED`; ⚠ `AFTER EXTRA TIME`, `AFTER PENALTIES` cần xác minh — U5) |
-| `E_NO_PLAYER_STATS` | 422 | Không có tab Player stats hoặc bảng rỗng ở cả `top` và `general` (stats là **bắt buộc**, như luồng cũ) |
-| `E_BLOCKED` | 502 | Captcha / 403 / bị chặn |
+| `E_MATCH_NOT_FINISHED` | 422 | Trạng thái không thuộc tập "đã kết thúc" (✅ `Finished`, `After Extra Time`, `After 90 minutes`; phòng hờ `After Penalties`, `After 120 minutes`, `AET`, `AP`) |
+| `E_NO_PLAYER_STATS` | 422 | Thanh tab của trận không có "Player stats" (báo ngay), hoặc bảng rỗng ở cả `top` và `general` (stats là **bắt buộc**, như luồng cũ) |
+| `E_NETWORK` | 502 | *(thêm khi triển khai)* Không kết nối được flashscore.com (`net::ERR_*`) |
+| `E_BLOCKED` | 502 | Captcha / 403 / 429 / bị chặn |
 | `E_TIMEOUT` | 504 | Quá thời gian toàn job |
 | `E_INTERNAL` | 500 | Lỗi không lường trước (kèm `jobId` để tra log) |
+
+Mã do chính server trả (không đến từ crawler): `E_FORBIDDEN` (403 — `Host`/`Origin` lạ), `E_UNSUPPORTED_MEDIA_TYPE` (415 — không phải JSON), `E_BAD_REQUEST` (400/413 — body thiếu/quá lớn), `E_NOT_FOUND` (404 — endpoint lạ), `E_JOB_NOT_FOUND` (404 — job đã hết hạn).
 
 Cảnh báo (không chặn kết quả; xuất hiện trong `warnings[]`):
 
@@ -475,7 +484,7 @@ Nguyên tắc chung (rút từ việc scraper cũ bị hỏng):
 ### 6.1 URL (`crawler/urls.py`)
 
 - Chấp nhận: `https://(www.)flashscore.com/match/football/<slug>-<id>/<slug>-<id>/` + tuỳ chọn `summary/...` + tuỳ chọn `?mid=<id>` + tuỳ chọn `#fragment` (bỏ). `<id>` = `[A-Za-z0-9]{6,12}` (ví dụ `AVV6BGlb`, `vLuGlk0n`).
-- Kết quả: `MatchRef(home_slug, away_slug, mid, base)`; `tab_url(ref, "summary/lineups")` ⇒ `{base}summary/lineups/?mid=…`. **Giữ `mid`** (V6); thiếu `mid` ⇒ vẫn chạy + `W_NO_MID`.
+- Kết quả: `MatchRef(team1, team2, mid)` với `ref.url("summary/lineups")` ⇒ `{base}summary/lineups/?mid=…`. **Giữ `mid`** (V6); thiếu `mid` ⇒ vẫn chạy + `W_NO_MID`. ⚠ Thứ tự 2 đội trong URL **không phải** nhà/khách (§2.1 U8) — nhà/khách luôn lấy từ header.
 - Từ chối (`E_URL_INVALID`): host khác, `http://`, đường dẫn không bắt đầu `/match/football/`, môn khác.
 - URL luôn được **dựng lại** từ các thành phần.
 
@@ -535,14 +544,15 @@ Chạy trên **trang chính** (cùng lần `goto` với header ⇒ không tốn 
 | `half` | `aria-label` của `<ol class="smv__period-list">` (`1st Half`/`2nd Half`) → `1st half`/`2nd half`/`Extra time`/`Penalties` |
 | `side` | Class `smv__homeParticipant` / `smv__awayParticipant` của `<li>` |
 | `minute` | `[class*="timeBox"]` (vd `39'`, `45+2'`) |
-| `type` | Có điểm số ⇒ `Goal` (`Own goal`/`Penalty goal` theo chữ trong hàng); ≥ 2 tên hoặc icon `substitution` ⇒ `Substitution`; còn lại theo `class`+`data-testid` của `<svg>`: `yellowred`→`Second yellow (→ red)`, `redcard`→`Red card`, `yellowcard`→`Yellow card`, `var`→`VAR`, khác→`Card` |
-| `player` | Tên đầu tiên ngoài khối kiến tạo; với thay người là cầu thủ **vào** |
-| `detail` | Goal: tên kiến tạo (`smv__assist`, bỏ ngoặc) · Card: lý do (`smv__subIncident`) · Sub: `Out: <tên ra>` |
+| `type` | Có điểm số ⇒ `Own goal` (icon `footballOwnGoal-ico` hoặc chữ "own goal") / `Penalty goal` (icon `penalty-goal` hoặc chữ "penalt") / `Goal`; ≥ 2 tên hoặc icon `substitution` ⇒ `Substitution`; icon `penalty-missed` ⇒ `Penalty missed` *(nhãn mới; trước đây rơi vào `Card`)*; icon `var` ⇒ `VAR`; còn lại theo icon: `yellowRedCard`/`red-card-second` → `Second yellow (→ red)`, `redCard`/`red-card` → `Red card`, `yellowCard` → `Yellow card`, khác → `Card` |
+| `player` | Tên đầu tiên ngoài khối kiến tạo; với thay người là cầu thủ **vào**; với VAR là tên trong khối `smv__assist` |
+| `detail` | Goal: tên kiến tạo (`smv__assist`, bỏ ngoặc) · Card: lý do (`smv__subIncident`) · Sub: `Out: <tên ra>` · VAR: quyết định (vd "Goal Disallowed - offside") · Penalty missed: rỗng |
 | `score` | Regex `(\d+)\s*[-:]\s*(\d+)` trên chữ của hàng |
+| Loạt luân lưu | Hàng thuộc `<ol aria-label="Penalties">` **bị bỏ**: ô thời gian là thứ tự lượt sút ("1"…), đưa vào sẽ thành marker sai ở phút 1–7; dashboard hiện tại không có chỗ hiển thị kết quả luân lưu (đổi UI ⇒ cần phê duyệt) |
 
 Kiểm tra chéo: số `Goal`+`Penalty goal`+`Own goal` phải bằng tổng tỉ số header, nếu không `W_TIMELINE_SCORE_MISMATCH`. Hàng đọc được nhưng 0 sự kiện trong trận có bàn thắng ⇒ `W_TIMELINE_EMPTY`.
 
-⚠ U1/U2: tên icon của own goal / penalty / thẻ đỏ / VAR / luân lưu chưa được quan sát — extractor giữ cách phân loại dựa trên chữ như bản cũ (không phụ thuộc tên icon) và **phải được kiểm chứng ở Phase 4** trên bộ trận tham chiếu.
+✅ U1/U2 đã kiểm chứng ở Phase 4 (§2.1); mỗi loại sự kiện có fixture và test offline riêng (`tests/unit/test_timeline_rare_events.py`).
 
 ### 6.6 Lineups (`crawler/lineups.py`) — dữ liệu có cấu trúc (D3)
 
@@ -559,8 +569,9 @@ run_job(ref):
   page = new_page(1280x900); goto base; xử lý cookie
   info     = header(page)                         # BẮT BUỘC
   summary  = timeline(page) + logos               # MỀM
+  tabs     = thanh tab của trận                   # không có "Player stats" ⇒ E_NO_PLAYER_STATS ngay
   stats    = player_stats(page, ref)              # BẮT BUỘC (top|general)
-  lineups  = lineups(new_page(420x900), roster)   # MỀM
+  lineups  = lineups(new_page(420x900), roster)   # MỀM; không có tab "Lineups" ⇒ bỏ qua + W_NO_LINEUPS
   return assemble(info, stats, summary, lineups)  # cross-check → warnings
 ```
 
@@ -590,7 +601,7 @@ Khi `FS_DEBUG=1`: lưu HTML của bước lỗi vào `debug/<jobId>/<bước>.ht
 | Header + timeline + logo | ~3 s |
 | Stats: 7 tab × (load + đổi 2 đội) | ~5,7 s × 7 ≈ 40 s |
 | Lineups | ~4 s |
-| **Tổng** | **≈ 45–60 s** *(ước tính từ số đo từng bước; script stats cũ làm 14 lần `goto` kèm ~5 s `sleep` cố định mỗi lần nên ước tính ≥ 100 s — chưa đo trực tiếp)* |
+| **Tổng** | **≈ 45–60 s** *(ước tính lúc thiết kế)*. **Đo thật khi triển khai: 31–61 s** cho 6 trận khác nhau, một lần 75 s khi Flashscore chậm. Script stats cũ đo được ~125 s cho cùng trận #1 (test parity) |
 
 Tối ưu về sau (ngoài phạm vi v1, cần phê duyệt): chạy song song ≤ 3 page ⇒ ≈ 20 s; cache kết quả theo `matchId` ngắn hạn.
 
@@ -613,6 +624,8 @@ Tối ưu về sau (ngoài phạm vi v1, cần phê duyệt): chạy song song �
 | E7 | JS [:1497](../match_report.html#L1497) | Sửa chữ | Trong `renderOverall`, chuỗi empty-state "Add the **lineups** export to see…" → "Line-ups are not available for this match." | Chữ cũ tham chiếu tới upload; chỉ đổi 1 chuỗi, không đổi logic |
 
 **Tuỳ chọn — chỉ làm nếu bạn đồng ý (C2):** O1 chữ footer web [:566](../match_report.html#L566) "Data from Flashscore exports"; O2 chữ footer PDF [:2444](../match_report.html#L2444) (nằm trong vùng đóng băng).
+
+**Phase 5 (đã duyệt 2026-10-13) mở rộng Change surface thêm E8–E14** — gỡ mã xlsx mồ côi, O1/O2 thành E13/E14; chi tiết ở §13.5.
 
 **🔒 Vùng đóng băng — giữ nguyên từng byte** (kiểm bằng hash — §9.2):
 
@@ -832,7 +845,7 @@ Lưu fragment từ trang thật: bảng stats (`wcl-table`), `.smv__verticalSect
 
 ### 9.6 Canary live
 
-`tests/reference_matches.json`: danh sách trận tham chiếu + **khoảng kỳ vọng** (số sự kiện, số cầu thủ…, không so giá trị chính xác vì Flashscore có thể hiệu chỉnh). `pytest -m live` chạy theo yêu cầu/hằng tuần để phát hiện *selector drift* sớm — chính là loại lỗi đã làm hỏng 2/3 script cũ.
+Bộ trận tham chiếu nằm trong `tests/live/test_live_reference.py` (khi triển khai đặt thẳng trong test thay vì file JSON riêng): kiểm những điều ổn định (mã đội, đủ 7 tab, số bàn, loại sự kiện phải có, 11 người đá chính, 22 cầu thủ sơ đồ, 0 cảnh báo), không so giá trị chính xác vì Flashscore có thể hiệu chỉnh. Chạy `FS_LIVE=1 python -m unittest discover -s tests/live -t .` theo yêu cầu/định kỳ để phát hiện *selector drift* sớm — chính là loại lỗi đã làm hỏng 2/3 script cũ.
 
 ### 9.7 Checklist thủ công
 
@@ -857,7 +870,7 @@ Lưu fragment từ trang thật: bảng stats (`wcl-table`), `.smv__verticalSect
 | R-17 | Màn hình ≤ 600 px | Form dùng được, không tràn ngang |
 | R-18 | Mở `match_report.html` bằng `file://` | Demo vẫn chạy; Generate báo không kết nối được server |
 | R-19 | Chạy trận A → "New match" → trận B | Không rò state (biểu đồ, `lineupText`) |
-| R-20 | Hai tab trình duyệt cùng gửi | Tab thứ hai nhận `E_BUSY` |
+| R-20 | Ba tab trình duyệt cùng gửi | Tab thứ hai được xếp hàng (1 chạy + 1 chờ — §3.5), tab thứ ba nhận `E_BUSY` *(sửa lại cho khớp §3.5 khi triển khai)* |
 
 ---
 
@@ -942,6 +955,11 @@ URL: `https://www.flashscore.com/match/football/johor-dt-AVV6BGlb/svay-rieng-IHT
 | Cảnh báo kỳ vọng | Không có |
 
 ### Phụ lục D — Extractor tham chiếu (đã chạy thật trên trận #1)
+
+> **Từ v1.1, nguồn chuẩn là code:** `JS_TIMELINE` trong [crawler/timeline.py](../crawler/timeline.py) và `JS_LINEUPS` trong [crawler/lineups.py](../crawler/lineups.py). Hai khối dưới đây là **bản v1.0 lúc thiết kế**, giữ lại để đối chiếu. Bản triển khai khác ở các điểm sau:
+>
+> - **D.1:** bỏ hàng loạt luân lưu; nhận phản lưới nhà qua icon `owngoal` và penalty qua icon `penalty-goal`; thêm nhãn `Penalty missed`; nhận thẻ vàng thứ hai qua `red-card-second`; VAR lấy tên cầu thủ từ khối `smv__assist` và quyết định VAR vào `detail` (§6.5).
+> - **D.2:** `groups` là danh sách `{head, sides}` (giữ thứ tự, cho phép phân loại theo cấu trúc khi tiêu đề lạ); mỗi phần tử có `kind: "general" | "sub"`.
 
 #### D.1 Timeline — chạy trên trang chính, viewport bất kỳ
 
@@ -1081,3 +1099,74 @@ Ví dụ ghép: `{"onId":"CGbL8vih","onName":"Aketxe A.","rating":"7.6","offId":
 | Diff-budget | Ngân sách thay đổi: chỉ những khối sửa nằm trong danh sách cho phép mới được xuất hiện trong diff |
 | Frozen region | Vùng mã không được thay đổi (kiểm bằng hash) |
 | Fixture | Mẩu HTML/JSON lưu từ trang thật để test offline |
+
+---
+
+## 13. Ghi nhận khi triển khai (2026-10-09)
+
+### 13.1 Kết quả theo phase
+
+| Phase | Kết quả | Bằng chứng |
+| --- | --- | --- |
+| 0 | `git init` + commit baseline `d4a4da6` (người dùng đồng ý; `core.autocrlf=false`, blob trùng từng byte với file gốc). Golden snapshot luồng demo: 16 view, 24 biểu đồ, chụp 2 lần giống hệt | `tools/golden_demo.py --stability`, `tests/unit/test_html_guard.py` (chứng minh công cụ bắt được sửa ngoài phạm vi) |
+| 1 | `crawler/` + CLI. Trận #1 xong sau 31,5 s, mọi giá trị khớp phụ lục C. **Stats giống hệt 100%** luồng xlsx cũ (chạy chính script legacy) | `tests/live/test_parity_legacy_stats.py`, `tests/unit/test_extractors_offline.py` |
+| 2 | `server.py`; smoke thật qua server 31,7 s, tiến độ cập nhật đủ 10 bước | `tests/e2e/test_server_api.py` (7), `tests/live/test_live_server.py` |
+| 3 | Đúng 7 điểm sửa E1–E7; diff-budget ✓; 16/16 vùng đóng băng ✓; golden luồng demo ✓; luồng URL với dữ liệu demo cho dashboard trùng golden; dán link thật → dashboard sau 43 s | `tools/*`, `tests/e2e/test_url_flow.py` (11), `tests/live/test_live_ui.py` |
+| 4 | U1–U8 (§2.1). Bộ 5 trận tham chiếu + 3 kịch bản lỗi chạy thật đều đạt. Match story của demo **chạy OCR thật** trước/sau khi sửa cho `lineupText` và nội dung 4 ô giống hệt | `tests/live/test_live_reference.py`, `tests/unit/test_timeline_rare_events.py` |
+| 4.5 | Chờ người dùng nghiệm thu bằng trận của mình | — |
+
+### 13.2 Điểm lệch / bổ sung so với v1.0
+
+Tất cả thuộc phần mới (crawler, server, ô URL); không đụng tính năng cũ.
+
+1. **Test dùng `unittest` của stdlib** thay vì pytest: không phải cài thêm gói vào máy (pytest vẫn chạy được các test này).
+2. **Thêm mã lỗi `E_NETWORK`** (mất mạng). Server có thêm các mã riêng (§4.3).
+3. **Timeline phân loại theo icon thật (U1):**
+   - bỏ hàng loạt luân lưu;
+   - thêm nhãn `Penalty missed`;
+   - sửa thẻ vàng thứ hai, phản lưới nhà, penalty và VAR (§6.5).
+
+   `Render` hiển thị nhãn mới bằng icon mặc định "•" và tooltip "Penalty missed — <tên>", không cần sửa `Render`.
+4. **Tập trạng thái "đã kết thúc" thêm `After 90 minutes`** (U5).
+5. **Báo `E_NO_PLAYER_STATS` ngay qua thanh tab** (~8 s thay vì ~30 s). Bỏ qua lineups khi trận không có tab Lineups (§6.7).
+6. **`MatchRef` dùng `team1`/`team2`**, vì thứ tự đội trong URL không phải nhà/khách (U8).
+7. **`JS_LINEUPS` trả `groups` dạng danh sách** (Phụ lục D).
+8. **R-20 sửa cho khớp §3.5:** nhận 2 job (1 chạy + 1 chờ), job thứ 3 nhận `E_BUSY`.
+9. **Bộ trận tham chiếu đặt thẳng trong test** thay vì file JSON riêng.
+10. **Giữ nguyên:**
+    - 3 script legacy và `__pycache__` gốc (test tắt ghi `.pyc`);
+    - mọi vùng đóng băng của HTML;
+    - mặc định C1–C5: demo giữ; footer "Data from Flashscore exports" chưa đổi; `matchDate` rỗng; `ok:true`; cookie "Reject all".
+
+### 13.3 Bộ kiểm thử
+
+| Lệnh (chạy ở thư mục gốc) | Nội dung | Thời gian |
+| --- | --- | --- |
+| `python -m unittest discover -s tests/unit -t .` | 51 test offline: URL, lineups/toạ độ, ghép + kiểm tra chéo, extractor trên fixture, sự kiện hiếm, ánh xạ lỗi điều hướng, công cụ bảo vệ HTML | ~8 s |
+| `python -m unittest discover -s tests/e2e -t .` | 21 test giao diện + server với runner giả: golden luồng demo, PDF (demo và luồng URL), New match, luồng URL, các thông báo lỗi, `file://`, API | ~2–3 phút; cần mạng cho CDN; `FS_SKIP_PDF=1` bỏ test PDF |
+| `FS_LIVE=1 python -m unittest discover -s tests/live -t .` | 7 test chạm flashscore.com: parity với script legacy, server thật, giao diện thật, bộ trận tham chiếu, trận chưa đá, giải không có stats, link thiếu `mid` | ~10 phút |
+| `python tools/verify_frozen.py` · `python tools/check_diff_budget.py` · `python tools/golden_demo.py --check` | Cổng bảo vệ `match_report.html` | ~10 s |
+
+### 13.4 Hạn chế đã biết
+
+- **Kết quả loạt luân lưu không hiển thị:** dashboard hiện tại không có chỗ; thêm sẽ là thay đổi UI, cần phê duyệt.
+- **Chưa gặp trên trang thật:**
+  - trận có stats nhưng thiếu lineups/sơ đồ;
+  - hai đội trùng mã;
+  - bị chặn/captcha.
+
+  Đã có đường xử lý và test bằng dữ liệu giả cho các trường hợp này.
+- **Thời gian:** ~23–29 s/trận với tải song song mặc định (§13.5); có lúc 40–75 s khi Flashscore chậm.
+
+### 13.5 Phase 5 (2026-10-13)
+
+Người dùng duyệt cả 4 mục; chọn **xoá hẳn** 3 script cũ, chữ chân trang **"Data from Flashscore"**, không commit.
+
+| Mục | Đã làm | Kiểm chứng |
+| --- | --- | --- |
+| Gỡ mã đọc xlsx mồ côi trong `match_report.html` | E8 thẻ SheetJS · E9 CSS `.drop-*` · E10 khối `JSZipLite` · E11 parser xlsx (`readWorkbook` … `parseSummaryWorkbook`, `relTarget`, `normalizePath`, `bytesToDataURL`), trường `statsFile/lineupFile/summaryFile`, 2 chú thích · E12 dòng đầu `App.reset` (~360 dòng bị gỡ, file còn 2 096 dòng) | `check_diff_budget` khớp E1–E14 · `verify_frozen` 14/14 vùng (bỏ 2 vùng đã gỡ: `JSZipLite`, parser xlsx) · golden luồng demo 16 view giống hệt |
+| Xử lý 3 script cũ | Xoá `flashscore_scraper.py`, `flashscore_summary.py`, `flashscore_lineups.py`; xoá theo test parity (`tests/live/test_parity_legacy_stats.py`, `tests/legacy_xlsx.py`) và file `.pyc` mồ côi trong `__pycache__` gốc; bỏ `openpyxl` khỏi `requirements.txt`. Mã cũ vẫn xem được ở commit baseline `d4a4da6` | Parity đã chứng minh 100% ở Phase 1 (§13.1) trước khi xoá |
+| Chạy song song | `FS_PARALLEL` (mặc định 3, tối đa 7, `1` = tuần tự như cũ): trang lineups bắt đầu tải ngay sau header; 7 tab player stats tải theo lô 3 trang (phát lệnh điều hướng `wait_until="commit"` cho cả lô rồi đọc từng trang — vẫn một thread Playwright sync) | Kết quả song song **giống hệt** tuần tự (so `stats/summary/lineups/lineupImages/warnings`). Đo xen kẽ 3 lần trận Malaga–Villarreal: song song 23–29 s, tuần tự 28–32 s; mức 7 không nhanh hơn mức 3 ⇒ giữ 3 |
+| Chữ chân trang | E13 chân trang web, E14 chân trang mỗi trang PDF: "Data from Flashscore" | Test PDF (demo và luồng URL) đạt |
+
+Cổng sau Phase 5: `python -m unittest discover -s tests -t .` 73 đạt / 6 bỏ qua (live); `FS_LIVE=1` 6/6 test live đạt (bộ 5 trận tham chiếu, trận chưa đá, giải không có stats, link thiếu `mid`, server thật, giao diện thật).

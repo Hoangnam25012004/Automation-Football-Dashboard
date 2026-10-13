@@ -1,0 +1,8 @@
+# Runtime: crawler + server.py (ghim đúng bản đã kiểm chứng 2026-10-09).
+# Sau khi cài: playwright install chromium
+playwright==1.60.0
+
+# Chỉ cho test (kiểm ảnh placeholder PNG của lineups).
+pillow>=10
+
+# Test dùng unittest có sẵn của Python (không bắt buộc pytest; pytest vẫn chạy được các test này).
