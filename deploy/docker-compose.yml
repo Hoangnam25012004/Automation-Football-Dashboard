@@ -1,0 +1,54 @@
+# Match Performance — bản cloud (design doc cloud §5, §12).
+#   cd deploy && cp .env.example .env && (sửa .env) && docker compose up -d --build
+name: matchperf
+
+services:
+  caddy:
+    image: caddy:2.10
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?Đặt APP_DOMAIN trong deploy/.env}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - web
+    mem_limit: 128m
+
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: matchperf:latest
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      TRUST_PROXY: "1"
+    volumes:
+      - appdata:/data
+    expose:
+      - "8000"
+    mem_limit: 512m
+
+  worker:
+    image: matchperf:latest
+    restart: unless-stopped
+    command: ["python", "-m", "cloud.worker"]
+    env_file: .env
+    environment:
+      FS_PARALLEL: "3"
+    volumes:
+      - appdata:/data
+    depends_on:
+      - web
+    shm_size: 1gb
+    mem_limit: 4g
+
+volumes:
+  appdata: {}
+  caddy_data: {}
+  caddy_config: {}

@@ -15,14 +15,16 @@ from playwright.sync_api import sync_playwright
 from . import browser as fsb
 from .assemble import assemble
 from .errors import CrawlError, Warnings
-from .header import fetch_data_url, read_header
+from .header import fetch_data_url, read_header, read_meta
 from .lineups import scrape_lineups, start_lineups
 from .player_stats import TABS, scrape_player_stats
+from .team_stats import scrape_team_stats
 from .timeline import read_timeline
 from .urls import parse_match_url
 
-TOTAL_STEPS = 2 + len(TABS) + 1          # header+timeline, 7 tab stats, lineups, ghép = 10
+TOTAL_STEPS = 2 + len(TABS) + 2          # header+timeline, 7 tab stats, team stats, lineups, ghép = 11
 BUDGET_S = 150
+TEAM_STATS_RESERVE_S = 25
 ROOT = Path(__file__).resolve().parent.parent
 _TABS_JS = "() => [...document.querySelectorAll('[role=\"tab\"]')].map(t => (t.textContent || '').trim().toLowerCase())"
 
@@ -91,6 +93,7 @@ def crawl(url: str, progress=None) -> dict:
                 print(f"  ⚠ Không đọc được timeline: {exc}")
                 events, timeline_rows = [], 0
             logos = (fetch_data_url(ctx, info.home_logo_url), fetch_data_url(ctx, info.away_logo_url))
+            meta = read_meta(page, info.start)
 
             # Thanh tab của trận cho biết trước có Player stats / Lineups không (giải nhỏ thường không có)
             # ⇒ báo lỗi ngay thay vì chờ bảng tới hết giờ. Không đọc được thanh tab ⇒ cứ thử như bình thường.
@@ -98,6 +101,7 @@ def crawl(url: str, progress=None) -> dict:
             if tabs and "player stats" not in tabs:
                 raise CrawlError("E_NO_PLAYER_STATS")
             has_lineups = not tabs or "lineups" in tabs
+            has_team_stats = not tabs or "stats" in tabs
 
             # Tải song song (FS_PARALLEL, mặc định 3 trang): trang lineups bắt đầu tải ngay, các tab
             # player stats tải theo lô. Mọi thao tác Playwright vẫn ở cùng một thread.
@@ -114,6 +118,19 @@ def crawl(url: str, progress=None) -> dict:
             stats = scrape_player_stats(
                 stat_pages, ref, info, warnings,
                 progress=lambda message: (within_budget(), prog.start("player_stats", message)))
+
+            # Team stats (MỀM): dùng lại các trang của player stats.
+            stage = "team_stats"
+            within_budget()
+            prog.start("team_stats", "Reading team stats…")
+            team_stats = None
+            if has_team_stats:
+                try:   # chừa ≥ TEAM_STATS_RESERVE_S cho line-ups + ghép: dữ liệu mềm không được gây E_TIMEOUT
+                    team_stats = scrape_team_stats(stat_pages, ref, deadline=t0 + BUDGET_S - TEAM_STATS_RESERVE_S)
+                except (CrawlError, PlaywrightError) as exc:
+                    print(f"  ⚠ Không đọc được team stats: {exc}")
+            if team_stats is None:
+                warnings.add("W_NO_TEAM_STATS")
             for extra in stat_pages[1:]:
                 extra.close()
 
@@ -125,15 +142,20 @@ def crawl(url: str, progress=None) -> dict:
             if not has_lineups:
                 warnings.add("W_NO_LINEUPS")
             else:
-                try:
-                    lineups = scrape_lineups(ctx, ref, roster, warnings, page=lineups_page)
-                except (CrawlError, PlaywrightError) as exc:
-                    print(f"  ⚠ Không đọc được lineups: {exc}")
-                    warnings.add("W_NO_LINEUPS")
+                for attempt in range(2):                # máy chậm (vd Hugging Face) đôi khi lỡ lần đầu ⇒ thử lại 1 lần, trang mới
+                    try:
+                        lineups = scrape_lineups(ctx, ref, roster, warnings, page=lineups_page if attempt == 0 else None)
+                        break
+                    except (CrawlError, PlaywrightError) as exc:
+                        print(f"  ⚠ Không đọc được lineups (lần {attempt + 1}): {exc}")
+                        if attempt == 1 or time.monotonic() - t0 > BUDGET_S - TEAM_STATS_RESERVE_S:
+                            warnings.add("W_NO_LINEUPS")
+                            break
 
             stage = "assemble"
             prog.start("assemble", "Building the report…")
-            result = assemble(ref, info, stats, events, timeline_rows, logos, lineups, warnings)
+            result = assemble(ref, info, stats, events, timeline_rows, logos, lineups, warnings,
+                              team_stats=team_stats, meta=meta)
             prog.finish()
             return result
         except CrawlError:

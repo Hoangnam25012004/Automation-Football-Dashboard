@@ -32,6 +32,7 @@ WARNINGS: dict[str, str] = {
     "W_TEAM_ORDER_SWAPPED": "Home/away order in the player stats was corrected automatically.",
     "W_TEAM_CODE_COLLISION": "Both teams use the same short code; HOME/AWAY are used internally.",
     "W_STATS_TAB_EMPTY": "Some player-stats tabs could not be read.",
+    "W_NO_TEAM_STATS": "Team statistics are not available for this match; team totals are derived from player stats.",
 }
 
 

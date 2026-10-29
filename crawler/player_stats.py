@@ -75,10 +75,38 @@ def _records(headers: list[str], rows: list[dict]) -> list[dict]:
     return records
 
 
+CLICK_ATTEMPTS = 3
+
+
+def _click_retrying(page, locator, *, after=None) -> None:
+    """Bấm có thử lại. Trang có thể còn đang dựng hoặc bị quảng cáo/tab cá cược nạp chậm đẩy layout — đã gặp
+    trên máy chủ Hugging Face (IP Mỹ, 2 vCPU): `Locator.click: Timeout 5000ms exceeded` dù trang hoàn toàn bình thường.
+    Mỗi lần: chờ hiện, cuộn tới, bấm; thất bại ⇒ Escape (đóng popup lạ) rồi thử lại; lần cuối bấm cưỡng bức.
+    `after`: điều kiện xác nhận đã bấm xong (vd danh sách option đã mở)."""
+    last: Exception | None = None
+    for attempt in range(CLICK_ATTEMPTS):
+        try:
+            locator.wait_for(state="visible", timeout=10_000)
+            locator.scroll_into_view_if_needed(timeout=5_000)
+            locator.click(timeout=5_000, force=attempt == CLICK_ATTEMPTS - 1)
+            if after:
+                after()
+            return
+        except PlaywrightTimeout as exc:
+            last = exc
+            page.keyboard.press("Escape")
+            page.wait_for_timeout(700 * (attempt + 1))
+    raise last
+
+
+def _open_team_menu(page) -> None:
+    _click_retrying(page, page.locator('[data-testid="wcl-selectButton"]').first,
+                    after=lambda: page.locator('[role="option"]').first.wait_for(state="visible", timeout=5_000))
+
+
 def _detect_teams(page) -> list[str]:
     """Đọc combobox đội; nhãn = token cuối (vd "England ENG" → "ENG"), bỏ "ALL" — như legacy."""
-    page.locator('[data-testid="wcl-selectButton"]').first.click(timeout=5_000)
-    page.locator('[role="option"]').first.wait_for(state="visible", timeout=5_000)
+    _open_team_menu(page)
     texts = page.evaluate(JS_OPTIONS)
     page.keyboard.press("Escape")
     labels = []
@@ -91,9 +119,8 @@ def _detect_teams(page) -> list[str]:
 
 
 def _select_team(page, label: str, index: int) -> None:
-    page.locator('[data-testid="wcl-selectButton"]').first.click(timeout=5_000)
+    _open_team_menu(page)
     options = page.locator('[role="option"]')
-    options.first.wait_for(state="visible", timeout=5_000)
     texts = page.evaluate(JS_OPTIONS)
     team_positions = [k for k, t in enumerate(texts) if (t.split() or [""])[-1].upper() != "ALL"]
     target = None
@@ -103,7 +130,11 @@ def _select_team(page, label: str, index: int) -> None:
             break
     if target is None:                            # trùng nhãn ⇒ chọn theo thứ tự option
         target = team_positions[index]
-    options.nth(target).click(timeout=5_000)
+    try:
+        options.nth(target).click(timeout=5_000)
+    except PlaywrightTimeout:                     # menu bị đóng/đẩy giữa chừng ⇒ mở lại rồi bấm có thử lại
+        _open_team_menu(page)
+        _click_retrying(page, page.locator('[role="option"]').nth(target))
 
 
 def _wait_for_team_table(page, previous_ids: set, timeout_s: float = 6.0) -> dict | None:
@@ -141,6 +172,9 @@ def scrape_player_stats(pages, ref, info: MatchInfo, warnings: Warnings, progres
         for page, (_, (slug, _label)) in zip(pages, batch):        # phát lệnh tải cả lô
             goto(page, ref.url(f"summary/player-stats/{slug}"), wait_until="commit")
         for page, (tab_index, (slug, label)) in zip(pages, batch):  # rồi đọc từng trang
+            # Đưa trang lên trước: Chromium không vẽ tab nền ⇒ menu chọn đội (Radix) không bao giờ "hiện" trên máy
+            # chậm (đã kiểm chứng trên Hugging Face 2 vCPU: FS_PARALLEL=3 lỗi 9/9, FS_PARALLEL=1 chạy được).
+            page.bring_to_front()
             if progress:
                 progress(f"Reading player stats · {label} ({tab_index + 1}/{len(TABS)})…")
             table = None

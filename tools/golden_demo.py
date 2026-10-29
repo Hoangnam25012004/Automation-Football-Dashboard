@@ -1,6 +1,7 @@
 """Ghi / kiểm tra golden snapshot của luồng demo (design doc §9.3).
 
-  python tools/golden_demo.py --write   chụp từ BASELINE trong git → tests/golden/demo_views.json
+  python tools/golden_demo.py --write   chụp từ match_report.html HIỆN TẠI → tests/golden/demo_views.json
+                                        (golden v2: chỉ ghi lại sau khi người dùng nghiệm thu giao diện)
   python tools/golden_demo.py --check   chụp từ match_report.html hiện tại và so với golden
   python tools/golden_demo.py --stability   chụp file hiện tại 2 lần, phải giống hệt nhau
 
@@ -46,17 +47,15 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.write:
-        baseline = _support.output_dir() / "baseline_match_report.html"
-        baseline.write_text(html_guard.load_baseline(), encoding="utf-8", newline="")
-        views, errors = capture(baseline.as_uri())
+        views, errors = capture(_support.HTML.as_uri())
         if errors:
-            print("✗ Trang baseline có lỗi JS — không ghi golden:\n  " + "\n  ".join(errors))
+            print("✗ Trang có lỗi JS — không ghi golden:\n  " + "\n  ".join(errors))
             return 1
         GOLDEN_FILE.parent.mkdir(parents=True, exist_ok=True)
         GOLDEN_FILE.write_text(json.dumps(views, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
                                encoding="utf-8", newline="\n")
         charts = sum(len(v["charts"]) for v in views.values())
-        print(f"✓ Đã ghi {GOLDEN_FILE.relative_to(ROOT)}: {len(views)} view, {charts} biểu đồ (từ baseline {html_guard.baseline_rev()[:7]})")
+        print(f"✓ Đã ghi {GOLDEN_FILE.relative_to(ROOT)}: {len(views)} view, {charts} biểu đồ (từ match_report.html hiện tại)")
         return 0
 
     if args.stability:

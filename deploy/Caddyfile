@@ -1,0 +1,13 @@
+# HTTPS tự động (Let's Encrypt) cho APP_DOMAIN, chuyển tiếp tới web:8000. Header bảo mật do app đặt;
+# ở đây thêm HSTS, nén và giới hạn kích thước request.
+{$APP_DOMAIN} {
+	encode zstd gzip
+	request_body {
+		max_size 64KB
+	}
+	header {
+		Strict-Transport-Security "max-age=15552000"
+		-Server
+	}
+	reverse_proxy web:8000
+}

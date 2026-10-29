@@ -1,8 +1,8 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 2,
  "matchId": "vLuGlk0n",
  "sourceUrl": "https://www.flashscore.com/match/football/johor-dt-AVV6BGlb/svay-rieng-IHTx6E4O/?mid=vLuGlk0n",
- "fetchedAt": "2026-10-09T08:38:11Z",
+ "fetchedAt": "2026-10-13T05:50:33Z",
  "stats": {
   "matchTitle": "Johor DT  vs  Svay Rieng",
   "matchDate": "",
@@ -3319,6 +3319,1108 @@
   "substituted": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
   "substitutes": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
   "coaches": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+ },
+ "teamStats": {
+  "overall": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "4.79",
+     "away": "0.32",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "50%",
+     "away": "50%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "10",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "28",
+     "away": "16",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "25",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "4.79",
+     "away": "0.32",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "4.26",
+     "away": "0.32",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "25",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "13",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "11",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "1",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "15",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "10",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "28",
+     "away": "16",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "5",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "5",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "3",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "10",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "1",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "366",
+     "away": "366",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "290",
+     "away": "299",
+     "homePct": "79%",
+     "awayPct": "82%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "56",
+     "away": "59",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "24",
+     "away": "38",
+     "homePct": "43%",
+     "awayPct": "64%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "114",
+     "away": "85",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "73",
+     "away": "57",
+     "homePct": "64%",
+     "awayPct": "67%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "10",
+     "away": "12",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "3",
+     "away": "1",
+     "homePct": "30%",
+     "awayPct": "8%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "1.93",
+     "away": "0.53",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "18",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "17",
+     "away": "15",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "17",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "44",
+     "away": "35",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "14",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "10",
+     "away": "9",
+     "homePct": "71%",
+     "awayPct": "90%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "7",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "12",
+     "away": "19",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "3",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.32",
+     "away": "4.26",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "0",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "0.32",
+     "away": "-1.74",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "9",
+     "away": "11",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "firstHalf": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "1.65",
+     "away": "0.06",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "50%",
+     "away": "50%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "3",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "13",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "14",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "1.65",
+     "away": "0.06",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "0.66",
+     "away": "0.12",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "14",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "6",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "7",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "1",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "7",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "7",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "13",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "3",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "1",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "6",
+     "away": "12",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "0",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "179",
+     "away": "178",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "140",
+     "away": "145",
+     "homePct": "78%",
+     "awayPct": "81%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "34",
+     "away": "30",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "14",
+     "away": "17",
+     "homePct": "41%",
+     "awayPct": "57%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "58",
+     "away": "50",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "40",
+     "away": "35",
+     "homePct": "69%",
+     "awayPct": "70%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "5",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "1",
+     "away": "0",
+     "homePct": "20%",
+     "awayPct": "0%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.33",
+     "away": "0.19",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "9",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "9",
+     "away": "12",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "12",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "23",
+     "away": "22",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "8",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "6",
+     "away": "6",
+     "homePct": "75%",
+     "awayPct": "86%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "4",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "4",
+     "away": "12",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "1",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.12",
+     "away": "0.66",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "0.12",
+     "away": "-0.34",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "4",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "secondHalf": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "3.13",
+     "away": "0.26",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "50%",
+     "away": "50%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "7",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "15",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "11",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "3.13",
+     "away": "0.26",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "3.60",
+     "away": "0.19",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "11",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "7",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "4",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "0",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "8",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "3",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "15",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "5",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "2",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "2",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "4",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "187",
+     "away": "188",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "150",
+     "away": "154",
+     "homePct": "80%",
+     "awayPct": "82%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "22",
+     "away": "29",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "10",
+     "away": "21",
+     "homePct": "45%",
+     "awayPct": "72%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "56",
+     "away": "35",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "33",
+     "away": "22",
+     "homePct": "59%",
+     "awayPct": "63%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "5",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "2",
+     "away": "1",
+     "homePct": "40%",
+     "awayPct": "20%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "1.60",
+     "away": "0.33",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "9",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "8",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "5",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "21",
+     "away": "13",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "6",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "4",
+     "away": "3",
+     "homePct": "67%",
+     "awayPct": "100%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "3",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "8",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "2",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.19",
+     "away": "3.60",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "0",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "0.19",
+     "away": "-1.40",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "5",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "possessionReliable": false
+ },
+ "meta": {
+  "competition": "ASEAN Club Championship",
+  "country": "Asia",
+  "kickoff": "08.10.2026 19:00",
+  "referee": "Kim Woo-Sung (Kor)",
+  "venue": "Sultan Ibrahim Stadium (Johor Bahru)"
  },
  "warnings": []
 }

@@ -1,9 +1,13 @@
-"""Bảo vệ match_report.html khỏi thay đổi ngoài phạm vi (design doc §7.1, §9.2).
+"""Bảo vệ match_report.html khỏi thay đổi ngoài phạm vi.
 
-Hai lớp kiểm tra, cả hai so file hiện tại với bản baseline trong git (root commit):
+Cấu hình hiện tại: thiết kế lại dashboard (design doc dashboard-redesign §10). Baseline = tag git
+`redesign-baseline` (commit mốc sau Phase 0–5 của luồng URL); cấu hình E1–E14 cũ (so với root commit)
+nằm trong lịch sử git.
+
+Hai lớp kiểm tra, cả hai so file hiện tại với baseline trong git:
 
 1. Vùng đóng băng (frozen regions): mỗi vùng xác định bằng chuỗi mở/đóng, so SHA-256.
-2. Diff-budget: mọi khối thay đổi phải nằm trong một "cửa sổ" được phép E1–E7.
+2. Diff-budget: mọi khối thay đổi phải nằm trong một "cửa sổ" được phép RD1–RD8 (RD8: cloud design §11).
 
 Dùng chuỗi đánh dấu thay vì số dòng để chịu được việc dịch dòng sau khi sửa.
 """
@@ -18,25 +22,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML_NAME = "match_report.html"
+BASELINE_TAG = "redesign-baseline"
 
-# Dòng E7 (chuỗi empty-state duy nhất được phép đổi bên trong Render).
-E7_OLD = "          <div>Add the <strong>lineups</strong> export to see formation, line-ups and substitutions here.</div>"
-E7_NEW = "          <div>Line-ups are not available for this match.</div>"
+# RD7: hai dòng duy nhất được thêm vào App (luồng URL mang theo teamStats/meta; reset xoá chúng).
+RD7_BUILD = "      state.teamStats=res.teamStats||null; state.meta=res.meta||null;   // schemaVersion 2 (redesign §3.4)\n"
+RD7_RESET = "    state.teamStats=null; state.meta=null;\n"
 
 
 def _replace(old: str, new: str):
     return lambda text: text.replace(old, new)
-
-
-def _cut(start: str, end: str):
-    """Bỏ đoạn từ `start` tới hết `end` (nếu có) — mô phỏng một lần gỡ code đã được duyệt."""
-    def apply(text: str) -> str:
-        i = text.find(start)
-        if i < 0:
-            return text
-        j = text.find(end, i)
-        return text if j < 0 else text[:i] + text[j + len(end):]
-    return apply
 
 
 @dataclass(frozen=True)
@@ -48,41 +42,19 @@ class Region:
 
 
 FROZEN_REGIONS = [
-    Region("head + CDN scripts", "<!DOCTYPE html>", "<style>\n:root{",
-           (_replace('<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>\n', ""),)),
-    Region("CSS hiện có", "<style>\n:root{",
-           ".pdf-rendering .tab-content{display:block !important;page-break-after:always}\n",
-           (_cut(".drop-grid{display:grid;", ".drop-zone.loaded .tag{color:var(--good)}\n\n"),)),
-    Region("header HTML", "<!-- ============ HEADER ============ -->",
-           '<section class="upload-screen" id="uploadScreen">'),
-    Region("upload hero (kicker + h2)", '<div class="upload-hero">',
-           "<h2>Turn match data into<br><em>tactical insight</em></h2>"),
-    Region("nút demo", '<button class="demo-link" onclick="App.loadDemo()">',
-           "or explore with sample data (Korea vs Czech Republic)</button>"),
-    Region("dashboard + overlay + toast", "<!-- ============ DASHBOARD ============ -->",
-           '<div class="toast" id="toast"></div>',
-           (_replace("Data from Flashscore exports ·", "Data from Flashscore ·"),)),
+    Region("head + CDN scripts", "<!DOCTYPE html>", "<style>\n"),
+    Region("màn hình nhập URL", "<!-- ============ UPLOAD SCREEN ============ -->", "</section>"),
+    Region("loading overlay + toast", '<div class="loading-overlay" id="loading">', '<div class="toast" id="toast"></div>'),
     Region("demo data", '<script id="demoData">', "\n</script>"),
-    Region("state / TABS / U / UI helpers", "const state = {",
-           "function destroyCharts(){Object.values(state.charts).forEach(c=>{try{c.destroy()}catch(e){}});state.charts={};}",
-           (_replace("  statsFile:null, lineupFile:null, summaryFile:null,\n", ""),
-            _replace("from summary_*.xlsx", "from the crawler (server.py)"))),
-    Region("App.loadDemo + enter", "  async loadDemo(){",
-           "    hideLoading(); window.scrollTo(0,0);\n  },"),
-    Region("App.setTeam / setTab / exportPDF", "  setTeam(team){",
-           "  async exportPDF(){ await Exporter.run(); },\n};"),
+    Region("core: state / TABS / U / ô URL / Api / App", "const state = {",
+           "document.addEventListener('DOMContentLoaded',setupUrlForm);",
+           (_replace(RD7_BUILD, ""), _replace(RD7_RESET, ""))),
     Region("LineupOCR", "const LineupOCR = (()=>{", "  return { run, loadingHTML };\n})();"),
-    Region("Render (trừ dòng E7)", "const Render = (()=>{",
-           "  return { scorebar, tabs, activeTab, _names:TEAM_FULL };\n})();", (_replace(E7_OLD, E7_NEW),)),
-    Region("Exporter (trừ chữ chân trang PDF)", "const Exporter = (()=>{", "  return { run };\n})();",
-           (_replace("data from Flashscore exports'", "data from Flashscore'"),)),
-    Region("đuôi file", "  return { run };\n})();\n\n</script>", "</html>\n"),
 ]
-# Phase 5 (đã duyệt 2026-10-13) gỡ hẳn: JSZipLite và parser xlsx ⇒ không còn là vùng đóng băng.
 
 
-# Cửa sổ được phép sửa trong baseline (design doc §7.1). Mỗi cửa sổ là một dải dòng
-# [đầu, cuối] (0-based, bao gồm) tìm bằng chuỗi đánh dấu; "insert_only" = chỉ được chèn.
+# Cửa sổ được phép sửa trong baseline (design doc dashboard-redesign §10.1). Mỗi cửa sổ là một dải dòng
+# [đầu, cuối] (0-based, bao gồm) tìm bằng chuỗi đánh dấu; "insert_only" = chỉ được chèn trước dòng đầu.
 @dataclass(frozen=True)
 class Window:
     eid: str
@@ -94,28 +66,16 @@ class Window:
 
 
 EDIT_WINDOWS = [
-    # Phase 3 (luồng URL)
-    Window("E1", "<p>Drop in your two Flashscore exports"),
-    Window("E2", '<div class="drop-grid">', '<div class="upload-cta">', last_offset=-1),
-    Window("E2", 'id="btnBuild"'),
-    Window("E3", "</style>", insert_only=True),
-    Window("E4", "/* ---------- dropzones ---------- */",
-           "/* ---------- build / reset / navigation ---------- */", last_offset=-1),
-    Window("E4", "document.addEventListener('DOMContentLoaded',setupDropzones);"),
-    Window("E5", "  async build(){", "  async loadDemo(){", last_offset=-1),
-    Window("E6", "document.querySelectorAll('.drop-zone')", "document.getElementById('btnBuild').disabled=true;"),
-    Window("E7", "Add the <strong>lineups</strong> export"),
-    # Phase 5 (dọn mã mồ côi + chữ chân trang)
-    Window("E8", "ajax/libs/xlsx/0.18.5/xlsx.full.min.js"),
-    Window("E9", ".drop-grid{display:grid;", ".upload-cta{text-align:center}", last_offset=-1),
-    Window("E10", "JSZipLite — minimal ZIP reader", "  return { load:loadPrimed };", first_offset=-2, last_offset=5),  # +2: <script> + "/* ===" của khối sau (difflib căn lệch)
-    Window("E11", "APP — core: state, parsing, file handling, navigation"),
-    Window("E11", "statsFile:null, lineupFile:null, summaryFile:null,"),
-    Window("E11", "from summary_*.xlsx"),
-    Window("E11", "/* ---------- stats workbook parsing ---------- */", "/* ---------- dropzones ---------- */", last_offset=-1),
-    Window("E12", "state.statsFile=state.lineupFile=state.summaryFile=state.data=null;"),
-    Window("E13", "Data from Flashscore exports · <span"),
-    Window("E14", "data from Flashscore exports',pageW"),
+    Window("RD1", "<style>", "</style>"),                                                      # CSS
+    Window("RD5", "<!-- ============ HEADER ============ -->", "<!-- ============ UPLOAD SCREEN", last_offset=-1),
+    Window("RD4", "<!-- ============ DASHBOARD ============ -->", "</main>"),                  # markup dashboard
+    Window("RD2", "APP — Render module", "return { scorebar, tabs, activeTab, _names:TEAM_FULL };",
+           first_offset=-1, last_offset=1),                                                   # Render → Views…
+    Window("RD3", "APP — PDF Exporter", "  return { run };", first_offset=-1, last_offset=1),  # Exporter → Report
+    Window("RD7", "state.lineupText=res.lineups||null;", insert_only=True, first_offset=1),
+    Window("RD7", "state.lineupImages={}; state.lineupText=null; state.summary=null;", insert_only=True, first_offset=1),
+    # RD8 (cloud design §11, Q-E a): khối <script> "cloud mode" chèn ngay trước </body>, không sửa dòng cũ nào
+    Window("RD8", "</body>", first_offset=-2),   # -2: difflib có thể gióng khối chèn trước </script> của khối Report
 ]
 
 
@@ -131,8 +91,8 @@ def git(*args: str) -> bytes:
 
 
 def baseline_rev() -> str:
-    """Root commit = baseline đã commit ở Phase 0.1."""
-    return git("rev-list", "--max-parents=0", "HEAD").decode().split()[0]
+    """Tag `redesign-baseline` (commit mốc trước khi thiết kế lại dashboard)."""
+    return git("rev-parse", BASELINE_TAG + "^{commit}").decode().strip()
 
 
 def load_baseline(rev: str | None = None) -> str:

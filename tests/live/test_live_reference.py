@@ -47,6 +47,10 @@ class LiveReferencePanelTest(unittest.TestCase):
         self.assertEqual(len(lineups["starting_xi"]), 11, name)
         self.assertEqual(len(lineups["formation"]["players"]), 22, name)
         self.assertEqual(result["lineupImages"], lineup_images(lineups), name)
+        self.assertEqual(result["schemaVersion"], 2, name)
+        for scope in ("overall", "firstHalf", "secondHalf"):          # tab STATS cấp đội (redesign §3.2)
+            self.assertGreaterEqual(len(result["teamStats"][scope]["rows"]), 40, f"{name} {scope}")
+        self.assertTrue(result["meta"]["competition"] and result["meta"]["kickoff"], name)
         self.assertEqual(result["warnings"], [], name)
 
     def test_panel(self):

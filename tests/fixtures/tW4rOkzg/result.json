@@ -1,0 +1,4350 @@
+{
+ "schemaVersion": 2,
+ "matchId": "tW4rOkzg",
+ "sourceUrl": "https://www.flashscore.com/match/football/coventry-GOvB22xg/newcastle-utd-p6ahwuwJ/?mid=tW4rOkzg",
+ "fetchedAt": "2026-10-13T08:09:24Z",
+ "stats": {
+  "matchTitle": "Coventry  vs  Newcastle",
+  "matchDate": "",
+  "home": "COV",
+  "away": "NEW",
+  "teams": {
+   "COV": {
+    "Top Stats": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Total shots",
+      "Expected goals (xG)",
+      "Accurate passes",
+      "Touches",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Duels"
+     ],
+     "rows": [
+      {
+       "Player": "Thomas B.",
+       "Position": "Centre back",
+       "Rating": "8.4",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "19/26 (73%)",
+       "Touches": "50",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "7"
+      },
+      {
+       "Player": "Simms E.",
+       "Position": "Forward",
+       "Rating": "7.4",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.10",
+       "Accurate passes": "1/1 (100%)",
+       "Touches": "3",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "-"
+      },
+      {
+       "Player": "van Ewijk M.",
+       "Position": "Fullback",
+       "Rating": "7.1",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "11/16 (69%)",
+       "Touches": "47",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "0/2 (0%)",
+       "Duels": "7"
+      },
+      {
+       "Player": "Cherif S.",
+       "Position": "Striker",
+       "Rating": "6.9",
+       "Total shots": "3",
+       "Expected goals (xG)": "0.33",
+       "Accurate passes": "7/9 (78%)",
+       "Touches": "21",
+       "Touches in opposition box": "5",
+       "Successful dribbles": "-",
+       "Duels": "10"
+      },
+      {
+       "Player": "Rudoni J.",
+       "Position": "Attacking midfielder",
+       "Rating": "6.9",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.79",
+       "Accurate passes": "14/20 (70%)",
+       "Touches": "38",
+       "Touches in opposition box": "4",
+       "Successful dribbles": "1/2 (50%)",
+       "Duels": "8"
+      },
+      {
+       "Player": "Thomas-Asante B.",
+       "Position": "Winger",
+       "Rating": "6.9",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.02",
+       "Accurate passes": "10/17 (59%)",
+       "Touches": "33",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "1/3 (33%)",
+       "Duels": "11"
+      },
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Rating": "6.7",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "22/44 (50%)",
+       "Touches": "55",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "1"
+      },
+      {
+       "Player": "Grimes M.",
+       "Position": "Midfielder",
+       "Rating": "6.6",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "32/38 (84%)",
+       "Touches": "42",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "4"
+      },
+      {
+       "Player": "Dasilva J.",
+       "Position": "Fullback",
+       "Rating": "6.5",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "26/28 (93%)",
+       "Touches": "36",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "4"
+      },
+      {
+       "Player": "Sakamoto T.",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "3/7 (43%)",
+       "Touches": "16",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "3"
+      },
+      {
+       "Player": "Yirenkyi C.",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "21/22 (95%)",
+       "Touches": "37",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "1/4 (25%)",
+       "Duels": "13"
+      },
+      {
+       "Player": "Onyeka F.",
+       "Position": "Midfielder",
+       "Rating": "6.4",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.03",
+       "Accurate passes": "0/2 (0%)",
+       "Touches": "3",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "-"
+      },
+      {
+       "Player": "Mason-Clark E.",
+       "Position": "Winger",
+       "Rating": "5.9",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "6/11 (55%)",
+       "Touches": "16",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "0/2 (0%)",
+       "Duels": "6"
+      },
+      {
+       "Player": "Pinnock E.",
+       "Position": "Centre back",
+       "Rating": "5.7",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "12/20 (60%)",
+       "Touches": "28",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "6"
+      },
+      {
+       "Player": "Mfuni S.",
+       "Position": "Defender",
+       "Rating": "-",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.21",
+       "Accurate passes": "0/1 (0%)",
+       "Touches": "4",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Duels": "1"
+      },
+      {
+       "Player": "Torp V.",
+       "Position": "Midfielder",
+       "Rating": "-",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "1/2 (50%)",
+       "Touches": "3",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "-"
+      }
+     ]
+    },
+    "Shots": {
+     "headers": [
+      "Player",
+      "Position",
+      "Total shots",
+      "Goals",
+      "Expected goals (xG)",
+      "xG on target (xGOT)",
+      "Shots on target",
+      "Shots off target",
+      "Blocked shots",
+      "Shots inside the box",
+      "Shots outside the box",
+      "Headed shots"
+     ],
+     "rows": [
+      {
+       "Player": "Cherif S.",
+       "Position": "Striker",
+       "Total shots": "3",
+       "Goals": "1",
+       "Expected goals (xG)": "0.33",
+       "xG on target (xGOT)": "0.37",
+       "Shots on target": "2",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "2",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Mfuni S.",
+       "Position": "Defender",
+       "Total shots": "2",
+       "Goals": "1",
+       "Expected goals (xG)": "0.21",
+       "xG on target (xGOT)": "0.73",
+       "Shots on target": "2",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "2",
+       "Shots outside the box": "-",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Onyeka F.",
+       "Position": "Midfielder",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.03",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Rudoni J.",
+       "Position": "Attacking midfielder",
+       "Total shots": "1",
+       "Goals": "1",
+       "Expected goals (xG)": "0.79",
+       "xG on target (xGOT)": "0.75",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Simms E.",
+       "Position": "Forward",
+       "Total shots": "1",
+       "Goals": "1",
+       "Expected goals (xG)": "0.10",
+       "xG on target (xGOT)": "0.77",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Thomas-Asante B.",
+       "Position": "Winger",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.02",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Dasilva J.",
+       "Position": "Fullback",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Grimes M.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Mason-Clark E.",
+       "Position": "Winger",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Pinnock E.",
+       "Position": "Centre back",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Sakamoto T.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Thomas B.",
+       "Position": "Centre back",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Torp V.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "van Ewijk M.",
+       "Position": "Fullback",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Yirenkyi C.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      }
+     ]
+    },
+    "Attack": {
+     "headers": [
+      "Player",
+      "Position",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Big chances missed",
+      "Touches",
+      "Fouls suffered",
+      "Offsides"
+     ],
+     "rows": [
+      {
+       "Player": "Cherif S.",
+       "Position": "Striker",
+       "Touches in opposition box": "5",
+       "Successful dribbles": "-",
+       "Big chances missed": "1",
+       "Touches": "21",
+       "Fouls suffered": "1",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Rudoni J.",
+       "Position": "Attacking midfielder",
+       "Touches in opposition box": "4",
+       "Successful dribbles": "1/2 (50%)",
+       "Big chances missed": "-",
+       "Touches": "38",
+       "Fouls suffered": "3",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Mason-Clark E.",
+       "Position": "Winger",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "0/2 (0%)",
+       "Big chances missed": "-",
+       "Touches": "16",
+       "Fouls suffered": "-",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Mfuni S.",
+       "Position": "Defender",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "4",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Sakamoto T.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "16",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Simms E.",
+       "Position": "Forward",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "3",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Thomas-Asante B.",
+       "Position": "Winger",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "1/3 (33%)",
+       "Big chances missed": "-",
+       "Touches": "33",
+       "Fouls suffered": "2",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Dasilva J.",
+       "Position": "Fullback",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "36",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Grimes M.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "42",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Onyeka F.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "3",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Pinnock E.",
+       "Position": "Centre back",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "28",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "55",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Thomas B.",
+       "Position": "Centre back",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "50",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Torp V.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "3",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "van Ewijk M.",
+       "Position": "Fullback",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "0/2 (0%)",
+       "Big chances missed": "-",
+       "Touches": "47",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Yirenkyi C.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "1/4 (25%)",
+       "Big chances missed": "-",
+       "Touches": "37",
+       "Fouls suffered": "2",
+       "Offsides": "-"
+      }
+     ]
+    },
+    "Passes": {
+     "headers": [
+      "Player",
+      "Position",
+      "Accurate passes",
+      "Big chances created",
+      "Key passes",
+      "Assists",
+      "Expected assists (xA)",
+      "Accurate passes in final third",
+      "Accurate long passes",
+      "Accurate crosses"
+     ],
+     "rows": [
+      {
+       "Player": "Grimes M.",
+       "Position": "Midfielder",
+       "Accurate passes": "32/38 (84%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "9/13 (69%)",
+       "Accurate long passes": "3/6 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Dasilva J.",
+       "Position": "Fullback",
+       "Accurate passes": "26/28 (93%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "1",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "12/13 (92%)",
+       "Accurate long passes": "3/3 (100%)",
+       "Accurate crosses": "1/2 (50%)"
+      },
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Accurate passes": "22/44 (50%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "7/22 (32%)",
+       "Accurate long passes": "11/33 (33%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Yirenkyi C.",
+       "Position": "Midfielder",
+       "Accurate passes": "21/22 (95%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "6/7 (86%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Thomas B.",
+       "Position": "Centre back",
+       "Accurate passes": "19/26 (73%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "5/9 (56%)",
+       "Accurate long passes": "3/8 (38%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Rudoni J.",
+       "Position": "Attacking midfielder",
+       "Accurate passes": "14/20 (70%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.04",
+       "Accurate passes in final third": "10/14 (71%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "0/2 (0%)"
+      },
+      {
+       "Player": "Pinnock E.",
+       "Position": "Centre back",
+       "Accurate passes": "12/20 (60%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/5 (0%)",
+       "Accurate long passes": "0/4 (0%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "van Ewijk M.",
+       "Position": "Fullback",
+       "Accurate passes": "11/16 (69%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "5/7 (71%)",
+       "Accurate long passes": "3/6 (50%)",
+       "Accurate crosses": "0/1 (0%)"
+      },
+      {
+       "Player": "Thomas-Asante B.",
+       "Position": "Winger",
+       "Accurate passes": "10/17 (59%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "1",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "6/13 (46%)",
+       "Accurate long passes": "2/2 (100%)",
+       "Accurate crosses": "0/1 (0%)"
+      },
+      {
+       "Player": "Cherif S.",
+       "Position": "Striker",
+       "Accurate passes": "7/9 (78%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "3/4 (75%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Mason-Clark E.",
+       "Position": "Winger",
+       "Accurate passes": "6/11 (55%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "3/6 (50%)",
+       "Accurate long passes": "0/1 (0%)",
+       "Accurate crosses": "0/2 (0%)"
+      },
+      {
+       "Player": "Sakamoto T.",
+       "Position": "Midfielder",
+       "Accurate passes": "3/7 (43%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/3 (0%)",
+       "Accurate long passes": "1/2 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Simms E.",
+       "Position": "Forward",
+       "Accurate passes": "1/1 (100%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "1/1 (100%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Torp V.",
+       "Position": "Midfielder",
+       "Accurate passes": "1/2 (50%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.13",
+       "Accurate passes in final third": "1/1 (100%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "1/1 (100%)"
+      },
+      {
+       "Player": "Mfuni S.",
+       "Position": "Defender",
+       "Accurate passes": "0/1 (0%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/1 (0%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Onyeka F.",
+       "Position": "Midfielder",
+       "Accurate passes": "0/2 (0%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/1 (0%)",
+       "Accurate long passes": "0/2 (0%)",
+       "Accurate crosses": "-"
+      }
+     ]
+    },
+    "Defense": {
+     "headers": [
+      "Player",
+      "Position",
+      "Duels won",
+      "Aerial duels won",
+      "Ground duels won",
+      "Tackles won",
+      "Fouls committed",
+      "Interceptions",
+      "Clearances",
+      "Errors leading to goal",
+      "Errors leading to shot"
+     ],
+     "rows": [
+      {
+       "Player": "Thomas-Asante B.",
+       "Position": "Winger",
+       "Duels won": "7/11 (64%)",
+       "Aerial duels won": "2/3 (67%)",
+       "Ground duels won": "5/8 (63%)",
+       "Tackles won": "1/2 (50%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Yirenkyi C.",
+       "Position": "Midfielder",
+       "Duels won": "7/13 (54%)",
+       "Aerial duels won": "1/3 (33%)",
+       "Ground duels won": "6/10 (60%)",
+       "Tackles won": "2/3 (67%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "1"
+      },
+      {
+       "Player": "Rudoni J.",
+       "Position": "Attacking midfielder",
+       "Duels won": "5/8 (63%)",
+       "Aerial duels won": "1/2 (50%)",
+       "Ground duels won": "4/6 (67%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "van Ewijk M.",
+       "Position": "Fullback",
+       "Duels won": "4/7 (57%)",
+       "Aerial duels won": "1/1 (100%)",
+       "Ground duels won": "3/6 (50%)",
+       "Tackles won": "2/2 (100%)",
+       "Fouls committed": "1",
+       "Interceptions": "3",
+       "Clearances": "8",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Dasilva J.",
+       "Position": "Fullback",
+       "Duels won": "3/4 (75%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "3/4 (75%)",
+       "Tackles won": "1/3 (33%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "1"
+      },
+      {
+       "Player": "Thomas B.",
+       "Position": "Centre back",
+       "Duels won": "3/7 (43%)",
+       "Aerial duels won": "2/5 (40%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "2",
+       "Clearances": "16",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Sakamoto T.",
+       "Position": "Midfielder",
+       "Duels won": "2/3 (67%)",
+       "Aerial duels won": "1/1 (100%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Pinnock E.",
+       "Position": "Centre back",
+       "Duels won": "2/6 (33%)",
+       "Aerial duels won": "1/4 (25%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "3",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Mfuni S.",
+       "Position": "Defender",
+       "Duels won": "1/1 (100%)",
+       "Aerial duels won": "1/1 (100%)",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Grimes M.",
+       "Position": "Midfielder",
+       "Duels won": "1/4 (25%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "1/3 (33%)",
+       "Tackles won": "0/1 (0%)",
+       "Fouls committed": "2",
+       "Interceptions": "-",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Mason-Clark E.",
+       "Position": "Winger",
+       "Duels won": "1/6 (17%)",
+       "Aerial duels won": "1/2 (50%)",
+       "Ground duels won": "0/4 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Cherif S.",
+       "Position": "Striker",
+       "Duels won": "1/10 (10%)",
+       "Aerial duels won": "0/8 (0%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Duels won": "0/1 (0%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "0/1 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Onyeka F.",
+       "Position": "Midfielder",
+       "Duels won": "-",
+       "Aerial duels won": "-",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Simms E.",
+       "Position": "Forward",
+       "Duels won": "-",
+       "Aerial duels won": "-",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Torp V.",
+       "Position": "Midfielder",
+       "Duels won": "-",
+       "Aerial duels won": "-",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      }
+     ]
+    },
+    "Goalkeeping": {
+     "headers": [
+      "Player",
+      "Position",
+      "Goalkeeper saves",
+      "Goals conceded",
+      "Goals prevented",
+      "xGOT faced",
+      "Punches",
+      "Throws",
+      "Act as sweeper"
+     ],
+     "rows": [
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Goalkeeper saves": "4",
+       "Goals conceded": "1",
+       "Goals prevented": "-0.57",
+       "xGOT faced": "0.43",
+       "Punches": "-",
+       "Throws": "5",
+       "Act as sweeper": "-"
+      }
+     ]
+    },
+    "General": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Minutes played",
+      "Goals",
+      "Own goals",
+      "Assists",
+      "Yellow cards",
+      "Red cards"
+     ],
+     "rows": [
+      {
+       "Player": "Thomas B.",
+       "Position": "Centre back",
+       "Rating": "8.4",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Simms E.",
+       "Position": "Forward",
+       "Rating": "7.4",
+       "Minutes played": "12",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "van Ewijk M.",
+       "Position": "Fullback",
+       "Rating": "7.1",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "1",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Cherif S.",
+       "Position": "Striker",
+       "Rating": "6.9",
+       "Minutes played": "78",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Rudoni J.",
+       "Position": "Attacking midfielder",
+       "Rating": "6.9",
+       "Minutes played": "83",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Thomas-Asante B.",
+       "Position": "Winger",
+       "Rating": "6.9",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "1",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Rushworth C.",
+       "Position": "Goalkeeper",
+       "Rating": "6.7",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Grimes M.",
+       "Position": "Midfielder",
+       "Rating": "6.6",
+       "Minutes played": "83",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Dasilva J.",
+       "Position": "Fullback",
+       "Rating": "6.5",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "1",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Sakamoto T.",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Minutes played": "29",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Yirenkyi C.",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Minutes played": "78",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Onyeka F.",
+       "Position": "Midfielder",
+       "Rating": "6.4",
+       "Minutes played": "12",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Mason-Clark E.",
+       "Position": "Winger",
+       "Rating": "5.9",
+       "Minutes played": "61",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Pinnock E.",
+       "Position": "Centre back",
+       "Rating": "5.7",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Mfuni S.",
+       "Position": "Defender",
+       "Rating": "-",
+       "Minutes played": "7",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Torp V.",
+       "Position": "Midfielder",
+       "Rating": "-",
+       "Minutes played": "7",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      }
+     ]
+    }
+   },
+   "NEW": {
+    "Top Stats": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Total shots",
+      "Expected goals (xG)",
+      "Accurate passes",
+      "Touches",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Duels"
+     ],
+     "rows": [
+      {
+       "Player": "Nico",
+       "Position": "Midfielder",
+       "Rating": "7.8",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "62/73 (85%)",
+       "Touches": "81",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "7"
+      },
+      {
+       "Player": "Barnes H.",
+       "Position": "Winger",
+       "Rating": "7.4",
+       "Total shots": "3",
+       "Expected goals (xG)": "0.35",
+       "Accurate passes": "21/28 (75%)",
+       "Touches": "42",
+       "Touches in opposition box": "6",
+       "Successful dribbles": "0/2 (0%)",
+       "Duels": "5"
+      },
+      {
+       "Player": "Botman S.",
+       "Position": "Centre back",
+       "Rating": "7.4",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.04",
+       "Accurate passes": "70/78 (90%)",
+       "Touches": "92",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "14"
+      },
+      {
+       "Player": "Toure B.",
+       "Position": "Midfielder",
+       "Rating": "6.8",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.09",
+       "Accurate passes": "12/17 (71%)",
+       "Touches": "26",
+       "Touches in opposition box": "4",
+       "Successful dribbles": "0/1 (0%)",
+       "Duels": "3"
+      },
+      {
+       "Player": "Thiaw M.",
+       "Position": "Centre back",
+       "Rating": "6.7",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "66/76 (87%)",
+       "Touches": "88",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "5"
+      },
+      {
+       "Player": "Dedic A.",
+       "Position": "Defender",
+       "Rating": "6.6",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.02",
+       "Accurate passes": "16/19 (84%)",
+       "Touches": "29",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "2"
+      },
+      {
+       "Player": "Hall L.",
+       "Position": "Fullback",
+       "Rating": "6.6",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.02",
+       "Accurate passes": "63/70 (90%)",
+       "Touches": "99",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Duels": "5"
+      },
+      {
+       "Player": "Miley L.",
+       "Position": "Fullback",
+       "Rating": "6.6",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "37/41 (90%)",
+       "Touches": "50",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "3"
+      },
+      {
+       "Player": "Murphy J.",
+       "Position": "Winger",
+       "Rating": "6.6",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.26",
+       "Accurate passes": "13/14 (93%)",
+       "Touches": "29",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "1/3 (33%)",
+       "Duels": "6"
+      },
+      {
+       "Player": "Willock J.",
+       "Position": "Midfielder",
+       "Rating": "6.6",
+       "Total shots": "5",
+       "Expected goals (xG)": "0.31",
+       "Accurate passes": "24/25 (96%)",
+       "Touches": "38",
+       "Touches in opposition box": "6",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "7"
+      },
+      {
+       "Player": "Osula W.",
+       "Position": "Forward",
+       "Rating": "6.5",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.12",
+       "Accurate passes": "3/3 (100%)",
+       "Touches": "5",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "-"
+      },
+      {
+       "Player": "Fernandez-Pardo M.",
+       "Position": "Striker",
+       "Rating": "6.2",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.49",
+       "Accurate passes": "19/25 (76%)",
+       "Touches": "41",
+       "Touches in opposition box": "10",
+       "Successful dribbles": "2/2 (100%)",
+       "Duels": "7"
+      },
+      {
+       "Player": "Wissa Y.",
+       "Position": "Attacking midfielder",
+       "Rating": "6.1",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.15",
+       "Accurate passes": "21/26 (81%)",
+       "Touches": "37",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "8"
+      },
+      {
+       "Player": "Joelinton",
+       "Position": "Midfielder",
+       "Rating": "6.0",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "19/23 (83%)",
+       "Touches": "28",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "2/2 (100%)",
+       "Duels": "6"
+      },
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Rating": "4.8",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "25/27 (93%)",
+       "Touches": "37",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "1"
+      },
+      {
+       "Player": "Burn D.",
+       "Position": "Defender",
+       "Rating": "-",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "1/3 (33%)",
+       "Touches": "3",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Duels": "2"
+      }
+     ]
+    },
+    "Shots": {
+     "headers": [
+      "Player",
+      "Position",
+      "Total shots",
+      "Goals",
+      "Expected goals (xG)",
+      "xG on target (xGOT)",
+      "Shots on target",
+      "Shots off target",
+      "Blocked shots",
+      "Shots inside the box",
+      "Shots outside the box",
+      "Headed shots"
+     ],
+     "rows": [
+      {
+       "Player": "Willock J.",
+       "Position": "Midfielder",
+       "Total shots": "5",
+       "Goals": "-",
+       "Expected goals (xG)": "0.31",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "2",
+       "Blocked shots": "3",
+       "Shots inside the box": "4",
+       "Shots outside the box": "1",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Barnes H.",
+       "Position": "Winger",
+       "Total shots": "3",
+       "Goals": "-",
+       "Expected goals (xG)": "0.35",
+       "xG on target (xGOT)": "0.06",
+       "Shots on target": "1",
+       "Shots off target": "1",
+       "Blocked shots": "1",
+       "Shots inside the box": "2",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Murphy J.",
+       "Position": "Winger",
+       "Total shots": "2",
+       "Goals": "-",
+       "Expected goals (xG)": "0.26",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "2",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Toure B.",
+       "Position": "Midfielder",
+       "Total shots": "2",
+       "Goals": "-",
+       "Expected goals (xG)": "0.09",
+       "xG on target (xGOT)": "0.07",
+       "Shots on target": "1",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Wissa Y.",
+       "Position": "Attacking midfielder",
+       "Total shots": "2",
+       "Goals": "-",
+       "Expected goals (xG)": "0.15",
+       "xG on target (xGOT)": "0.06",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "1",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Botman S.",
+       "Position": "Centre back",
+       "Total shots": "1",
+       "Goals": "1",
+       "Expected goals (xG)": "0.04",
+       "xG on target (xGOT)": "0.23",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Dedic A.",
+       "Position": "Defender",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.02",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Fernandez-Pardo M.",
+       "Position": "Striker",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.49",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Hall L.",
+       "Position": "Fullback",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.02",
+       "xG on target (xGOT)": "0.01",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Osula W.",
+       "Position": "Forward",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.12",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Burn D.",
+       "Position": "Defender",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Joelinton",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Miley L.",
+       "Position": "Fullback",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Nico",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Thiaw M.",
+       "Position": "Centre back",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      }
+     ]
+    },
+    "Attack": {
+     "headers": [
+      "Player",
+      "Position",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Big chances missed",
+      "Touches",
+      "Fouls suffered",
+      "Offsides"
+     ],
+     "rows": [
+      {
+       "Player": "Fernandez-Pardo M.",
+       "Position": "Striker",
+       "Touches in opposition box": "10",
+       "Successful dribbles": "2/2 (100%)",
+       "Big chances missed": "2",
+       "Touches": "41",
+       "Fouls suffered": "-",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Barnes H.",
+       "Position": "Winger",
+       "Touches in opposition box": "6",
+       "Successful dribbles": "0/2 (0%)",
+       "Big chances missed": "-",
+       "Touches": "42",
+       "Fouls suffered": "1",
+       "Offsides": "2"
+      },
+      {
+       "Player": "Willock J.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "6",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "-",
+       "Touches": "38",
+       "Fouls suffered": "-",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Toure B.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "4",
+       "Successful dribbles": "0/1 (0%)",
+       "Big chances missed": "-",
+       "Touches": "26",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Murphy J.",
+       "Position": "Winger",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "1/3 (33%)",
+       "Big chances missed": "1",
+       "Touches": "29",
+       "Fouls suffered": "1",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Burn D.",
+       "Position": "Defender",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "3",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Hall L.",
+       "Position": "Fullback",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "99",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Wissa Y.",
+       "Position": "Attacking midfielder",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "-",
+       "Touches": "37",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Botman S.",
+       "Position": "Centre back",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "92",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Joelinton",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "2/2 (100%)",
+       "Big chances missed": "-",
+       "Touches": "28",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Osula W.",
+       "Position": "Forward",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "5",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Dedic A.",
+       "Position": "Defender",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "29",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "37",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Miley L.",
+       "Position": "Fullback",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "50",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Nico",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "81",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Thiaw M.",
+       "Position": "Centre back",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "88",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      }
+     ]
+    },
+    "Passes": {
+     "headers": [
+      "Player",
+      "Position",
+      "Accurate passes",
+      "Big chances created",
+      "Key passes",
+      "Assists",
+      "Expected assists (xA)",
+      "Accurate passes in final third",
+      "Accurate long passes",
+      "Accurate crosses"
+     ],
+     "rows": [
+      {
+       "Player": "Botman S.",
+       "Position": "Centre back",
+       "Accurate passes": "70/78 (90%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "8/10 (80%)",
+       "Accurate long passes": "4/6 (67%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Thiaw M.",
+       "Position": "Centre back",
+       "Accurate passes": "66/76 (87%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "8/12 (67%)",
+       "Accurate long passes": "6/10 (60%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Hall L.",
+       "Position": "Fullback",
+       "Accurate passes": "63/70 (90%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.04",
+       "Accurate passes in final third": "20/21 (95%)",
+       "Accurate long passes": "3/5 (60%)",
+       "Accurate crosses": "0/4 (0%)"
+      },
+      {
+       "Player": "Nico",
+       "Position": "Midfielder",
+       "Accurate passes": "62/73 (85%)",
+       "Big chances created": "1",
+       "Key passes": "6",
+       "Assists": "1",
+       "Expected assists (xA)": "0.22",
+       "Accurate passes in final third": "15/22 (68%)",
+       "Accurate long passes": "4/8 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Miley L.",
+       "Position": "Fullback",
+       "Accurate passes": "37/41 (90%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "7/8 (88%)",
+       "Accurate long passes": "1/2 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Accurate passes": "25/27 (93%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/1 (0%)",
+       "Accurate long passes": "2/4 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Willock J.",
+       "Position": "Midfielder",
+       "Accurate passes": "24/25 (96%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.06",
+       "Accurate passes in final third": "9/10 (90%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "0/1 (0%)"
+      },
+      {
+       "Player": "Wissa Y.",
+       "Position": "Attacking midfielder",
+       "Accurate passes": "21/26 (81%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "6/9 (67%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Barnes H.",
+       "Position": "Winger",
+       "Accurate passes": "21/28 (75%)",
+       "Big chances created": "1",
+       "Key passes": "4",
+       "Assists": "-",
+       "Expected assists (xA)": "0.35",
+       "Accurate passes in final third": "12/15 (80%)",
+       "Accurate long passes": "0/1 (0%)",
+       "Accurate crosses": "1/4 (25%)"
+      },
+      {
+       "Player": "Joelinton",
+       "Position": "Midfielder",
+       "Accurate passes": "19/23 (83%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "3/4 (75%)",
+       "Accurate long passes": "1/1 (100%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Fernandez-Pardo M.",
+       "Position": "Striker",
+       "Accurate passes": "19/25 (76%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.21",
+       "Accurate passes in final third": "9/14 (64%)",
+       "Accurate long passes": "1/1 (100%)",
+       "Accurate crosses": "1/2 (50%)"
+      },
+      {
+       "Player": "Dedic A.",
+       "Position": "Defender",
+       "Accurate passes": "16/19 (84%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "5/7 (71%)",
+       "Accurate long passes": "0/1 (0%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Murphy J.",
+       "Position": "Winger",
+       "Accurate passes": "13/14 (93%)",
+       "Big chances created": "1",
+       "Key passes": "3",
+       "Assists": "-",
+       "Expected assists (xA)": "0.15",
+       "Accurate passes in final third": "7/7 (100%)",
+       "Accurate long passes": "2/3 (67%)",
+       "Accurate crosses": "1/4 (25%)"
+      },
+      {
+       "Player": "Toure B.",
+       "Position": "Midfielder",
+       "Accurate passes": "12/17 (71%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.07",
+       "Accurate passes in final third": "8/13 (62%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "0/2 (0%)"
+      },
+      {
+       "Player": "Osula W.",
+       "Position": "Forward",
+       "Accurate passes": "3/3 (100%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "-",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Burn D.",
+       "Position": "Defender",
+       "Accurate passes": "1/3 (33%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/2 (0%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      }
+     ]
+    },
+    "Defense": {
+     "headers": [
+      "Player",
+      "Position",
+      "Duels won",
+      "Aerial duels won",
+      "Ground duels won",
+      "Tackles won",
+      "Fouls committed",
+      "Interceptions",
+      "Clearances",
+      "Errors leading to goal",
+      "Errors leading to shot"
+     ],
+     "rows": [
+      {
+       "Player": "Botman S.",
+       "Position": "Centre back",
+       "Duels won": "11/14 (79%)",
+       "Aerial duels won": "10/12 (83%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "0/1 (0%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "8",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "1"
+      },
+      {
+       "Player": "Joelinton",
+       "Position": "Midfielder",
+       "Duels won": "4/6 (67%)",
+       "Aerial duels won": "1/2 (50%)",
+       "Ground duels won": "3/4 (75%)",
+       "Tackles won": "0/1 (0%)",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "1",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Nico",
+       "Position": "Midfielder",
+       "Duels won": "4/7 (57%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "4/7 (57%)",
+       "Tackles won": "3/4 (75%)",
+       "Fouls committed": "2",
+       "Interceptions": "1",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Wissa Y.",
+       "Position": "Attacking midfielder",
+       "Duels won": "4/8 (50%)",
+       "Aerial duels won": "3/3 (100%)",
+       "Ground duels won": "1/5 (20%)",
+       "Tackles won": "-",
+       "Fouls committed": "2",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Miley L.",
+       "Position": "Fullback",
+       "Duels won": "3/3 (100%)",
+       "Aerial duels won": "1/1 (100%)",
+       "Ground duels won": "2/2 (100%)",
+       "Tackles won": "2/2 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Barnes H.",
+       "Position": "Winger",
+       "Duels won": "3/5 (60%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "3/5 (60%)",
+       "Tackles won": "0/2 (0%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Burn D.",
+       "Position": "Defender",
+       "Duels won": "2/2 (100%)",
+       "Aerial duels won": "2/2 (100%)",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Toure B.",
+       "Position": "Midfielder",
+       "Duels won": "2/3 (67%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "2/3 (67%)",
+       "Tackles won": "2/2 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Hall L.",
+       "Position": "Fullback",
+       "Duels won": "2/5 (40%)",
+       "Aerial duels won": "0/2 (0%)",
+       "Ground duels won": "2/3 (67%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "2",
+       "Clearances": "3",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Thiaw M.",
+       "Position": "Centre back",
+       "Duels won": "2/5 (40%)",
+       "Aerial duels won": "2/4 (50%)",
+       "Ground duels won": "0/1 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "7",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Murphy J.",
+       "Position": "Winger",
+       "Duels won": "2/6 (33%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "2/6 (33%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Fernandez-Pardo M.",
+       "Position": "Striker",
+       "Duels won": "2/7 (29%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "2/6 (33%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Willock J.",
+       "Position": "Midfielder",
+       "Duels won": "2/7 (29%)",
+       "Aerial duels won": "0/2 (0%)",
+       "Ground duels won": "2/5 (40%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "2",
+       "Interceptions": "1",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Dedic A.",
+       "Position": "Defender",
+       "Duels won": "1/2 (50%)",
+       "Aerial duels won": "1/2 (50%)",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "2",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Duels won": "0/1 (0%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "0/1 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Osula W.",
+       "Position": "Forward",
+       "Duels won": "-",
+       "Aerial duels won": "-",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      }
+     ]
+    },
+    "Goalkeeping": {
+     "headers": [
+      "Player",
+      "Position",
+      "Goalkeeper saves",
+      "Goals conceded",
+      "Goals prevented",
+      "xGOT faced",
+      "Punches",
+      "Throws",
+      "Act as sweeper"
+     ],
+     "rows": [
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Goalkeeper saves": "2",
+       "Goals conceded": "4",
+       "Goals prevented": "-1.38",
+       "xGOT faced": "2.62",
+       "Punches": "-",
+       "Throws": "6",
+       "Act as sweeper": "1"
+      }
+     ]
+    },
+    "General": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Minutes played",
+      "Goals",
+      "Own goals",
+      "Assists",
+      "Yellow cards",
+      "Red cards"
+     ],
+     "rows": [
+      {
+       "Player": "Nico",
+       "Position": "Midfielder",
+       "Rating": "7.8",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "1",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Barnes H.",
+       "Position": "Winger",
+       "Rating": "7.4",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Botman S.",
+       "Position": "Centre back",
+       "Rating": "7.4",
+       "Minutes played": "90",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Toure B.",
+       "Position": "Midfielder",
+       "Rating": "6.8",
+       "Minutes played": "30",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Thiaw M.",
+       "Position": "Centre back",
+       "Rating": "6.7",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Dedic A.",
+       "Position": "Defender",
+       "Rating": "6.6",
+       "Minutes played": "31",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Hall L.",
+       "Position": "Fullback",
+       "Rating": "6.6",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Miley L.",
+       "Position": "Fullback",
+       "Rating": "6.6",
+       "Minutes played": "59",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Murphy J.",
+       "Position": "Winger",
+       "Rating": "6.6",
+       "Minutes played": "59",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Willock J.",
+       "Position": "Midfielder",
+       "Rating": "6.6",
+       "Minutes played": "59",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Osula W.",
+       "Position": "Forward",
+       "Rating": "6.5",
+       "Minutes played": "12",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Fernandez-Pardo M.",
+       "Position": "Striker",
+       "Rating": "6.2",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Wissa Y.",
+       "Position": "Attacking midfielder",
+       "Rating": "6.1",
+       "Minutes played": "78",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Joelinton",
+       "Position": "Midfielder",
+       "Rating": "6.0",
+       "Minutes played": "31",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "1",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Hornicek L.",
+       "Position": "Goalkeeper",
+       "Rating": "4.8",
+       "Minutes played": "90",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Burn D.",
+       "Position": "Defender",
+       "Rating": "-",
+       "Minutes played": "1",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "summary": {
+  "events": [
+   {
+    "minute": "6'",
+    "half": "1st half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Penalty goal",
+    "player": "Rudoni J.",
+    "detail": "",
+    "score": "1 - 0"
+   },
+   {
+    "minute": "48'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Goal",
+    "player": "Cherif S.",
+    "detail": "",
+    "score": "2 - 0"
+   },
+   {
+    "minute": "59'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Substitution",
+    "player": "Dedic A.",
+    "detail": "Out: Miley L.",
+    "score": ""
+   },
+   {
+    "minute": "59'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Substitution",
+    "player": "Toure B.",
+    "detail": "Out: Murphy J.",
+    "score": ""
+   },
+   {
+    "minute": "59'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Substitution",
+    "player": "Joelinton",
+    "detail": "Out: Willock J.",
+    "score": ""
+   },
+   {
+    "minute": "61'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Substitution",
+    "player": "Sakamoto T.",
+    "detail": "Out: Mason-Clark E.",
+    "score": ""
+   },
+   {
+    "minute": "66'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Yellow card",
+    "player": "van Ewijk M.",
+    "detail": "Delay of game",
+    "score": ""
+   },
+   {
+    "minute": "70'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Goal",
+    "player": "Botman S.",
+    "detail": "Nico",
+    "score": "2 - 1"
+   },
+   {
+    "minute": "78'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Substitution",
+    "player": "Onyeka F.",
+    "detail": "Out: Yirenkyi C.",
+    "score": ""
+   },
+   {
+    "minute": "78'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Substitution",
+    "player": "Simms E.",
+    "detail": "Out: Cherif S.",
+    "score": ""
+   },
+   {
+    "minute": "78'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Substitution",
+    "player": "Osula W.",
+    "detail": "Out: Wissa Y.",
+    "score": ""
+   },
+   {
+    "minute": "81'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Goal",
+    "player": "Simms E.",
+    "detail": "Thomas-Asante B.",
+    "score": "3 - 1"
+   },
+   {
+    "minute": "81'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Yellow card",
+    "player": "Joelinton",
+    "detail": "Foul",
+    "score": ""
+   },
+   {
+    "minute": "83'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Substitution",
+    "player": "Torp V.",
+    "detail": "Out: Rudoni J.",
+    "score": ""
+   },
+   {
+    "minute": "83'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Substitution",
+    "player": "Mfuni S.",
+    "detail": "Out: Grimes M.",
+    "score": ""
+   },
+   {
+    "minute": "86'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Coventry",
+    "type": "Goal",
+    "player": "Mfuni S.",
+    "detail": "Dasilva J.",
+    "score": "4 - 1"
+   },
+   {
+    "minute": "90'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Newcastle",
+    "type": "Substitution",
+    "player": "Burn D.",
+    "detail": "Out: Toure B.",
+    "score": ""
+   }
+  ],
+  "homeLogo": "data:image/png;base64,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",
+  "awayLogo": "data:image/png;base64,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",
+  "finalScore": {
+   "h": 4,
+   "a": 1
+  }
+ },
+ "lineups": {
+  "formation": {
+   "players": [
+    {
+     "num": "19",
+     "name": "Rushworth C.",
+     "ok": true,
+     "side": "home",
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "num": "27",
+     "name": "van Ewijk M.",
+     "ok": true,
+     "side": "home",
+     "x": 0.195,
+     "y": 0.1825
+    },
+    {
+     "num": "4",
+     "name": "Thomas B.",
+     "ok": true,
+     "side": "home",
+     "x": 0.398,
+     "y": 0.1825
+    },
+    {
+     "num": "2",
+     "name": "Pinnock E.",
+     "ok": true,
+     "side": "home",
+     "x": 0.602,
+     "y": 0.1825
+    },
+    {
+     "num": "3",
+     "name": "Dasilva J.",
+     "ok": true,
+     "side": "home",
+     "x": 0.805,
+     "y": 0.1825
+    },
+    {
+     "num": "8",
+     "name": "Yirenkyi C.",
+     "ok": true,
+     "side": "home",
+     "x": 0.33,
+     "y": 0.265
+    },
+    {
+     "num": "6",
+     "name": "Grimes M.",
+     "ok": true,
+     "side": "home",
+     "x": 0.67,
+     "y": 0.265
+    },
+    {
+     "num": "23",
+     "name": "Thomas-Asante B.",
+     "ok": true,
+     "side": "home",
+     "x": 0.246,
+     "y": 0.3475
+    },
+    {
+     "num": "5",
+     "name": "Rudoni J.",
+     "ok": true,
+     "side": "home",
+     "x": 0.5,
+     "y": 0.3475
+    },
+    {
+     "num": "10",
+     "name": "Mason-Clark E.",
+     "ok": true,
+     "side": "home",
+     "x": 0.754,
+     "y": 0.3475
+    },
+    {
+     "num": "49",
+     "name": "Cherif S.",
+     "ok": true,
+     "side": "home",
+     "x": 0.5,
+     "y": 0.43
+    },
+    {
+     "num": "21",
+     "name": "Hornicek L.",
+     "ok": true,
+     "side": "away",
+     "x": 0.5,
+     "y": 0.9
+    },
+    {
+     "num": "3",
+     "name": "Hall L.",
+     "ok": true,
+     "side": "away",
+     "x": 0.195,
+     "y": 0.8175
+    },
+    {
+     "num": "4",
+     "name": "Botman S.",
+     "ok": true,
+     "side": "away",
+     "x": 0.398,
+     "y": 0.8175
+    },
+    {
+     "num": "12",
+     "name": "Thiaw M.",
+     "ok": true,
+     "side": "away",
+     "x": 0.602,
+     "y": 0.8175
+    },
+    {
+     "num": "67",
+     "name": "Miley L.",
+     "ok": true,
+     "side": "away",
+     "x": 0.805,
+     "y": 0.8175
+    },
+    {
+     "num": "28",
+     "name": "Willock J.",
+     "ok": true,
+     "side": "away",
+     "x": 0.33,
+     "y": 0.735
+    },
+    {
+     "num": "6",
+     "name": "Nico",
+     "ok": true,
+     "side": "away",
+     "x": 0.67,
+     "y": 0.735
+    },
+    {
+     "num": "11",
+     "name": "Barnes H.",
+     "ok": true,
+     "side": "away",
+     "x": 0.246,
+     "y": 0.6525
+    },
+    {
+     "num": "9",
+     "name": "Wissa Y.",
+     "ok": true,
+     "side": "away",
+     "x": 0.5,
+     "y": 0.6525
+    },
+    {
+     "num": "23",
+     "name": "Murphy J.",
+     "ok": true,
+     "side": "away",
+     "x": 0.754,
+     "y": 0.6525
+    },
+    {
+     "num": "20",
+     "name": "Fernandez-Pardo M.",
+     "ok": true,
+     "side": "away",
+     "x": 0.5,
+     "y": 0.57
+    }
+   ],
+   "w": 100,
+   "h": 176
+  },
+  "starting_xi": [
+   {
+    "homeNum": "19",
+    "awayNum": "21",
+    "home": {
+     "name": "Rushworth C.",
+     "ok": true
+    },
+    "away": {
+     "name": "Hornicek L.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "27",
+    "awayNum": "67",
+    "home": {
+     "name": "van Ewijk M.",
+     "ok": true
+    },
+    "away": {
+     "name": "Miley L.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "4",
+    "awayNum": "12",
+    "home": {
+     "name": "Thomas B.",
+     "ok": true
+    },
+    "away": {
+     "name": "Thiaw M.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "2",
+    "awayNum": "4",
+    "home": {
+     "name": "Pinnock E.",
+     "ok": true
+    },
+    "away": {
+     "name": "Botman S.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "3",
+    "awayNum": "3",
+    "home": {
+     "name": "Dasilva J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Hall L.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "8",
+    "awayNum": "6",
+    "home": {
+     "name": "Yirenkyi C.",
+     "ok": true
+    },
+    "away": {
+     "name": "Nico",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "6",
+    "awayNum": "28",
+    "home": {
+     "name": "Grimes M.",
+     "ok": true
+    },
+    "away": {
+     "name": "Willock J.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "23",
+    "awayNum": "23",
+    "home": {
+     "name": "Thomas-Asante B.",
+     "ok": true
+    },
+    "away": {
+     "name": "Murphy J.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "5",
+    "awayNum": "9",
+    "home": {
+     "name": "Rudoni J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Wissa Y.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "10",
+    "awayNum": "11",
+    "home": {
+     "name": "Mason-Clark E.",
+     "ok": true
+    },
+    "away": {
+     "name": "Barnes H.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "49",
+    "awayNum": "20",
+    "home": {
+     "name": "Cherif S.",
+     "ok": true
+    },
+    "away": {
+     "name": "Fernandez-Pardo M.",
+     "ok": true
+    }
+   }
+  ],
+  "substituted": {
+   "home": [
+    {
+     "on": "Sakamoto T.",
+     "off": "Mason-Clark E.",
+     "min": "61"
+    },
+    {
+     "on": "Onyeka F.",
+     "off": "Yirenkyi C.",
+     "min": "78"
+    },
+    {
+     "on": "Simms E.",
+     "off": "Cherif S.",
+     "min": "78"
+    },
+    {
+     "on": "Torp V.",
+     "off": "Rudoni J.",
+     "min": "83"
+    },
+    {
+     "on": "Mfuni S.",
+     "off": "Grimes M.",
+     "min": "83"
+    }
+   ],
+   "away": [
+    {
+     "on": "Dedic A.",
+     "off": "Miley L.",
+     "min": "59"
+    },
+    {
+     "on": "Toure B.",
+     "off": "Murphy J.",
+     "min": "59"
+    },
+    {
+     "on": "Joelinton",
+     "off": "Willock J.",
+     "min": "59"
+    },
+    {
+     "on": "Osula W.",
+     "off": "Wissa Y.",
+     "min": "78"
+    },
+    {
+     "on": "Burn D.",
+     "off": "Toure B.",
+     "min": "90"
+    }
+   ]
+  },
+  "substitutes": [
+   {
+    "homeNum": "25",
+    "awayNum": "8",
+    "home": {
+     "name": "Bentley D.",
+     "ok": true
+    },
+    "away": {
+     "name": "Bamba A.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "34",
+    "awayNum": "33",
+    "home": {
+     "name": "Gboho Y.",
+     "ok": true
+    },
+    "away": {
+     "name": "Burn D.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "38",
+    "awayNum": "37",
+    "home": {
+     "name": "Hamer G.",
+     "ok": true
+    },
+    "away": {
+     "name": "Dedic A.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "22",
+    "awayNum": "7",
+    "home": {
+     "name": "Latibeaudiere J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Joelinton",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "12",
+    "awayNum": "10",
+    "home": {
+     "name": "Mfuni S.",
+     "ok": true
+    },
+    "away": {
+     "name": "Osula W.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "16",
+    "awayNum": "1",
+    "home": {
+     "name": "Onyeka F.",
+     "ok": true
+    },
+    "away": {
+     "name": "Pope N.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "7",
+    "awayNum": "5",
+    "home": {
+     "name": "Sakamoto T.",
+     "ok": true
+    },
+    "away": {
+     "name": "Schar F.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "9",
+    "awayNum": "14",
+    "home": {
+     "name": "Simms E.",
+     "ok": true
+    },
+    "away": {
+     "name": "Steur S.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "29",
+    "awayNum": "17",
+    "home": {
+     "name": "Torp V.",
+     "ok": true
+    },
+    "away": {
+     "name": "Toure B.",
+     "ok": true
+    }
+   }
+  ],
+  "coaches": {
+   "home": {
+    "name": "Lampard F.",
+    "ok": true
+   },
+   "away": {
+    "name": "Jaissle M.",
+    "ok": true
+   }
+  }
+ },
+ "lineupImages": {
+  "formation": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "starting_xi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "substituted": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "substitutes": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "coaches": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+ },
+ "teamStats": {
+  "overall": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "1.47",
+     "away": "1.84",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "33%",
+     "away": "67%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "2",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "16",
+     "away": "38",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "9",
+     "away": "19",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "1.47",
+     "away": "1.84",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "2.62",
+     "away": "0.43",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "9",
+     "away": "19",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "6",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "0",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "3",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "6",
+     "away": "11",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "3",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "16",
+     "away": "38",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "1",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "2",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "10",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "2",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "264",
+     "away": "548",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "185",
+     "away": "472",
+     "homePct": "70%",
+     "awayPct": "86%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "67",
+     "away": "42",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "26",
+     "away": "24",
+     "homePct": "39%",
+     "awayPct": "57%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "120",
+     "away": "155",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "68",
+     "away": "117",
+     "homePct": "57%",
+     "awayPct": "75%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "9",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "2",
+     "away": "3",
+     "homePct": "22%",
+     "awayPct": "18%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.24",
+     "away": "1.20",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "4",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "10",
+     "away": "21",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "3",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "37",
+     "away": "44",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "13",
+     "away": "14",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "8",
+     "away": "9",
+     "homePct": "62%",
+     "awayPct": "64%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "8",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "32",
+     "away": "24",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "2",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "4",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.43",
+     "away": "2.62",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "1",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "-0.57",
+     "away": "-1.38",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "10",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "firstHalf": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "0.86",
+     "away": "1.17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "34%",
+     "away": "66%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "1",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "5",
+     "away": "16",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "2",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "0.86",
+     "away": "1.17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "0.88",
+     "away": "0.06",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "2",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "2",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "0",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "0",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "2",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "0",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "5",
+     "away": "16",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "0",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "0",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "7",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "2",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "143",
+     "away": "280",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "106",
+     "away": "240",
+     "homePct": "74%",
+     "awayPct": "86%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "30",
+     "away": "28",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "13",
+     "away": "16",
+     "homePct": "43%",
+     "awayPct": "57%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "68",
+     "away": "64",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "41",
+     "away": "48",
+     "homePct": "60%",
+     "awayPct": "75%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "6",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "1",
+     "away": "2",
+     "homePct": "17%",
+     "awayPct": "25%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.08",
+     "away": "0.79",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "1",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "5",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "3",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "18",
+     "away": "27",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "7",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "3",
+     "away": "5",
+     "homePct": "43%",
+     "awayPct": "56%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "2",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "15",
+     "away": "14",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "1",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.06",
+     "away": "0.88",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "0.06",
+     "away": "-0.12",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "4",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "secondHalf": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "0.62",
+     "away": "0.66",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "31%",
+     "away": "69%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "11",
+     "away": "22",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "7",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "0.62",
+     "away": "0.66",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "1.74",
+     "away": "0.37",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "7",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "4",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "0",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "3",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "4",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "3",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "11",
+     "away": "22",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "2",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "3",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "121",
+     "away": "268",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "79",
+     "away": "232",
+     "homePct": "65%",
+     "awayPct": "87%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "37",
+     "away": "14",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "13",
+     "away": "8",
+     "homePct": "35%",
+     "awayPct": "57%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "52",
+     "away": "91",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "27",
+     "away": "69",
+     "homePct": "52%",
+     "awayPct": "76%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "3",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "1",
+     "away": "1",
+     "homePct": "33%",
+     "awayPct": "11%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.16",
+     "away": "0.41",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "3",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "5",
+     "away": "11",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "0",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "19",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "6",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "5",
+     "away": "4",
+     "homePct": "83%",
+     "awayPct": "80%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "6",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "17",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "1",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "3",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.37",
+     "away": "1.74",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "1",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "-0.63",
+     "away": "-1.26",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "6",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "possessionReliable": true
+ },
+ "meta": {
+  "competition": "Premier League - Round 6",
+  "country": "England",
+  "kickoff": "13.10.2026 02:00",
+  "referee": "Brooks J. (Eng)",
+  "venue": "Coventry Building Society Arena (Coventry)"
+ },
+ "warnings": []
+}

@@ -14,7 +14,7 @@ import html_guard  # noqa: E402
 def main() -> int:
     html_guard.utf8_stdout()
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--baseline", help="git revision của baseline (mặc định: root commit)")
+    ap.add_argument("--baseline", help="git revision của baseline (mặc định: tag redesign-baseline)")
     args = ap.parse_args()
     base = html_guard.load_baseline(args.baseline)
     cur = html_guard.load_current()

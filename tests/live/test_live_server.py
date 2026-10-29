@@ -32,6 +32,8 @@ class LiveServerTest(unittest.TestCase):
             self.assertEqual(len(result["summary"]["events"]), 21)
             self.assertEqual(len(result["lineups"]["formation"]["players"]), 22)
             self.assertEqual(result["warnings"], [])
+            self.assertFalse(result["teamStats"]["possessionReliable"])     # giải này: possession 50/50 giả
+            self.assertEqual(result["meta"]["competition"], "ASEAN Club Championship")
             self.assertGreaterEqual(len(seen_steps), 3)            # tiến độ được cập nhật trong lúc chạy
 
 

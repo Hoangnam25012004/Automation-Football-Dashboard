@@ -14,7 +14,6 @@ from tests import _support
 from tests.e2e import demo_views
 
 URL = "https://www.flashscore.com/match/football/johor-dt-AVV6BGlb/svay-rieng-IHTx6E4O/?mid=vLuGlk0n"
-MATCH_STORY = '<div class="section-title" style="margin-top:28px">Match story</div>'
 FM_PLAYER = "#lc-formation .fm-player"     # điểm neo kích thước 0 (xem CSS) ⇒ chờ "attached", không phải "visible"
 
 
@@ -44,9 +43,9 @@ class Runner:
 
 
 def timeline_marker_count(events: list[dict]) -> int:
-    """Cùng cách nhóm marker như overallTimeline() của Render (side + minute + loại)."""
+    """Cùng cách nhóm marker như Views.timeline() (side + minute + loại)."""
     def cat(t):
-        for pattern, name in ((r"own goal", "og"), (r"goal", "goal"), (r"second yellow", "yr"), (r"red", "red"),
+        for pattern, name in ((r"own goal", "og"), (r"penalty missed", "pm"), (r"goal", "goal"), (r"second yellow", "yr"), (r"red", "red"),
                               (r"yellow", "yel"), (r"sub", "sub"), (r"var", "var")):
             if re.search(pattern, t, re.I):
                 return name
@@ -103,12 +102,11 @@ class UrlFlowTest(unittest.TestCase):
             self.generate(page, base)
             page.wait_for_selector("#dashboard.active", timeout=30000)
             views = demo_views.capture_views(page)
+        # Mọi view trừ Line-ups (tab 'overall') giống hệt demo: luồng URL không có ảnh line-up ở đây.
         others = [k for k in golden if k != "all/overall"]
         self.assertEqual(demo_views.diff_views(golden, views, only=others), [])
         g, v = golden["all/overall"], views["all/overall"]
-        prefix = g["html"].split(MATCH_STORY)[0]
-        self.assertTrue(v["html"].startswith(prefix), "phần head-to-head/timeline của Overall khác golden")
-        self.assertIn("Line-ups are not available for this match.", v["html"][len(prefix):])
+        self.assertIn("Line-ups are not available for this match.", v["html"])
         for field in ("scorebar", "charts", "tabNav", "footMatch", "buttons", "toggleDisplay"):
             self.assertEqual(v[field], g[field], field)
         self.assertEqual(log.errors, [])
@@ -120,12 +118,15 @@ class UrlFlowTest(unittest.TestCase):
             page, log, requests = self.new_page()
             self.generate(page, base)
             page.wait_for_selector("#dashboard.active", timeout=30000)
-            page.wait_for_selector(FM_PLAYER, state="attached")
+            self.assertEqual(page.evaluate("state.currentTab"), "summary")
             score = page.inner_text("#scorebar .score-line").replace("\n", "")
             self.assertEqual(re.sub(r"\s+", "", score), "6–0")
             self.assertEqual(page.locator("#scorebar img.team-logo").count(), 2)
             self.assertEqual(page.locator("#scorebar .sc-side.home .sc-goal").count(), 6)
             self.assertEqual(page.locator(".tl-ev").count(), timeline_marker_count(result["summary"]["events"]))
+            # tab Line-ups (id nội bộ 'overall'): dữ liệu có cấu trúc, không OCR
+            page.evaluate("App.setTab('overall')")
+            page.wait_for_selector(FM_PLAYER, state="attached")
             self.assertEqual(page.locator("#lc-formation .fm-player").count(), 22)
             rated = page.locator("#lc-formation .fm-player .rating-badge").count()
             self.assertEqual(rated, 22, "mọi cầu thủ trên sơ đồ phải tra được rating theo tên")
@@ -135,10 +136,11 @@ class UrlFlowTest(unittest.TestCase):
             self.assertEqual(page.locator("#tc-overall .unverified").count(), 0)
             self.assertFalse(any("tesseract" in u for u in requests), "luồng URL không được tải OCR")
             self.assertEqual(page.evaluate("state.lineupText.starting_xi.length"), 11)
-            # chuyển tab rồi quay lại Overall: Match story vẽ lại từ cache, không lỗi
-            page.evaluate("App.setTab('shots')")
+            self.assertEqual(page.locator("#lu-subs .sub-item").count(), 10)
+            # chuyển tab rồi quay lại Line-ups: vẽ lại từ cache, không lỗi
+            page.evaluate("App.setTab('attack')")
             page.evaluate("App.setTeam('home')")
-            self.assertGreater(page.locator("#tbl-shots tbody tr").count(), 10)
+            self.assertEqual(page.locator("#tbl-shots tbody tr").count(), 16)
             page.evaluate("App.setTeam('all'); App.setTab('overall')")
             self.assertEqual(page.locator("#lc-formation .fm-player").count(), 22)
             self.assertEqual(log.errors, [])
@@ -148,13 +150,14 @@ class UrlFlowTest(unittest.TestCase):
         with _support.running_server(Runner(johor_result())) as base:
             page, log, _ = self.new_page()
             self.generate(page, base)
-            page.wait_for_selector(FM_PLAYER, state="attached", timeout=30000)
+            page.wait_for_selector("#dashboard.active", timeout=30000)
             with page.expect_download(timeout=240000) as dl:
                 page.click("#btnExport")
             target = _support.output_dir() / "url_flow_report.pdf"
             dl.value.save_as(target)
             self.assertTrue(target.read_bytes().startswith(b"%PDF"))
-            self.assertEqual(dl.value.suggested_filename, "MatchReport_Johor_DT_vs_Svay_Rieng.pdf")
+            self.assertEqual(dl.value.suggested_filename, "MatchReport_Johor_DT_Svay_Rieng_2026-10-08_full.pdf")
+            self.assertEqual(page.evaluate("state.currentTab"), "summary")      # tab đang xem được khôi phục
             self.assertEqual(log.errors, [])
 
     # ---- R-07 / R-19: New match rồi trận khác ----
@@ -162,15 +165,20 @@ class UrlFlowTest(unittest.TestCase):
         with _support.running_server(Runner(johor_result())) as base:
             page, log, _ = self.new_page()
             self.generate(page, base)
-            page.wait_for_selector(FM_PLAYER, state="attached", timeout=30000)
+            page.wait_for_selector("#dashboard.active", timeout=30000)
+            self.assertIsNotNone(page.evaluate("state.teamStats"))
             page.click("#btnReset")
             self.assertEqual(page.eval_on_selector("#uploadScreen", "e => e.style.display"), "flex")
             self.assertEqual(page.input_value("#flashUrl"), "")
             self.assertTrue(page.is_disabled("#btnGenerate"))
             self.assertIsNone(page.evaluate("state.lineupText"))
+            self.assertIsNone(page.evaluate("state.teamStats"))
+            self.assertIsNone(page.evaluate("state.meta"))
             page.click(".demo-link")                   # demo sau luồng URL: OCR path, không rò lineupText
             page.wait_for_selector("#dashboard.active")
             self.assertEqual(page.evaluate("state.data.home"), "KOR")
+            self.assertEqual(page.evaluate("state.currentTab"), "summary")
+            page.evaluate("App.setTab('overall')")
             self.assertEqual(page.locator("#tc-overall #lc-formation").count(), 1)
             self.assertEqual(log.errors, [])
 

@@ -1,7 +1,8 @@
 """Lưu fragment HTML từ trang thật làm fixture cho test offline (design doc §9.5).
 
   python tools/capture_fixtures.py <link trận>
-  → tests/fixtures/<mid>/header.html, timeline.html, lineups.html, stats_top_<MÃ>.html, result.json
+  → tests/fixtures/<mid>/header.html, timeline.html, meta.html, lineups.html, stats_top_<MÃ>.html,
+    team_stats_<overall|1st-half|2nd-half>.html, result.json
   python tools/capture_fixtures.py --timeline-only <link trận> [<link trận> …]
   → tests/fixtures/<mid>/header.html, timeline.html   (cho test các loại sự kiện hiếm)
 """
@@ -17,9 +18,11 @@ from playwright.sync_api import sync_playwright  # noqa: E402
 from crawler import browser as fsb  # noqa: E402
 from crawler import crawl  # noqa: E402
 from crawler.player_stats import _detect_teams, _select_team, _wait_for_team_table, JS_TABLE  # noqa: E402
+from crawler.team_stats import SCOPES  # noqa: E402
 from crawler.urls import parse_match_url  # noqa: E402
 
 OUTER = "s => { const e = document.querySelector(s); return e ? e.outerHTML : null; }"
+OUTER_ALL = "s => [...document.querySelectorAll(s)].map(e => e.outerHTML).join('')"
 
 
 def capture_timelines(urls: list[str]) -> int:
@@ -69,6 +72,18 @@ def main() -> int:
             page.wait_for_selector(".smv__verticalSections")
             (folder / "header.html").write_text(page.evaluate(OUTER, ".duelParticipant"), encoding="utf-8")
             (folder / "timeline.html").write_text(page.evaluate(OUTER, ".smv__verticalSections"), encoding="utf-8")
+            page.wait_for_selector('[data-testid="wcl-summaryMatchInformation"]', state="attached", timeout=10_000)
+            (folder / "meta.html").write_text(
+                "<div>" + page.evaluate(OUTER_ALL, '[data-testid="wcl-breadcrumbs"], [data-testid="wcl-summaryMatchInformation"]')
+                + "</div>", encoding="utf-8")
+
+            for slug, _ in SCOPES:
+                fsb.goto(page, ref.url(f"summary/stats/{slug}"))
+                page.wait_for_selector('[data-testid="wcl-statistics"]')
+                page.wait_for_timeout(1500)
+                (folder / f"team_stats_{slug}.html").write_text(
+                    "<div>" + page.evaluate(OUTER_ALL, 'a[aria-current="page"][href*="/summary/stats/"]')
+                    + page.evaluate(OUTER, ".section--teamStats") + "</div>", encoding="utf-8")
 
             fsb.goto(page, ref.url("summary/player-stats/top"))
             page.wait_for_selector('[data-testid="wcl-table"]')

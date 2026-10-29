@@ -1,21 +1,23 @@
-"""Chụp "golden snapshot" của dashboard (design doc §9.3).
+"""Chụp "golden snapshot" của dashboard (design doc dashboard-redesign §10.4, golden v2).
 
-Với mỗi chế độ đội × tab: innerHTML của tab (bỏ nội dung các ô Match story `#lc-*` vì OCR
-chạy bất đồng bộ), scorebar, tab nav, trạng thái nút, và dữ liệu mọi biểu đồ Chart.js.
+Với mỗi tab (và mỗi bộ lọc đội ở các tab có danh sách cầu thủ): innerHTML của tab (bỏ nội dung
+các ô line-up `#lc-*` / `#lu-subs` vì OCR chạy bất đồng bộ), match header, tab nav, trạng thái nút,
+và dữ liệu mọi biểu đồ Chart.js.
 """
 from __future__ import annotations
 
 import difflib
 
-TAB_IDS = ["overall", "shots", "attack", "passes", "defense", "goalkeeping"]
+TAB_IDS = ["summary", "team", "attack", "passing", "defending", "goalkeeping", "players", "overall"]
 TEAMS = ["all", "home", "away"]
+TEAM_FILTER_TABS = {"attack", "passing", "defending", "players"}
 
 CAPTURE_JS = r"""
 ([team, tab]) => {
   App.setTeam(team); App.setTab(tab);
   const el = document.getElementById('tc-' + tab);
   const clone = el.cloneNode(true);
-  clone.querySelectorAll('[id^="lc-"]').forEach(n => { n.innerHTML = ''; });
+  clone.querySelectorAll('[id^="lc-"], #lu-subs').forEach(n => { n.innerHTML = ''; });
   const plain = v => v == null ? null : JSON.parse(JSON.stringify(v));
   const charts = Object.keys(state.charts).sort().map(k => {
     const c = state.charts[k];
@@ -39,7 +41,7 @@ CAPTURE_JS = r"""
 
 
 def view_keys() -> list[tuple[str, str]]:
-    return [(team, tab) for team in TEAMS for tab in TAB_IDS if not (tab == "overall" and team != "all")]
+    return [(team, tab) for team in TEAMS for tab in TAB_IDS if team == "all" or tab in TEAM_FILTER_TABS]
 
 
 def open_dashboard_from_demo(page, url: str) -> None:

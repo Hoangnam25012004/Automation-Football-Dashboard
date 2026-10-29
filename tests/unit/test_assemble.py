@@ -45,7 +45,7 @@ class AssembleTest(unittest.TestCase):
         w = Warnings()
         r = assemble(REF, info(1, 0), stats_with("1", "-"), [goal("home")], 1, ("data:image/png;base64,AA", None), None, w)
         self.assertEqual(list(r), ["schemaVersion", "matchId", "sourceUrl", "fetchedAt", "stats", "summary",
-                                   "lineups", "lineupImages", "warnings"])
+                                   "lineups", "lineupImages", "teamStats", "meta", "warnings"])
         self.assertEqual(r["stats"]["matchTitle"], "Home FC  vs  Away FC")
         self.assertEqual(r["stats"]["matchDate"], "")
         self.assertEqual((r["stats"]["home"], r["stats"]["away"]), ("HOM", "AWA"))

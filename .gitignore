@@ -9,3 +9,11 @@ debug/
 
 # Test run artefacts (screenshots, downloaded PDFs, temp files)
 tests/output/
+
+# Bản cloud: dữ liệu chạy thử trên máy dev và bí mật triển khai
+data/
+deploy/.env
+
+# Tệp khoá/token do công cụ đăng nhập tạo ra — không bao giờ commit
+.lock
+*.token

@@ -36,15 +36,22 @@ class LiveUiTest(unittest.TestCase):
                     messages.add(page.inner_text("#loadingMsg"))
                     page.wait_for_timeout(500)
                 page.wait_for_selector("#dashboard.active", timeout=150000)
-                page.wait_for_selector("#lc-formation .fm-player", state="attached")
                 page.wait_for_timeout(800)                 # để biểu đồ vẽ xong trước khi chụp
-                page.screenshot(path=str(out / "live_overall.png"), full_page=True)
-
+                page.screenshot(path=str(out / "live_summary.png"), full_page=True)
                 self.assertTrue(any("Reading player stats" in m for m in messages), messages)
-                self.assertEqual(page.locator("#lc-formation .fm-player").count(), 22)
+                self.assertTrue(any("Reading team stats" in m for m in messages), messages)
                 self.assertEqual(page.locator("#scorebar .sc-goal").count(), 6)
+                self.assertIn("asean club championship", page.inner_text("#scorebar .mh-meta").lower())   # CSS in hoa
                 self.assertGreater(page.locator(".tl-ev").count(), 10)
-                page.evaluate("App.setTeam('home'); App.setTab('passes')")
+                self.assertGreaterEqual(page.locator("#tc-summary .insights li").count(), 4)
+                self.assertTrue(page.evaluate("Metrics.hasTeamStats() && Metrics.hasHalves()"))
+
+                page.evaluate("App.setTab('overall')")     # tab Line-ups
+                page.wait_for_selector("#lc-formation .fm-player", state="attached")
+                page.wait_for_timeout(500)
+                page.screenshot(path=str(out / "live_lineups.png"), full_page=True)
+                self.assertEqual(page.locator("#lc-formation .fm-player").count(), 22)
+                page.evaluate("App.setTeam('home'); App.setTab('passing')")
                 page.wait_for_timeout(600)
                 page.screenshot(path=str(out / "live_passes_home.png"), full_page=True)
                 self.assertEqual(page.locator("#tbl-passes tbody tr").count(), 16)

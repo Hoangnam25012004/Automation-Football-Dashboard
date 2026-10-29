@@ -70,6 +70,47 @@ def read_header(page) -> MatchInfo:
     return info
 
 
+# Metadata trang trí (design doc dashboard-redesign §3.3): breadcrumbs [môn, quốc gia, giải - vòng] và
+# khối thông tin trận (Referee / Venue / Capacity / Attendance). Thiếu ⇒ để rỗng, không cảnh báo.
+JS_META = r"""() => {
+  const clean = s => (s || '').replace(/\s+/g, ' ').trim();
+  const crumbs = [...document.querySelectorAll('[data-testid="wcl-breadcrumbs"] [data-testid="wcl-breadcrumbsItem"]')]
+    .map(li => clean(li.textContent)).filter(Boolean);
+  const info = [...document.querySelectorAll('[data-testid="wcl-summaryMatchInformation"]')]
+    .map(e => clean(e.innerText)).join(' ');
+  return { crumbs, info };
+}"""
+_INFO_LABELS = ("referee", "venue", "capacity", "attendance")
+
+
+def _info_field(info: str, label: str) -> str:
+    others = "|".join(_INFO_LABELS)
+    m = re.search(rf"\b{label}:\s*(.*?)\s*(?=\b(?:{others}):|$)", info, re.IGNORECASE)
+    return m.group(1).strip() if m else ""
+
+
+def parse_meta(raw: dict, kickoff: str = "") -> dict:
+    crumbs = [c for c in raw.get("crumbs", []) if c]
+    if crumbs and crumbs[0].lower() == "football":
+        crumbs = crumbs[1:]
+    info = raw.get("info", "")
+    return {
+        "competition": crumbs[-1] if crumbs else "",
+        "country": crumbs[-2] if len(crumbs) >= 2 else "",
+        "kickoff": kickoff or "",
+        "referee": _info_field(info, "referee"),
+        "venue": _info_field(info, "venue"),
+    }
+
+
+def read_meta(page, kickoff: str = "") -> dict:
+    try:
+        return parse_meta(page.evaluate(JS_META), kickoff)
+    except PlaywrightError as exc:
+        print(f"  ⚠ Không đọc được thông tin trận: {exc}")
+        return parse_meta({}, kickoff)
+
+
 def logo_name(url: str) -> str:
     """Tên file logo (vd "SlUDTKeM-d29rUy0U.png") — dùng để so logo giữa các khối của trang."""
     return url.rsplit("/", 1)[-1] if url else ""

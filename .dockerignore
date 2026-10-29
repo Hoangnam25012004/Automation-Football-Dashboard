@@ -1,0 +1,13 @@
+.git
+.claude
+.playwright-mcp
+__pycache__
+**/__pycache__
+*.pyc
+data
+debug
+docs
+tests
+tools
+deploy/.env
+server.py

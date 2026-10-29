@@ -1,0 +1,561 @@
+{
+ "coaches": {
+  "away": {
+   "name": "Koubek M.",
+   "ok": false
+  },
+  "home": {
+   "name": "Hong Myung-Bo",
+   "ok": false
+  }
+ },
+ "formation": {
+  "h": 1184,
+  "players": [
+   {
+    "name": "Kim Seung-Gyu",
+    "num": "1",
+    "ok": true,
+    "side": "home",
+    "x": 0.4758,
+    "y": 0.1
+   },
+   {
+    "name": "Lee Han-Beom",
+    "num": "2",
+    "ok": true,
+    "side": "home",
+    "x": 0.1708,
+    "y": 0.1825
+   },
+   {
+    "name": "Kim Min-Jae",
+    "num": "4",
+    "ok": true,
+    "side": "home",
+    "x": 0.474,
+    "y": 0.1825
+   },
+   {
+    "name": "Lee Gi-Hyuk",
+    "num": "3",
+    "ok": true,
+    "side": "home",
+    "x": 0.7738,
+    "y": 0.1825
+   },
+   {
+    "name": "Seol Young-Woo",
+    "num": "22",
+    "ok": true,
+    "side": "home",
+    "x": 0.1298,
+    "y": 0.265
+   },
+   {
+    "name": "Hwang In-Beom",
+    "num": "6",
+    "ok": true,
+    "side": "home",
+    "x": 0.357,
+    "y": 0.265
+   },
+   {
+    "name": "Paik Seung-Ho",
+    "num": "8",
+    "ok": true,
+    "side": "home",
+    "x": 0.6089,
+    "y": 0.265
+   },
+   {
+    "name": "Lee Tae-Seok",
+    "num": "13",
+    "ok": true,
+    "side": "home",
+    "x": 0.8482,
+    "y": 0.265
+   },
+   {
+    "name": "Lee Kang-In",
+    "num": "19",
+    "ok": true,
+    "side": "home",
+    "x": 0.2837,
+    "y": 0.3475
+   },
+   {
+    "name": "Lee Jae-Sung",
+    "num": "10",
+    "ok": true,
+    "side": "home",
+    "x": 0.6859,
+    "y": 0.3475
+   },
+   {
+    "name": "Son Heung-Min",
+    "num": "7",
+    "ok": true,
+    "side": "home",
+    "x": 0.5007,
+    "y": 0.43
+   },
+   {
+    "name": "Schick P.",
+    "num": "10",
+    "ok": true,
+    "side": "away",
+    "x": 0.4846,
+    "y": 0.57
+   },
+   {
+    "name": "Sulc P.",
+    "num": "15",
+    "ok": true,
+    "side": "away",
+    "x": 0.2922,
+    "y": 0.6525
+   },
+   {
+    "name": "Provod L.",
+    "num": "17",
+    "ok": true,
+    "side": "away",
+    "x": 0.684,
+    "y": 0.6525
+   },
+   {
+    "name": "Zeleny J.",
+    "num": "20",
+    "ok": true,
+    "side": "away",
+    "x": 0.1213,
+    "y": 0.735
+   },
+   {
+    "name": "Sojka A.",
+    "num": "24",
+    "ok": true,
+    "side": "away",
+    "x": 0.3669,
+    "y": 0.735
+   },
+   {
+    "name": "Soucek T.",
+    "num": "22",
+    "ok": true,
+    "side": "away",
+    "x": 0.6019,
+    "y": 0.735
+   },
+   {
+    "name": "Coufal V.",
+    "num": "5",
+    "ok": true,
+    "side": "away",
+    "x": 0.8416,
+    "y": 0.735
+   },
+   {
+    "name": "Krejci L.",
+    "num": "7",
+    "ok": true,
+    "side": "away",
+    "x": 0.18,
+    "y": 0.8175
+   },
+   {
+    "name": "Hranac R.",
+    "num": "4",
+    "ok": true,
+    "side": "away",
+    "x": 0.4773,
+    "y": 0.8175
+   },
+   {
+    "name": "Chaloupek S.",
+    "num": "6",
+    "ok": true,
+    "side": "away",
+    "x": 0.7658,
+    "y": 0.8175
+   },
+   {
+    "name": "Kovar M.",
+    "num": "1",
+    "ok": true,
+    "side": "away",
+    "x": 0.4824,
+    "y": 0.9
+   }
+  ],
+  "w": 682
+ },
+ "starting_xi": [
+  {
+   "away": {
+    "name": "Kovar M.",
+    "ok": true
+   },
+   "awayNum": "1",
+   "home": {
+    "name": "Kim Seung-Gyu",
+    "ok": true
+   },
+   "homeNum": "1"
+  },
+  {
+   "away": {
+    "name": "Chaloupek S.",
+    "ok": true
+   },
+   "awayNum": "6",
+   "home": {
+    "name": "Lee Han-Beom",
+    "ok": true
+   },
+   "homeNum": "2"
+  },
+  {
+   "away": {
+    "name": "Hranac R.",
+    "ok": true
+   },
+   "awayNum": "4",
+   "home": {
+    "name": "Kim Min-Jae",
+    "ok": true
+   },
+   "homeNum": "4"
+  },
+  {
+   "away": {
+    "name": "Krejci L.",
+    "ok": true
+   },
+   "awayNum": "7",
+   "home": {
+    "name": "Lee Gi-Hyuk",
+    "ok": true
+   },
+   "homeNum": "3"
+  },
+  {
+   "away": {
+    "name": "Coufal V.",
+    "ok": true
+   },
+   "awayNum": "5",
+   "home": {
+    "name": "Seol Young-Woo",
+    "ok": true
+   },
+   "homeNum": "22"
+  },
+  {
+   "away": {
+    "name": "Soucek T.",
+    "ok": true
+   },
+   "awayNum": "22",
+   "home": {
+    "name": "Hwang In-Beom",
+    "ok": true
+   },
+   "homeNum": "6"
+  },
+  {
+   "away": {
+    "name": "Sojka A.",
+    "ok": true
+   },
+   "awayNum": "24",
+   "home": {
+    "name": "Paik Seung-Ho",
+    "ok": true
+   },
+   "homeNum": "8"
+  },
+  {
+   "away": {
+    "name": "Zeleny J.",
+    "ok": true
+   },
+   "awayNum": "20",
+   "home": {
+    "name": "Lee Tae-Seok",
+    "ok": true
+   },
+   "homeNum": "13"
+  },
+  {
+   "away": {
+    "name": "Provod L.",
+    "ok": true
+   },
+   "awayNum": "17",
+   "home": {
+    "name": "Lee Kang-In",
+    "ok": true
+   },
+   "homeNum": "19"
+  },
+  {
+   "away": {
+    "name": "Sulc P.",
+    "ok": true
+   },
+   "awayNum": "15",
+   "home": {
+    "name": "Lee Jae-Sung",
+    "ok": true
+   },
+   "homeNum": "10"
+  },
+  {
+   "away": {
+    "name": "Schick P.",
+    "ok": true
+   },
+   "awayNum": "10",
+   "home": {
+    "name": "Son Heung-Min",
+    "ok": true
+   },
+   "homeNum": "7"
+  }
+ ],
+ "substituted": {
+  "away": [
+   {
+    "min": "64",
+    "off": "Sulc P.",
+    "on": "Hlozek A."
+   },
+   {
+    "min": "64",
+    "off": "Schick P.",
+    "on": "Chory T."
+   },
+   {
+    "min": "64",
+    "off": "Provod L.",
+    "on": "Sadilek M."
+   },
+   {
+    "min": "84",
+    "off": "Sojka A.",
+    "on": "Chytil M."
+   }
+  ],
+  "home": [
+   {
+    "min": "62",
+    "off": "Lee Jae-Sung",
+    "on": "Hwang Hee-Chan"
+   },
+   {
+    "min": "69",
+    "off": "Lee Tae-Seok",
+    "on": "Eom Ji-Sung"
+   },
+   {
+    "min": "69",
+    "off": "Son Heung-Min",
+    "on": "Oh Hyeon-Gyu"
+   },
+   {
+    "min": "84",
+    "off": "Hwang In-Beom",
+    "on": "Kim Jin-Gyu"
+   },
+   {
+    "min": "84",
+    "off": "Paik Seung-Ho",
+    "on": "Park Jin-Seob"
+   }
+  ]
+ },
+ "substitutes": [
+  {
+   "away": {
+    "name": "CervL. Fj",
+    "ok": false
+   },
+   "awayNum": "12",
+   "home": {
+    "name": "Bae Jun-Ho",
+    "ok": false
+   },
+   "homeNum": "17"
+  },
+  {
+   "away": {
+    "name": "Chory T.",
+    "ok": true
+   },
+   "awayNum": "19",
+   "home": {
+    "name": "Castrop",
+    "ok": false
+   },
+   "homeNum": "23"
+  },
+  {
+   "away": {
+    "name": "Chytil M.",
+    "ok": true
+   },
+   "awayNum": "13",
+   "home": {
+    "name": "Cho Gue-Sung",
+    "ok": false
+   },
+   "homeNum": "9"
+  },
+  {
+   "away": {
+    "name": "Darida",
+    "ok": false
+   },
+   "awayNum": "8",
+   "home": {
+    "name": "Cho Wie",
+    "ok": false
+   },
+   "homeNum": "14"
+  },
+  {
+   "away": {
+    "name": "Doudera",
+    "ok": false
+   },
+   "awayNum": "21",
+   "home": {
+    "name": "Eom Ji-Sung",
+    "ok": true
+   },
+   "homeNum": "25"
+  },
+  {
+   "away": {
+    "name": "Hlozek A.",
+    "ok": true
+   },
+   "awayNum": "9",
+   "home": {
+    "name": "Hwang Hee-Chan",
+    "ok": true
+   },
+   "homeNum": "1"
+  },
+  {
+   "away": {
+    "name": "Holes",
+    "ok": false
+   },
+   "awayNum": "3",
+   "home": {
+    "name": "Jo Hyeon-Woo",
+    "ok": false
+   },
+   "homeNum": "21"
+  },
+  {
+   "away": {
+    "name": "L.G Ji",
+    "ok": false
+   },
+   "awayNum": "23",
+   "home": {
+    "name": "Kim Jin-Gyu",
+    "ok": true
+   },
+   "homeNum": "24"
+  },
+  {
+   "away": {
+    "name": "Jurasek",
+    "ok": false
+   },
+   "awayNum": "14",
+   "home": {
+    "name": "Kim Moon-Hwan",
+    "ok": false
+   },
+   "homeNum": "15"
+  },
+  {
+   "away": {
+    "name": "Kuchta",
+    "ok": false
+   },
+   "awayNum": "11",
+   "home": {
+    "name": "Kim Tae-Hyeon",
+    "ok": false
+   },
+   "homeNum": "5"
+  },
+  {
+   "away": {
+    "name": "Sadilek M.",
+    "ok": true
+   },
+   "awayNum": "18",
+   "home": {
+    "name": "Lee Dong-Gyeong",
+    "ok": false
+   },
+   "homeNum": "26"
+  },
+  {
+   "away": {
+    "name": "Sochurek",
+    "ok": false
+   },
+   "awayNum": "25",
+   "home": {
+    "name": "Oh Hyeon-Gyu",
+    "ok": true
+   },
+   "homeNum": "18"
+  },
+  {
+   "away": {
+    "name": "Stanek",
+    "ok": false
+   },
+   "awayNum": "16",
+   "home": {
+    "name": "Park Jin-Seob",
+    "ok": true
+   },
+   "homeNum": "16"
+  },
+  {
+   "away": {
+    "name": "Visinsky",
+    "ok": false
+   },
+   "awayNum": "26",
+   "home": {
+    "name": "Son Heung-Min",
+    "ok": true
+   },
+   "homeNum": "12"
+  },
+  {
+   "away": {
+    "name": "Zima",
+    "ok": false
+   },
+   "awayNum": "2",
+   "home": {
+    "name": "Yang Hyun-Jun",
+    "ok": false
+   },
+   "homeNum": "20"
+  }
+ ]
+}

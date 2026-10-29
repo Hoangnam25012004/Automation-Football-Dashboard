@@ -1,6 +1,6 @@
-"""Liệt kê mọi khối thay đổi của match_report.html so với baseline và gán mã E1–E7.
+"""Liệt kê mọi khối thay đổi của match_report.html so với baseline và gán mã RD1–RD8.
 
-Khối nào nằm ngoài các cửa sổ được phép (design doc §7.1) ⇒ thất bại.
+Khối nào nằm ngoài các cửa sổ được phép (design doc dashboard-redesign §10.1) ⇒ thất bại.
 Chạy:  python tools/check_diff_budget.py [--baseline <git-rev>] [--show]
 """
 import argparse
@@ -18,7 +18,7 @@ def clip(line: str, n: int = 110) -> str:
 def main() -> int:
     html_guard.utf8_stdout()
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--baseline", help="git revision của baseline (mặc định: root commit)")
+    ap.add_argument("--baseline", help="git revision của baseline (mặc định: tag redesign-baseline)")
     ap.add_argument("--show", action="store_true", help="in nội dung từng khối")
     args = ap.parse_args()
     base = html_guard.load_baseline(args.baseline)
@@ -38,7 +38,7 @@ def main() -> int:
                 print("    + " + clip(line))
     used = sorted({h.eid for h in hunks if h.eid})
     print(f"\nMã đã dùng: {', '.join(used) or '(không)'}")
-    print("KẾT QUẢ: " + ("mọi thay đổi nằm trong Change surface §7.1" if ok else "CÓ THAY ĐỔI NGOÀI PHẠM VI"))
+    print("KẾT QUẢ: " + ("mọi thay đổi nằm trong Change surface RD1–RD8 (redesign §10.1 + cloud §11)" if ok else "CÓ THAY ĐỔI NGOÀI PHẠM VI"))
     return 0 if ok else 1
 
 

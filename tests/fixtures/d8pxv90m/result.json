@@ -1,0 +1,4380 @@
+{
+ "schemaVersion": 2,
+ "matchId": "d8pxv90m",
+ "sourceUrl": "https://www.flashscore.com/match/football/altglienicke-EP8ggpyE/wolfsburg-nwkTahLL/?mid=d8pxv90m",
+ "fetchedAt": "2026-10-13T05:52:24Z",
+ "stats": {
+  "matchTitle": "Altglienicke  vs  Wolfsburg",
+  "matchDate": "",
+  "home": "ALT",
+  "away": "WOL",
+  "teams": {
+   "ALT": {
+    "Top Stats": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Total shots",
+      "Expected goals (xG)",
+      "Accurate passes",
+      "Touches",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Duels"
+     ],
+     "rows": [
+      {
+       "Player": "Czyborra L.",
+       "Position": "Fullback",
+       "Rating": "7.6",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.07",
+       "Accurate passes": "9/16 (56%)",
+       "Touches": "48",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "2/2 (100%)",
+       "Duels": "8"
+      },
+      {
+       "Player": "Kebe D.",
+       "Position": "Centre back",
+       "Rating": "7.5",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.04",
+       "Accurate passes": "20/25 (80%)",
+       "Touches": "48",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "5"
+      },
+      {
+       "Player": "Nietfeld J.",
+       "Position": "Striker",
+       "Rating": "7.5",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.53",
+       "Accurate passes": "17/24 (71%)",
+       "Touches": "30",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "-",
+       "Duels": "10"
+      },
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Rating": "7.3",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "22/50 (44%)",
+       "Touches": "80",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "3"
+      },
+      {
+       "Player": "Ibrahimi M.",
+       "Position": "Forward",
+       "Rating": "7.1",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.10",
+       "Accurate passes": "3/5 (60%)",
+       "Touches": "11",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "1"
+      },
+      {
+       "Player": "Saliger J.",
+       "Position": "Winger",
+       "Rating": "7.1",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.64",
+       "Accurate passes": "16/18 (89%)",
+       "Touches": "36",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "0/2 (0%)",
+       "Duels": "6"
+      },
+      {
+       "Player": "Kardam N.",
+       "Position": "Defender",
+       "Rating": "6.6",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "1/4 (25%)",
+       "Touches": "18",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "2/4 (50%)",
+       "Duels": "7"
+      },
+      {
+       "Player": "Rieder T.",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "11/18 (61%)",
+       "Touches": "31",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "4"
+      },
+      {
+       "Player": "Tezel U.",
+       "Position": "Fullback",
+       "Rating": "6.5",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "11/21 (52%)",
+       "Touches": "62",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "3"
+      },
+      {
+       "Player": "Turpitz P.",
+       "Position": "Forward",
+       "Rating": "6.4",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "2/2 (100%)",
+       "Touches": "5",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "-"
+      },
+      {
+       "Player": "Zografakis N.",
+       "Position": "Forward",
+       "Rating": "6.4",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "9/9 (100%)",
+       "Touches": "17",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "3"
+      },
+      {
+       "Player": "Oduah E.",
+       "Position": "Winger",
+       "Rating": "6.3",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "17/28 (61%)",
+       "Touches": "58",
+       "Touches in opposition box": "4",
+       "Successful dribbles": "1/5 (20%)",
+       "Duels": "24"
+      },
+      {
+       "Player": "Sylla M.",
+       "Position": "Midfielder",
+       "Rating": "6.3",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "9/15 (60%)",
+       "Touches": "41",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "2/3 (67%)",
+       "Duels": "11"
+      },
+      {
+       "Player": "Ersungur A.",
+       "Position": "Midfielder",
+       "Rating": "6.0",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "8/12 (67%)",
+       "Touches": "15",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "3"
+      },
+      {
+       "Player": "Hartl J.",
+       "Position": "Midfielder",
+       "Rating": "5.9",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "17/23 (74%)",
+       "Touches": "39",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "9"
+      },
+      {
+       "Player": "Sonnenberg S.",
+       "Position": "Centre back",
+       "Rating": "5.6",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.03",
+       "Accurate passes": "18/20 (90%)",
+       "Touches": "33",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Duels": "2"
+      }
+     ]
+    },
+    "Shots": {
+     "headers": [
+      "Player",
+      "Position",
+      "Total shots",
+      "Goals",
+      "Expected goals (xG)",
+      "xG on target (xGOT)",
+      "Shots on target",
+      "Shots off target",
+      "Blocked shots",
+      "Shots inside the box",
+      "Shots outside the box",
+      "Headed shots"
+     ],
+     "rows": [
+      {
+       "Player": "Czyborra L.",
+       "Position": "Fullback",
+       "Total shots": "2",
+       "Goals": "-",
+       "Expected goals (xG)": "0.07",
+       "xG on target (xGOT)": "0.02",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "1",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Nietfeld J.",
+       "Position": "Striker",
+       "Total shots": "2",
+       "Goals": "1",
+       "Expected goals (xG)": "0.53",
+       "xG on target (xGOT)": "0.89",
+       "Shots on target": "2",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "2",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Saliger J.",
+       "Position": "Winger",
+       "Total shots": "2",
+       "Goals": "1",
+       "Expected goals (xG)": "0.64",
+       "xG on target (xGOT)": "0.98",
+       "Shots on target": "1",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "2",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Ibrahimi M.",
+       "Position": "Forward",
+       "Total shots": "1",
+       "Goals": "1",
+       "Expected goals (xG)": "0.10",
+       "xG on target (xGOT)": "0.60",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Kebe D.",
+       "Position": "Centre back",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.04",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Sonnenberg S.",
+       "Position": "Centre back",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.03",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Ersungur A.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Hartl J.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Kardam N.",
+       "Position": "Defender",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Oduah E.",
+       "Position": "Winger",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Rieder T.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Sylla M.",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Tezel U.",
+       "Position": "Fullback",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Turpitz P.",
+       "Position": "Forward",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Zografakis N.",
+       "Position": "Forward",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      }
+     ]
+    },
+    "Attack": {
+     "headers": [
+      "Player",
+      "Position",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Big chances missed",
+      "Touches",
+      "Fouls suffered",
+      "Offsides"
+     ],
+     "rows": [
+      {
+       "Player": "Oduah E.",
+       "Position": "Winger",
+       "Touches in opposition box": "4",
+       "Successful dribbles": "1/5 (20%)",
+       "Big chances missed": "-",
+       "Touches": "58",
+       "Fouls suffered": "5",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Hartl J.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "-",
+       "Touches": "39",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Nietfeld J.",
+       "Position": "Striker",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "30",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Czyborra L.",
+       "Position": "Fullback",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "2/2 (100%)",
+       "Big chances missed": "-",
+       "Touches": "48",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Kardam N.",
+       "Position": "Defender",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "2/4 (50%)",
+       "Big chances missed": "-",
+       "Touches": "18",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Sonnenberg S.",
+       "Position": "Centre back",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "33",
+       "Fouls suffered": "-",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Ersungur A.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "15",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Kebe D.",
+       "Position": "Centre back",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "1",
+       "Touches": "48",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Rieder T.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "31",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Saliger J.",
+       "Position": "Winger",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "0/2 (0%)",
+       "Big chances missed": "-",
+       "Touches": "36",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Zografakis N.",
+       "Position": "Forward",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "-",
+       "Touches": "17",
+       "Fouls suffered": "-",
+       "Offsides": "2"
+      },
+      {
+       "Player": "Ibrahimi M.",
+       "Position": "Forward",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "11",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Sylla M.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "2/3 (67%)",
+       "Big chances missed": "-",
+       "Touches": "41",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Tezel U.",
+       "Position": "Fullback",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "62",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Turpitz P.",
+       "Position": "Forward",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "5",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "80",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      }
+     ]
+    },
+    "Passes": {
+     "headers": [
+      "Player",
+      "Position",
+      "Accurate passes",
+      "Big chances created",
+      "Key passes",
+      "Assists",
+      "Expected assists (xA)",
+      "Accurate passes in final third",
+      "Accurate long passes",
+      "Accurate crosses"
+     ],
+     "rows": [
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Accurate passes": "22/50 (44%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "3/20 (15%)",
+       "Accurate long passes": "19/47 (40%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Kebe D.",
+       "Position": "Centre back",
+       "Accurate passes": "20/25 (80%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/1 (0%)",
+       "Accurate long passes": "0/2 (0%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Sonnenberg S.",
+       "Position": "Centre back",
+       "Accurate passes": "18/20 (90%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "3/4 (75%)",
+       "Accurate long passes": "3/4 (75%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Hartl J.",
+       "Position": "Midfielder",
+       "Accurate passes": "17/23 (74%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.06",
+       "Accurate passes in final third": "4/7 (57%)",
+       "Accurate long passes": "0/1 (0%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Nietfeld J.",
+       "Position": "Striker",
+       "Accurate passes": "17/24 (71%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.03",
+       "Accurate passes in final third": "7/10 (70%)",
+       "Accurate long passes": "1/1 (100%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Oduah E.",
+       "Position": "Winger",
+       "Accurate passes": "17/28 (61%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.07",
+       "Accurate passes in final third": "7/17 (41%)",
+       "Accurate long passes": "1/2 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Saliger J.",
+       "Position": "Winger",
+       "Accurate passes": "16/18 (89%)",
+       "Big chances created": "1",
+       "Key passes": "2",
+       "Assists": "-",
+       "Expected assists (xA)": "0.07",
+       "Accurate passes in final third": "4/4 (100%)",
+       "Accurate long passes": "2/3 (67%)",
+       "Accurate crosses": "3/6 (50%)"
+      },
+      {
+       "Player": "Rieder T.",
+       "Position": "Midfielder",
+       "Accurate passes": "11/18 (61%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "3/4 (75%)",
+       "Accurate long passes": "2/4 (50%)",
+       "Accurate crosses": "1/1 (100%)"
+      },
+      {
+       "Player": "Tezel U.",
+       "Position": "Fullback",
+       "Accurate passes": "11/21 (52%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "1/3 (33%)",
+       "Accurate long passes": "0/5 (0%)",
+       "Accurate crosses": "0/2 (0%)"
+      },
+      {
+       "Player": "Zografakis N.",
+       "Position": "Forward",
+       "Accurate passes": "9/9 (100%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.06",
+       "Accurate passes in final third": "4/4 (100%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "0/1 (0%)"
+      },
+      {
+       "Player": "Sylla M.",
+       "Position": "Midfielder",
+       "Accurate passes": "9/15 (60%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "4/7 (57%)",
+       "Accurate long passes": "0/1 (0%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Czyborra L.",
+       "Position": "Fullback",
+       "Accurate passes": "9/16 (56%)",
+       "Big chances created": "1",
+       "Key passes": "1",
+       "Assists": "1",
+       "Expected assists (xA)": "0.24",
+       "Accurate passes in final third": "3/6 (50%)",
+       "Accurate long passes": "2/5 (40%)",
+       "Accurate crosses": "2/2 (100%)"
+      },
+      {
+       "Player": "Ersungur A.",
+       "Position": "Midfielder",
+       "Accurate passes": "8/12 (67%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "1/3 (33%)",
+       "Accurate long passes": "3/5 (60%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Ibrahimi M.",
+       "Position": "Forward",
+       "Accurate passes": "3/5 (60%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/1 (0%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Turpitz P.",
+       "Position": "Forward",
+       "Accurate passes": "2/2 (100%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "-",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Kardam N.",
+       "Position": "Defender",
+       "Accurate passes": "1/4 (25%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "-",
+       "Accurate long passes": "0/3 (0%)",
+       "Accurate crosses": "-"
+      }
+     ]
+    },
+    "Defense": {
+     "headers": [
+      "Player",
+      "Position",
+      "Duels won",
+      "Aerial duels won",
+      "Ground duels won",
+      "Tackles won",
+      "Fouls committed",
+      "Interceptions",
+      "Clearances",
+      "Errors leading to goal",
+      "Errors leading to shot"
+     ],
+     "rows": [
+      {
+       "Player": "Oduah E.",
+       "Position": "Winger",
+       "Duels won": "13/24 (54%)",
+       "Aerial duels won": "5/8 (63%)",
+       "Ground duels won": "8/16 (50%)",
+       "Tackles won": "2/2 (100%)",
+       "Fouls committed": "3",
+       "Interceptions": "2",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Czyborra L.",
+       "Position": "Fullback",
+       "Duels won": "6/8 (75%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "6/7 (86%)",
+       "Tackles won": "2/4 (50%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "14",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Nietfeld J.",
+       "Position": "Striker",
+       "Duels won": "5/10 (50%)",
+       "Aerial duels won": "3/6 (50%)",
+       "Ground duels won": "2/4 (50%)",
+       "Tackles won": "0/2 (0%)",
+       "Fouls committed": "2",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Kebe D.",
+       "Position": "Centre back",
+       "Duels won": "4/5 (80%)",
+       "Aerial duels won": "3/4 (75%)",
+       "Ground duels won": "1/1 (100%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "3",
+       "Clearances": "11",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Kardam N.",
+       "Position": "Defender",
+       "Duels won": "4/7 (57%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "4/7 (57%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "4",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Hartl J.",
+       "Position": "Midfielder",
+       "Duels won": "4/9 (44%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "4/8 (50%)",
+       "Tackles won": "0/2 (0%)",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Sylla M.",
+       "Position": "Midfielder",
+       "Duels won": "4/11 (36%)",
+       "Aerial duels won": "1/3 (33%)",
+       "Ground duels won": "3/8 (38%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "1",
+       "Interceptions": "3",
+       "Clearances": "8",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Duels won": "3/3 (100%)",
+       "Aerial duels won": "2/2 (100%)",
+       "Ground duels won": "1/1 (100%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "4",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Tezel U.",
+       "Position": "Fullback",
+       "Duels won": "2/3 (67%)",
+       "Aerial duels won": "1/2 (50%)",
+       "Ground duels won": "1/1 (100%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "3",
+       "Clearances": "14",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Rieder T.",
+       "Position": "Midfielder",
+       "Duels won": "2/4 (50%)",
+       "Aerial duels won": "1/1 (100%)",
+       "Ground duels won": "1/3 (33%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "2",
+       "Interceptions": "3",
+       "Clearances": "4",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Ibrahimi M.",
+       "Position": "Forward",
+       "Duels won": "1/1 (100%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "1/1 (100%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Zografakis N.",
+       "Position": "Forward",
+       "Duels won": "1/3 (33%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "1/3 (33%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Saliger J.",
+       "Position": "Winger",
+       "Duels won": "1/6 (17%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "1/5 (20%)",
+       "Tackles won": "0/1 (0%)",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Sonnenberg S.",
+       "Position": "Centre back",
+       "Duels won": "0/2 (0%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "0/2 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "2",
+       "Clearances": "6",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Ersungur A.",
+       "Position": "Midfielder",
+       "Duels won": "0/3 (0%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "0/2 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Turpitz P.",
+       "Position": "Forward",
+       "Duels won": "-",
+       "Aerial duels won": "-",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      }
+     ]
+    },
+    "Goalkeeping": {
+     "headers": [
+      "Player",
+      "Position",
+      "Goalkeeper saves",
+      "Goals conceded",
+      "Goals prevented",
+      "xGOT faced",
+      "Punches",
+      "Throws",
+      "Act as sweeper"
+     ],
+     "rows": [
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Goalkeeper saves": "13",
+       "Goals conceded": "3",
+       "Goals prevented": "0.92",
+       "xGOT faced": "3.92",
+       "Punches": "2",
+       "Throws": "7",
+       "Act as sweeper": "-"
+      }
+     ]
+    },
+    "General": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Minutes played",
+      "Goals",
+      "Own goals",
+      "Assists",
+      "Yellow cards",
+      "Red cards"
+     ],
+     "rows": [
+      {
+       "Player": "Czyborra L.",
+       "Position": "Fullback",
+       "Rating": "7.6",
+       "Minutes played": "101",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "1",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Kebe D.",
+       "Position": "Centre back",
+       "Rating": "7.5",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Nietfeld J.",
+       "Position": "Striker",
+       "Rating": "7.5",
+       "Minutes played": "57",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Zwick L.",
+       "Position": "Goalkeeper",
+       "Rating": "7.3",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Ibrahimi M.",
+       "Position": "Forward",
+       "Rating": "7.1",
+       "Minutes played": "19",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Saliger J.",
+       "Position": "Winger",
+       "Rating": "7.1",
+       "Minutes played": "88",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Kardam N.",
+       "Position": "Defender",
+       "Rating": "6.6",
+       "Minutes played": "32",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Rieder T.",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Minutes played": "101",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "1",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Tezel U.",
+       "Position": "Fullback",
+       "Rating": "6.5",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Turpitz P.",
+       "Position": "Forward",
+       "Rating": "6.4",
+       "Minutes played": "19",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Zografakis N.",
+       "Position": "Forward",
+       "Rating": "6.4",
+       "Minutes played": "63",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Oduah E.",
+       "Position": "Winger",
+       "Rating": "6.3",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "1",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Sylla M.",
+       "Position": "Midfielder",
+       "Rating": "6.3",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Ersungur A.",
+       "Position": "Midfielder",
+       "Rating": "6.0",
+       "Minutes played": "43",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Hartl J.",
+       "Position": "Midfielder",
+       "Rating": "5.9",
+       "Minutes played": "77",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Sonnenberg S.",
+       "Position": "Centre back",
+       "Rating": "5.6",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      }
+     ]
+    }
+   },
+   "WOL": {
+    "Top Stats": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Total shots",
+      "Expected goals (xG)",
+      "Accurate passes",
+      "Touches",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Duels"
+     ],
+     "rows": [
+      {
+       "Player": "Wahl H.",
+       "Position": "Centre back",
+       "Rating": "8.8",
+       "Total shots": "2",
+       "Expected goals (xG)": "0.86",
+       "Accurate passes": "130/142 (92%)",
+       "Touches": "159",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "-",
+       "Duels": "15"
+      },
+      {
+       "Player": "Arnold M.",
+       "Position": "Midfielder",
+       "Rating": "8.5",
+       "Total shots": "3",
+       "Expected goals (xG)": "0.09",
+       "Accurate passes": "101/111 (91%)",
+       "Touches": "129",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "0/1 (0%)",
+       "Duels": "10"
+      },
+      {
+       "Player": "Reese F.",
+       "Position": "Winger",
+       "Rating": "8.3",
+       "Total shots": "6",
+       "Expected goals (xG)": "0.18",
+       "Accurate passes": "69/80 (86%)",
+       "Touches": "126",
+       "Touches in opposition box": "10",
+       "Successful dribbles": "1/5 (20%)",
+       "Duels": "5"
+      },
+      {
+       "Player": "Damar M.",
+       "Position": "Attacking midfielder",
+       "Rating": "7.9",
+       "Total shots": "10",
+       "Expected goals (xG)": "0.68",
+       "Accurate passes": "66/73 (90%)",
+       "Touches": "107",
+       "Touches in opposition box": "9",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "9"
+      },
+      {
+       "Player": "Maehle J.",
+       "Position": "Fullback",
+       "Rating": "7.7",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.01",
+       "Accurate passes": "41/49 (84%)",
+       "Touches": "61",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "7"
+      },
+      {
+       "Player": "Bernhardsson A.",
+       "Position": "Winger",
+       "Rating": "7.6",
+       "Total shots": "3",
+       "Expected goals (xG)": "0.32",
+       "Accurate passes": "22/26 (85%)",
+       "Touches": "52",
+       "Touches in opposition box": "9",
+       "Successful dribbles": "1/2 (50%)",
+       "Duels": "12"
+      },
+      {
+       "Player": "Fischer K.",
+       "Position": "Fullback",
+       "Rating": "7.3",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.06",
+       "Accurate passes": "101/111 (91%)",
+       "Touches": "132",
+       "Touches in opposition box": "5",
+       "Successful dribbles": "-",
+       "Duels": "7"
+      },
+      {
+       "Player": "Kumbedi S.",
+       "Position": "Defender",
+       "Rating": "7.1",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "43/50 (86%)",
+       "Touches": "64",
+       "Touches in opposition box": "6",
+       "Successful dribbles": "1/3 (33%)",
+       "Duels": "4"
+      },
+      {
+       "Player": "Shiogai K.",
+       "Position": "Striker",
+       "Rating": "7.1",
+       "Total shots": "5",
+       "Expected goals (xG)": "0.66",
+       "Accurate passes": "7/10 (70%)",
+       "Touches": "20",
+       "Touches in opposition box": "9",
+       "Successful dribbles": "1/1 (100%)",
+       "Duels": "6"
+      },
+      {
+       "Player": "Adjetey J.",
+       "Position": "Centre back",
+       "Rating": "7.0",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "65/68 (96%)",
+       "Touches": "77",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "8"
+      },
+      {
+       "Player": "Rexhbecaj E.",
+       "Position": "Midfielder",
+       "Rating": "7.0",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.02",
+       "Accurate passes": "28/36 (78%)",
+       "Touches": "40",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "0/1 (0%)",
+       "Duels": "2"
+      },
+      {
+       "Player": "Svanberg M.",
+       "Position": "Midfielder",
+       "Rating": "6.7",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.14",
+       "Accurate passes": "21/26 (81%)",
+       "Touches": "29",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "3"
+      },
+      {
+       "Player": "Besio A.",
+       "Position": "Forward",
+       "Rating": "6.6",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.02",
+       "Accurate passes": "21/26 (81%)",
+       "Touches": "36",
+       "Touches in opposition box": "5",
+       "Successful dribbles": "0/1 (0%)",
+       "Duels": "3"
+      },
+      {
+       "Player": "Dardai B.",
+       "Position": "Midfielder",
+       "Rating": "6.6",
+       "Total shots": "1",
+       "Expected goals (xG)": "0.06",
+       "Accurate passes": "16/18 (89%)",
+       "Touches": "26",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Duels": "1"
+      },
+      {
+       "Player": "Vini Souza",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "29/31 (94%)",
+       "Touches": "39",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Duels": "7"
+      },
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Rating": "6.0",
+       "Total shots": "-",
+       "Expected goals (xG)": "-",
+       "Accurate passes": "31/33 (94%)",
+       "Touches": "42",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Duels": "-"
+      }
+     ]
+    },
+    "Shots": {
+     "headers": [
+      "Player",
+      "Position",
+      "Total shots",
+      "Goals",
+      "Expected goals (xG)",
+      "xG on target (xGOT)",
+      "Shots on target",
+      "Shots off target",
+      "Blocked shots",
+      "Shots inside the box",
+      "Shots outside the box",
+      "Headed shots"
+     ],
+     "rows": [
+      {
+       "Player": "Damar M.",
+       "Position": "Attacking midfielder",
+       "Total shots": "10",
+       "Goals": "-",
+       "Expected goals (xG)": "0.68",
+       "xG on target (xGOT)": "0.43",
+       "Shots on target": "5",
+       "Shots off target": "3",
+       "Blocked shots": "2",
+       "Shots inside the box": "4",
+       "Shots outside the box": "6",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Reese F.",
+       "Position": "Winger",
+       "Total shots": "6",
+       "Goals": "-",
+       "Expected goals (xG)": "0.18",
+       "xG on target (xGOT)": "0.31",
+       "Shots on target": "3",
+       "Shots off target": "1",
+       "Blocked shots": "2",
+       "Shots inside the box": "1",
+       "Shots outside the box": "5",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Shiogai K.",
+       "Position": "Striker",
+       "Total shots": "5",
+       "Goals": "-",
+       "Expected goals (xG)": "0.66",
+       "xG on target (xGOT)": "0.50",
+       "Shots on target": "2",
+       "Shots off target": "1",
+       "Blocked shots": "2",
+       "Shots inside the box": "5",
+       "Shots outside the box": "-",
+       "Headed shots": "3"
+      },
+      {
+       "Player": "Arnold M.",
+       "Position": "Midfielder",
+       "Total shots": "3",
+       "Goals": "2",
+       "Expected goals (xG)": "0.09",
+       "xG on target (xGOT)": "0.25",
+       "Shots on target": "2",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "-",
+       "Shots outside the box": "3",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Bernhardsson A.",
+       "Position": "Winger",
+       "Total shots": "3",
+       "Goals": "-",
+       "Expected goals (xG)": "0.32",
+       "xG on target (xGOT)": "0.97",
+       "Shots on target": "2",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "3",
+       "Shots outside the box": "-",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Wahl H.",
+       "Position": "Centre back",
+       "Total shots": "2",
+       "Goals": "1",
+       "Expected goals (xG)": "0.86",
+       "xG on target (xGOT)": "0.78",
+       "Shots on target": "1",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "2",
+       "Shots outside the box": "-",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Besio A.",
+       "Position": "Forward",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.02",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Dardai B.",
+       "Position": "Midfielder",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.06",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "1"
+      },
+      {
+       "Player": "Fischer K.",
+       "Position": "Fullback",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.06",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "1",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Maehle J.",
+       "Position": "Fullback",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.01",
+       "xG on target (xGOT)": "0.14",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Rexhbecaj E.",
+       "Position": "Midfielder",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.02",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "1",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "1",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Svanberg M.",
+       "Position": "Midfielder",
+       "Total shots": "1",
+       "Goals": "-",
+       "Expected goals (xG)": "0.14",
+       "xG on target (xGOT)": "0.54",
+       "Shots on target": "1",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "1",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Adjetey J.",
+       "Position": "Centre back",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Kumbedi S.",
+       "Position": "Defender",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Vini Souza",
+       "Position": "Midfielder",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      },
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Total shots": "-",
+       "Goals": "-",
+       "Expected goals (xG)": "-",
+       "xG on target (xGOT)": "-",
+       "Shots on target": "-",
+       "Shots off target": "-",
+       "Blocked shots": "-",
+       "Shots inside the box": "-",
+       "Shots outside the box": "-",
+       "Headed shots": "-"
+      }
+     ]
+    },
+    "Attack": {
+     "headers": [
+      "Player",
+      "Position",
+      "Touches in opposition box",
+      "Successful dribbles",
+      "Big chances missed",
+      "Touches",
+      "Fouls suffered",
+      "Offsides"
+     ],
+     "rows": [
+      {
+       "Player": "Reese F.",
+       "Position": "Winger",
+       "Touches in opposition box": "10",
+       "Successful dribbles": "1/5 (20%)",
+       "Big chances missed": "-",
+       "Touches": "126",
+       "Fouls suffered": "-",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Bernhardsson A.",
+       "Position": "Winger",
+       "Touches in opposition box": "9",
+       "Successful dribbles": "1/2 (50%)",
+       "Big chances missed": "-",
+       "Touches": "52",
+       "Fouls suffered": "2",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Damar M.",
+       "Position": "Attacking midfielder",
+       "Touches in opposition box": "9",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "1",
+       "Touches": "107",
+       "Fouls suffered": "2",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Shiogai K.",
+       "Position": "Striker",
+       "Touches in opposition box": "9",
+       "Successful dribbles": "1/1 (100%)",
+       "Big chances missed": "-",
+       "Touches": "20",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Kumbedi S.",
+       "Position": "Defender",
+       "Touches in opposition box": "6",
+       "Successful dribbles": "1/3 (33%)",
+       "Big chances missed": "-",
+       "Touches": "64",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Besio A.",
+       "Position": "Forward",
+       "Touches in opposition box": "5",
+       "Successful dribbles": "0/1 (0%)",
+       "Big chances missed": "-",
+       "Touches": "36",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Fischer K.",
+       "Position": "Fullback",
+       "Touches in opposition box": "5",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "132",
+       "Fouls suffered": "1",
+       "Offsides": "1"
+      },
+      {
+       "Player": "Wahl H.",
+       "Position": "Centre back",
+       "Touches in opposition box": "3",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "159",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Dardai B.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "2",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "26",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Maehle J.",
+       "Position": "Fullback",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "61",
+       "Fouls suffered": "2",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Rexhbecaj E.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "0/1 (0%)",
+       "Big chances missed": "-",
+       "Touches": "40",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Svanberg M.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "29",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Vini Souza",
+       "Position": "Midfielder",
+       "Touches in opposition box": "1",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "39",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Adjetey J.",
+       "Position": "Centre back",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "77",
+       "Fouls suffered": "1",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Arnold M.",
+       "Position": "Midfielder",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "0/1 (0%)",
+       "Big chances missed": "-",
+       "Touches": "129",
+       "Fouls suffered": "3",
+       "Offsides": "-"
+      },
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Touches in opposition box": "-",
+       "Successful dribbles": "-",
+       "Big chances missed": "-",
+       "Touches": "42",
+       "Fouls suffered": "-",
+       "Offsides": "-"
+      }
+     ]
+    },
+    "Passes": {
+     "headers": [
+      "Player",
+      "Position",
+      "Accurate passes",
+      "Big chances created",
+      "Key passes",
+      "Assists",
+      "Expected assists (xA)",
+      "Accurate passes in final third",
+      "Accurate long passes",
+      "Accurate crosses"
+     ],
+     "rows": [
+      {
+       "Player": "Wahl H.",
+       "Position": "Centre back",
+       "Accurate passes": "130/142 (92%)",
+       "Big chances created": "-",
+       "Key passes": "2",
+       "Assists": "-",
+       "Expected assists (xA)": "0.11",
+       "Accurate passes in final third": "39/44 (89%)",
+       "Accurate long passes": "11/14 (79%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Arnold M.",
+       "Position": "Midfielder",
+       "Accurate passes": "101/111 (91%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.47",
+       "Accurate passes in final third": "37/40 (93%)",
+       "Accurate long passes": "12/15 (80%)",
+       "Accurate crosses": "1/7 (14%)"
+      },
+      {
+       "Player": "Fischer K.",
+       "Position": "Fullback",
+       "Accurate passes": "101/111 (91%)",
+       "Big chances created": "-",
+       "Key passes": "3",
+       "Assists": "-",
+       "Expected assists (xA)": "0.09",
+       "Accurate passes in final third": "47/52 (90%)",
+       "Accurate long passes": "4/7 (57%)",
+       "Accurate crosses": "1/3 (33%)"
+      },
+      {
+       "Player": "Reese F.",
+       "Position": "Winger",
+       "Accurate passes": "69/80 (86%)",
+       "Big chances created": "1",
+       "Key passes": "7",
+       "Assists": "1",
+       "Expected assists (xA)": "1.21",
+       "Accurate passes in final third": "44/55 (80%)",
+       "Accurate long passes": "0/2 (0%)",
+       "Accurate crosses": "4/24 (17%)"
+      },
+      {
+       "Player": "Damar M.",
+       "Position": "Attacking midfielder",
+       "Accurate passes": "66/73 (90%)",
+       "Big chances created": "-",
+       "Key passes": "3",
+       "Assists": "-",
+       "Expected assists (xA)": "0.96",
+       "Accurate passes in final third": "38/44 (86%)",
+       "Accurate long passes": "10/10 (100%)",
+       "Accurate crosses": "2/8 (25%)"
+      },
+      {
+       "Player": "Adjetey J.",
+       "Position": "Centre back",
+       "Accurate passes": "65/68 (96%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.03",
+       "Accurate passes in final third": "10/11 (91%)",
+       "Accurate long passes": "5/7 (71%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Kumbedi S.",
+       "Position": "Defender",
+       "Accurate passes": "43/50 (86%)",
+       "Big chances created": "-",
+       "Key passes": "3",
+       "Assists": "-",
+       "Expected assists (xA)": "0.28",
+       "Accurate passes in final third": "18/24 (75%)",
+       "Accurate long passes": "1/1 (100%)",
+       "Accurate crosses": "1/4 (25%)"
+      },
+      {
+       "Player": "Maehle J.",
+       "Position": "Fullback",
+       "Accurate passes": "41/49 (84%)",
+       "Big chances created": "-",
+       "Key passes": "3",
+       "Assists": "-",
+       "Expected assists (xA)": "0.30",
+       "Accurate passes in final third": "15/19 (79%)",
+       "Accurate long passes": "3/4 (75%)",
+       "Accurate crosses": "0/1 (0%)"
+      },
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Accurate passes": "31/33 (94%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "-",
+       "Accurate passes in final third": "0/1 (0%)",
+       "Accurate long passes": "3/4 (75%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Vini Souza",
+       "Position": "Midfielder",
+       "Accurate passes": "29/31 (94%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "7/9 (78%)",
+       "Accurate long passes": "4/5 (80%)",
+       "Accurate crosses": "0/1 (0%)"
+      },
+      {
+       "Player": "Rexhbecaj E.",
+       "Position": "Midfielder",
+       "Accurate passes": "28/36 (78%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.21",
+       "Accurate passes in final third": "18/23 (78%)",
+       "Accurate long passes": "1/2 (50%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Bernhardsson A.",
+       "Position": "Winger",
+       "Accurate passes": "22/26 (85%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "1",
+       "Expected assists (xA)": "0.06",
+       "Accurate passes in final third": "10/13 (77%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "0/5 (0%)"
+      },
+      {
+       "Player": "Besio A.",
+       "Position": "Forward",
+       "Accurate passes": "21/26 (81%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.05",
+       "Accurate passes in final third": "12/17 (71%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "0/5 (0%)"
+      },
+      {
+       "Player": "Svanberg M.",
+       "Position": "Midfielder",
+       "Accurate passes": "21/26 (81%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.02",
+       "Accurate passes in final third": "9/13 (69%)",
+       "Accurate long passes": "1/3 (33%)",
+       "Accurate crosses": "-"
+      },
+      {
+       "Player": "Dardai B.",
+       "Position": "Midfielder",
+       "Accurate passes": "16/18 (89%)",
+       "Big chances created": "-",
+       "Key passes": "1",
+       "Assists": "-",
+       "Expected assists (xA)": "0.03",
+       "Accurate passes in final third": "7/9 (78%)",
+       "Accurate long passes": "0/1 (0%)",
+       "Accurate crosses": "0/2 (0%)"
+      },
+      {
+       "Player": "Shiogai K.",
+       "Position": "Striker",
+       "Accurate passes": "7/10 (70%)",
+       "Big chances created": "-",
+       "Key passes": "-",
+       "Assists": "-",
+       "Expected assists (xA)": "0.01",
+       "Accurate passes in final third": "2/3 (67%)",
+       "Accurate long passes": "-",
+       "Accurate crosses": "-"
+      }
+     ]
+    },
+    "Defense": {
+     "headers": [
+      "Player",
+      "Position",
+      "Duels won",
+      "Aerial duels won",
+      "Ground duels won",
+      "Tackles won",
+      "Fouls committed",
+      "Interceptions",
+      "Clearances",
+      "Errors leading to goal",
+      "Errors leading to shot"
+     ],
+     "rows": [
+      {
+       "Player": "Wahl H.",
+       "Position": "Centre back",
+       "Duels won": "8/15 (53%)",
+       "Aerial duels won": "7/12 (58%)",
+       "Ground duels won": "1/3 (33%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "2",
+       "Interceptions": "1",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Bernhardsson A.",
+       "Position": "Winger",
+       "Duels won": "6/12 (50%)",
+       "Aerial duels won": "1/2 (50%)",
+       "Ground duels won": "5/10 (50%)",
+       "Tackles won": "2/2 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Maehle J.",
+       "Position": "Fullback",
+       "Duels won": "5/7 (71%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "5/7 (71%)",
+       "Tackles won": "3/3 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Damar M.",
+       "Position": "Attacking midfielder",
+       "Duels won": "5/9 (56%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "5/9 (56%)",
+       "Tackles won": "2/2 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Arnold M.",
+       "Position": "Midfielder",
+       "Duels won": "5/10 (50%)",
+       "Aerial duels won": "1/3 (33%)",
+       "Ground duels won": "4/7 (57%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "1",
+       "Errors leading to goal": "1",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Shiogai K.",
+       "Position": "Striker",
+       "Duels won": "4/6 (67%)",
+       "Aerial duels won": "3/4 (75%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Fischer K.",
+       "Position": "Fullback",
+       "Duels won": "4/7 (57%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "4/7 (57%)",
+       "Tackles won": "3/3 (100%)",
+       "Fouls committed": "3",
+       "Interceptions": "2",
+       "Clearances": "4",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Vini Souza",
+       "Position": "Midfielder",
+       "Duels won": "3/7 (43%)",
+       "Aerial duels won": "1/1 (100%)",
+       "Ground duels won": "2/6 (33%)",
+       "Tackles won": "1/2 (50%)",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Adjetey J.",
+       "Position": "Centre back",
+       "Duels won": "3/8 (38%)",
+       "Aerial duels won": "1/5 (20%)",
+       "Ground duels won": "2/3 (67%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "2",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Reese F.",
+       "Position": "Winger",
+       "Duels won": "2/5 (40%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "2/5 (40%)",
+       "Tackles won": "0/1 (0%)",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Dardai B.",
+       "Position": "Midfielder",
+       "Duels won": "1/1 (100%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "1/1 (100%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Besio A.",
+       "Position": "Forward",
+       "Duels won": "1/3 (33%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "1/1 (100%)",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Svanberg M.",
+       "Position": "Midfielder",
+       "Duels won": "1/3 (33%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "1/2 (50%)",
+       "Tackles won": "-",
+       "Fouls committed": "1",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Kumbedi S.",
+       "Position": "Defender",
+       "Duels won": "1/4 (25%)",
+       "Aerial duels won": "-",
+       "Ground duels won": "1/4 (25%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "1",
+       "Clearances": "1",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Rexhbecaj E.",
+       "Position": "Midfielder",
+       "Duels won": "0/2 (0%)",
+       "Aerial duels won": "0/1 (0%)",
+       "Ground duels won": "0/1 (0%)",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "-",
+       "Errors leading to shot": "-"
+      },
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Duels won": "-",
+       "Aerial duels won": "-",
+       "Ground duels won": "-",
+       "Tackles won": "-",
+       "Fouls committed": "-",
+       "Interceptions": "-",
+       "Clearances": "-",
+       "Errors leading to goal": "1",
+       "Errors leading to shot": "-"
+      }
+     ]
+    },
+    "Goalkeeping": {
+     "headers": [
+      "Player",
+      "Position",
+      "Goalkeeper saves",
+      "Goals conceded",
+      "Goals prevented",
+      "xGOT faced",
+      "Punches",
+      "Throws",
+      "Act as sweeper"
+     ],
+     "rows": [
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Goalkeeper saves": "2",
+       "Goals conceded": "3",
+       "Goals prevented": "-0.51",
+       "xGOT faced": "2.49",
+       "Punches": "-",
+       "Throws": "7",
+       "Act as sweeper": "1"
+      }
+     ]
+    },
+    "General": {
+     "headers": [
+      "Player",
+      "Position",
+      "Rating",
+      "Minutes played",
+      "Goals",
+      "Own goals",
+      "Assists",
+      "Yellow cards",
+      "Red cards"
+     ],
+     "rows": [
+      {
+       "Player": "Wahl H.",
+       "Position": "Centre back",
+       "Rating": "8.8",
+       "Minutes played": "120",
+       "Goals": "1",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Arnold M.",
+       "Position": "Midfielder",
+       "Rating": "8.5",
+       "Minutes played": "75",
+       "Goals": "2",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Reese F.",
+       "Position": "Winger",
+       "Rating": "8.3",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "1",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Damar M.",
+       "Position": "Attacking midfielder",
+       "Rating": "7.9",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Maehle J.",
+       "Position": "Fullback",
+       "Rating": "7.7",
+       "Minutes played": "45",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Bernhardsson A.",
+       "Position": "Winger",
+       "Rating": "7.6",
+       "Minutes played": "68",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "1",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Fischer K.",
+       "Position": "Fullback",
+       "Rating": "7.3",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "1",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Kumbedi S.",
+       "Position": "Defender",
+       "Rating": "7.1",
+       "Minutes played": "75",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Shiogai K.",
+       "Position": "Striker",
+       "Rating": "7.1",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Adjetey J.",
+       "Position": "Centre back",
+       "Rating": "7.0",
+       "Minutes played": "77",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Rexhbecaj E.",
+       "Position": "Midfielder",
+       "Rating": "7.0",
+       "Minutes played": "75",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Svanberg M.",
+       "Position": "Midfielder",
+       "Rating": "6.7",
+       "Minutes played": "45",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Besio A.",
+       "Position": "Forward",
+       "Rating": "6.6",
+       "Minutes played": "52",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Dardai B.",
+       "Position": "Midfielder",
+       "Rating": "6.6",
+       "Minutes played": "43",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Vini Souza",
+       "Position": "Midfielder",
+       "Rating": "6.5",
+       "Minutes played": "45",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "1",
+       "Red cards": "-"
+      },
+      {
+       "Player": "Zielinski J.",
+       "Position": "Goalkeeper",
+       "Rating": "6.0",
+       "Minutes played": "120",
+       "Goals": "-",
+       "Own goals": "-",
+       "Assists": "-",
+       "Yellow cards": "-",
+       "Red cards": "-"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "summary": {
+  "events": [
+   {
+    "minute": "6'",
+    "half": "1st half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Goal",
+    "player": "Nietfeld J.",
+    "detail": "Czyborra L.",
+    "score": "1 - 0"
+   },
+   {
+    "minute": "40'",
+    "half": "1st half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Yellow card",
+    "player": "Vini Souza",
+    "detail": "",
+    "score": ""
+   },
+   {
+    "minute": "46'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Substitution",
+    "player": "Rexhbecaj E.",
+    "detail": "Out: Svanberg M.",
+    "score": ""
+   },
+   {
+    "minute": "46'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Substitution",
+    "player": "Arnold M.",
+    "detail": "Out: Vini Souza",
+    "score": ""
+   },
+   {
+    "minute": "46'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Substitution",
+    "player": "Kumbedi S.",
+    "detail": "Out: Maehle J.",
+    "score": ""
+   },
+   {
+    "minute": "52'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Yellow card",
+    "player": "Oduah E.",
+    "detail": "",
+    "score": ""
+   },
+   {
+    "minute": "55'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Goal",
+    "player": "Arnold M.",
+    "detail": "Bernhardsson A.",
+    "score": "1 - 1"
+   },
+   {
+    "minute": "57'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Substitution",
+    "player": "Zografakis N.",
+    "detail": "Out: Nietfeld J.",
+    "score": ""
+   },
+   {
+    "minute": "61'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Yellow card",
+    "player": "Rieder T.",
+    "detail": "",
+    "score": ""
+   },
+   {
+    "minute": "68'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Substitution",
+    "player": "Besio A.",
+    "detail": "Out: Bernhardsson A.",
+    "score": ""
+   },
+   {
+    "minute": "71'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Goal",
+    "player": "Saliger J.",
+    "detail": "",
+    "score": "2 - 1"
+   },
+   {
+    "minute": "77'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Substitution",
+    "player": "Ersungur A.",
+    "detail": "Out: Hartl J.",
+    "score": ""
+   },
+   {
+    "minute": "77'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Substitution",
+    "player": "Dardai B.",
+    "detail": "Out: Adjetey J.",
+    "score": ""
+   },
+   {
+    "minute": "83'",
+    "half": "2nd half",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Goal",
+    "player": "Arnold M.",
+    "detail": "",
+    "score": "2 - 2"
+   },
+   {
+    "minute": "88'",
+    "half": "2nd half",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Substitution",
+    "player": "Kardam N.",
+    "detail": "Out: Saliger J.",
+    "score": ""
+   },
+   {
+    "minute": "101'",
+    "half": "Extra time",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Substitution",
+    "player": "Ibrahimi M.",
+    "detail": "Out: Rieder T.",
+    "score": ""
+   },
+   {
+    "minute": "101'",
+    "half": "Extra time",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Substitution",
+    "player": "Turpitz P.",
+    "detail": "Out: Czyborra L.",
+    "score": ""
+   },
+   {
+    "minute": "109'",
+    "half": "Extra time",
+    "side": "home",
+    "team": "Altglienicke",
+    "type": "Goal",
+    "player": "Ibrahimi M.",
+    "detail": "",
+    "score": "3 - 2"
+   },
+   {
+    "minute": "117'",
+    "half": "Extra time",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Goal",
+    "player": "Wahl H.",
+    "detail": "Reese F.",
+    "score": "3 - 3"
+   },
+   {
+    "minute": "120'",
+    "half": "Extra time",
+    "side": "away",
+    "team": "Wolfsburg",
+    "type": "Yellow card",
+    "player": "Fischer K.",
+    "detail": "",
+    "score": ""
+   }
+  ],
+  "homeLogo": "data:image/png;base64,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",
+  "awayLogo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAWbklEQVR42u2de1xV1bbHv2w2D3mDiMYjRUjxAYWRYpriTaE0Tb35PDdFE/NRWedUJ9QSSrGsc3raNfGB1vWVR0nSAu2Tb5HMJyomCCqgAspDEYT9uH+stbZ77b1BNoKg8vt8/Hzcc8+1WGv89pxzjDHHHMNCq9XSzOEJdAe6An5AB6Ad4A64AHaAUuyrAm4CJUARcBm4AJwFMoDjQH5zflmLZkhIJ2AgMAAIFQlRNNC9NSIhqcAuYIdIVAshBugJjAKGA/6GX1apVOQU5XP2ykUuXL1MfnERRddLKLl5nZtVlVSr1QBYWSqxs7bB2c4BdwcXPF3dae/+CP4e3nT08MLKUmnqb2cCW4D1QNrDTIgHEAlMAgL0v7hcepU9Z46y/+xx/sg+xen8HCqqbt3VH7O1sqaLpy9PdezC0/5B9AsIpp1za8NufwHLgQSg4GEhJAB4BxgP2EqNp/Oz2XRoJ1uP7eP4hUw0Wk2jPoTCQkGgjx9DHu/DyJABdPXy1f+6ElgDfHqvp7R7SUgAEAu8JK0JxeXXWZuazOq92zh+MbNJp4pAH38m9BnM+N7huNo76a85G4F594qYe0GIO/ARMEXShrIKcvkqZT1rDqRQfqvCrJvZKK1o59Katk5uuNg74WBji5WlFQDV6mpu3KqkuLyMgrJrXC65yi1VtVn3t7exZVxoBLMixuDn4Y2e9rYCeL+xp7LGJEQhkrAQcBOIyCNuy0p+TPsNlUZ9ZyYdXQj1606IbxeCfPwJ8OyAt6sHSkvLOj2ASq0mt7iAM5fOc+zCWf7MOc2BzHSKrpfc8VqlwpJRPZ9l9rBIfWKuAXOApeLouW8I6SgujmHC1FRGXFIC8Tt/oqqWX6yFhQXB7TszLPgZIgJDCfTxQ2GhaNAH02g1pOeeI/lEKlsO7+bI+TNoapGBlaWSqLDhzBkWqT+V7RaVkXP3AyETgK8BJy1a1h5IIXrDYgpr+VV6ubZhQt8hjO8drv9rvCc4V5DHmgPJrN63jdxrNc9GbRxdiBs1g/FPR2CBBUAZ8DqwurkSYgcsFlVZ8osLmbFqESnpB2u8IMS3C29GjGVYj34oFZY0JVQaNVsO7+HLlHX8ce5Ujf3Cu/fi24nv4unaRmpKAGaKHoJmQ4gn8BMQAvDz0b1MT/iEqzdKTXbu0SGAecOnMLDbU1hYWDQrN4FWq2XHqT+I3byMwzmmFavWDs78b+Q/eeGJvlLTIeDFhnDLNAQhQcBWwFutUfPBpqV8kbwOU/f1dHFn/kvTGN1rEIpmRoTxWqNlw8EdzP3PEvKLC02ud29GjOXDkVOxFEZ3LjBE9Jc1GSF9gSTApbTiBhO/izU5RSkUCqaGDSdmRBROrey5n1BWUU7M5niW/p5o0lgN796LVa/G4Cy8VwkwFNjbFISEiWQ45JcUMeLLdzlhwrjzdvMgfvIc+gcEcz9j95kjRC2P4+K1K8ZGpbcfiW9+yiMu7gA3RFJ23ktC+gK/AA45hfkM/tdb5BRdMuo05PE+LJ0cra8u3tcoLi9j6oqFbD22z+i7Dm082fr3f+PbxlMi5fn6jJT6EBKE4Lp2ySnMJ+KzWVy8esVofo1+YSKzh0U2uB3R9GuLhrikBBYmrTJaJ33c2vLrO19KpJQA/c1dU8wlxBM4CHhfKini2U9mklMoHxnWSiuWRL7H2NBBPMhYl7qdaQkfGxm6Hdp48ts/v5Gmr1yglznalzmE2IkjI6S04gbhi17nxMUseQdrW9bOnM+gbj15GLDjZBpjF8/lZlWlfE3x8Sfl3a9wbuUgqcT962qnmDOfLAZC1Bo1E7+LNUnGf974+KEhA2Bgt578542PsbO2lbWfuJjJxO9iUQv+uhBRdjQkIRMkC/yDTUuNVFtrpRXrZs6nf0APHjb0D+jBupnzsVZaydpT0g/ywaal0sdIUYYNQkhH0TfFz0f38kXyOqMFfEnkewx8iEaGqZGyJPI9I6/DF8nr+PmoTtH6WpTlXRGiAFYCTvnFhUxP+MRIs4geOvGBX8DrgrGhg4h+YaKRG2Z6wieSpe8kylJxN4RMAfpp0TJj1SIj39SQx/swe2gkLRAwe1gkgx/vI2u7eqOUGasWoUUL0E+Uab0I8UDYXGLN/mSjdcPHrS1LJ0c/cHbG3UBhoSB+cjTebh5G68naAynSx4UIu6hmExILuBWXlzH7x2+NfFPxk2c/MBZ4Q8LV3on4yXOMfqjRGxZTXH4dhN3Tj8wlJEAaWgu2JBhtLk0NG06/+9w31biaVzBTBwyXtRVeLyEuaaX+UhBgDiGxgDKrII9luxLlprprG2JGRLVI/Q6IGRGFp4t8Zorf+RNZBXkgBHvEmrpOWcPoeAkgbstKqlQq2Zfz/3tarS70RVu/l4YmMSOjsFFaUaVSEZsYj0ajxamVPdFDBW3kculVvkxeD4CfhxdTwl5sEuEt2/UTWVfyAJgVMUYXQLcwaRVlFeUoFBbMGx6FtVLJLVU1MZvixenJkXeHvGzynk6t7Jn/0jQmL5uva6tSVROXtJLlr8xFlHEABuFFplwny4HJWQW5BM99WRYd0qNDALvnfFfr5lKX98ZwXvT8FnzzKw62dtysqqTda8+j0qh5xMWdrM82AZCem0XPmEk6A+uXt79oEkIGf/YmOzMOA3AwZiWB3n4A+L89kvySIiwVllz55hfsrG25UVmBx2sRALRv3Y7Tn2yo8b4arZZ+C16V7TwqFZYcmf+9FDuwAniltinLAyGikC9T1huF6swbPqXZ7/Q1L63LgnnD5VquSqPmq5T10sfxosxrnLIiAdvi8jJ9NQ2Ap3y7MLDbU2Y90Bs//AulQolKo0Yt7raV3rzB1BULASi5eb3ZCfGjxOW42DmKz3dD/KVreG31ZygVlqg0KjOt+KcI8e3CoezTurY1B1KIGTEVV3tHW1Hmi2oiZJJ0gWFE4ayIcWYHJKxL3W7UdrOqkh/2/9Jsf9V6rg6Zxb0uNaVe95P23v9nyTxdW/mtCtamJjPj2ZckmS8yNWX1lFSx7/dtk93Uy9WDYT2eaZmD6olhPfrhdTtsCIDVe7fpK1E9TY2QMQCn8rKNAp8n9h3c5HFTaedO8XHSKgCe7RbCzIGjAEj8c5fu5V7uO5gRT/YHYPGOjfx28g8A3hs6kZ4duzbZsysVlkzoO4SFSQm6tuMXMzmdn00XT18QzsakGY6QYQCb/9xptDCN6x3R5L+ygrJr/HriAL+eOEB67u0IzuzCfF17dmGerj09N0vXXlB2rcmff3zvcCOFaNMhnayHG05ZAYgnlwzn0OD2nfHz8GqZd+4Sfh7eBLfvLGvTC5bwRzjKp5uyBkqGmuFO4NDg5rd2bDu2nwELpwOQX1Kka//u980kHdkDwLmC5ne2c2jwM/ypZ5Mcv5DJ5dKrkiE6EPhLGiH9QYg9MgwGey4otNm9WOH1Yg5mneRg1klZxMvFq1d07YXXi5vdc0cEhhoYjhr2nDkqfRygP2WFAuw/e0J2gbujC91Fq7UFd49AHz/cHV1kbfvP6qKEQiVCPMV/HMqWR32H+nVv2e9oUMtdQahfd1nbH7cNRk/AU4FwKF9RpVJxKi9H1jnEt0uLFBsYhjI9nZdNtVolDY7uCoQMCWQX5lFZLT96HPToYy0SbGAE+ciP4VdU3yK7UKeAdFUAjwFkFuQaXRzwSPsWCTYwAjw7GLVlXtHJ3k8BPApwvuiyrJON0gpvV48WCTYwvF09sDGI4Tp/O1C9gwIhkQuX9PR5gHYuret82rUFZrhRLC2NMkjo2VLtFIgREIZ6e1sntxbpNRI8nOWy1Tum7a5ASHFEqej7l+DSElHSaHAV91sk6MneRYEQ1W4Uwe1gY9siuUaCvW0r2efy27K3UyD6s6QURxKkdBUtaHhYG8hWtEMAlC1meHOz5hESq2BloFFVq6tbpNNIqDKQrV5iNZUC8WSP4aGTG7cqWyTXSCivlMcr2N9er28qEA4n4mznIOtUXF7WIrlGQrFBtI149A2gRIGQvZM2jq6yTs1h2/NBRUGpXLZ6LvkiBUIqVaM41MslV1Gp1S3Sa2Co1Goul16VtXm66mSfr0DIa8uj7u1knW6pqsktLmiRYAMjt7jAKMtd+9aPSP+9oEBIMoy/iTxVGZdyWiTYwMjIN5apf1ud7LMUwCkAXw8vbK1sZB2PX8hskWADwzDmrZWVjZT5AeCUAkgHNNaWSrp6dZB11o9HbYEJ1CPu3FCmXbx8JTtEA6QrENI+5AOE+Mqj+1Kz0s3On1vfCMc7BV7fTWD2na4true9lQqlWf01Gg2pmfJAkqdub+nmS4s6CLnQefqxQFnnouslRnFad4KhPVNXpOdmGW2S6WPr0X31JqS2a88XXSY9N6te93W2My/314ncLIoMTjI//VgQ+hxIhOwC6Nc52CjKJPlEqll/1MetfruMao2G6Qkfm0wp/mPab2wRA+Dqgy1H9rAhbYdRe0XVLaav+hi1pn4ZX73d2prV31CWCgsF/Trrzmr+DrcjF3cAtHNuTZCPP0cv/KW7KOnInhqPbZlCVy9ffjq8u14vuDPjMM8smMpbEeMI8vHnWnkZG9J+Y/XerdxN5jutVsvkZfPZdfowo3sNws3ekeMXM/kieR0n8+qf6bWrp6/ZPwx9BD3qT9vbm1U79AnJQKgS4D/kiT4yQo6cP0NWQV6d43sN447Mxam8bKJWxDX4+qvRaFi552dW7vm5we7Z27/u75pVkMvR82dkbUNuJxnIRCgEIIt+TwQY8WSY/EW0WtYcSK7zH+7T6XEcDDZgHkQ42LSiT6fH69x/zYFko4TNI0MGyGRvSMiP0pRjGDu0eu/WOqUGB8FrrJc+9YHFC8F9jTzkNbpLNGr9AzrCdOXjT5fbIUE/miIkTZy6eLnPYNnFecWFbDFjXXh1wIgHnpCpZrzjlsO7yTNINTuhr07GGegVkjHcMVwJML53BPY28mmnply8ptDLrzv/1TXkgSVjQNeQOq+VWq3WKKWVvU0rxoVGyGReEyEJQKWrvSPje4cbWZg7xCNidUHcqBkoLZUPHBlKS0sWjppR5/47TqYZWefje0fgau8IQuGYhNoIKUCoLMMb4WOMrO7YxGW1VhIwnCPffv5vDxwhbz//N6M1tkbNTqslNnGZkSfjjfAxurUeg3okpoIcPgU0fh7ejOr1rOyLwzkZbDi4vc4PHz10ImEPUNq//gE9iDYjP9j6g9s5nCNXdUf1GiiZEBpR1tyJkAyEMj/MHjoJa6V82pm7cQllFeV1eiArSyX/N/0junl1vO/J6ObVkTXTP6yp0psRyirKeX/jElmbtdKKObcJ3YiJMko1hQHNA1R+Hl5EhcnTDOWXFBGzOb7OL+Jq78i2f3xOcPtO9y0ZT7TvxNZ/fG5WfrB5m5bKzj8CRIW9SEdhdKhEGVNXQjKAZcIoiaSNwTGspb8nsktM1lIXtHFyJfmdr/QNoQZFO+fWpkrgNQhGhoSR/M5XeDi51vmaXRmHid/5k1wGjq7MHjpJ+riMGoqM1RYo9z5wzdXeiYWjZxosVhqiVsSZFZniYGvHD9Ni+W5SNK0dnBtEWBYWFozq+SwHY1aSFrOS0T0HNlg9ktYOziyZ9B4/TPsQR1u7Ol93rbyMqBVxRtsWC0fPkDSra6JsTb/THWyLqcB3WrSM+PJdUk7I8y4OfrwPG15bYPY5xOLyMj5PXkf8zkSjIO+6EhEW0IPZwyLp85jcfbH/7HHikhL4/fSf9XJIOts5MKX/i7z13DjczAw412g1jP5mNtuO7Ze1hweGsnnWImk/61WEomL1IkSB4Bbul19SSK+YyUaZSWcPjWTui5Pr9Su8UVlB4p87STy8iz1/HeN6LcqCwkJBVy9fng/qzdjQQVJKihpxOj+Hdakp/HL8AKfysmvdaHO0taNvpycY/mR/RjzZHwczRoQ+5v+0grikBKORdjBmpRTVsxvh+LOmvoSAkPz3COD089G9jFk8R/bLs7CwYPkrcxgbGn5XU4RKrebslQtkXsnlStk1bt66hdJSgaudE4+6t6Orp6805M1Gcfl1TuVnc6HoMsU3y1CpNdjZ2NDWyQ3/tt481vbRuz6ctDY1hSnLFxjJZv3MBZJvrwwI5g6V3eqajH8CsApgzsYlfP7rGiN17sfXFjKo+8OZ3Xp7ehqjvok2qpTw9+fGM/+ladLHidSholtdJ//VCOno+HBkFOGBvWRfVqmqGfftXLM0rwcFuzIOM+7buUZkhAeGEjtSlyx0BXUsr2dOuQpbhK3enmUV5Qxa9LpRiSM7a1vWzpj/0IyU7SfTGFdDuYrt734tJQtNE9eNBi9XUQmMAHKdWtmTOGuRfjwRIJzCGvVNNGvrmX3tfsK61BRGfR1tRIZvG08SZy2SyMgVZVbnGod3V/Ko6BIRn75hsuTRey9MZM6DWvJoSwILfzZR8qh1W5Lf/pIO97DkkYSngWTAIafoEkP+9ZZ+NgI9O+Vplk6ebbY+31xRLBp9hnaGNDK2/v3fEhn3tCiYhDDEsnmXxLJ5x2ssmzf7vi/2sivjCFErFpislxvo40/irEVNWjZPf6RsBVzKKsqZsDSWFBNxXAoLBVFhLxI7cup9WVhy3uZ44msqLBnYi9VTY6T3KkGo9rm/3u6ghi69Om9TPJ8nr62x9OpHL01jzH1TenU7czcuMfLaSuvkWxHjiB0Z1axKr+pkDWxGTHd65+LEnflg+BQGdevZPIsTn0wjNnGZ0eaSvjukORcn1rdTFgOTQdg3mblqUa2hqM2yfHfyWv2kYianqG8nvounSxt9o+91mln5bkM3i1jgHtYeSCZ6w7e15kAUCtwPZlxohP7hlXuCLKnA/d5t5BXXXuB+4eiZjOsdft8UuNdHR4QqC2GScy8uKYH4nYlGLgbDeTm4fWeGBvflucDeBHr7oVA0rB2j0Wo4cTGL5BOpJB3Zw5HzZ2oN3LBWKokKG87soZP0nZu7EVKEn2towTUWIZIXYApCzSU3gHMFeSxISuDHgzvqFAnZ2sGZ3v6BhPh2IcjHnwDPDni7etTZM6tSq8ktLiDj0nmOXzjLoezTpGal62ffqRFKhSWjej3LnKGTpG1XEDaXohF2/DSNIbTGJESCO0LNpSmIwd1ZBbl8lbKBNQeSjZL+3wk2SivaubTGw8kNVztH7G1b6XKHVKmrKa+soPjmdQpKr3G59KrRAcs7wd6mFeN7h/NG+Fj9AHOVSML7iMfIGwv3ghAJAQgb+6MlH1px+XXWpqbw/b5tHLtwtkkX9SAffyb0Gcy420FsiKNgo/jcGffiOe4lIfrEvINQzEQXrXw6P4fNh35n67F9HLuQafZROrPnUwsFQT7+DHmiDyNCwgzPelQiBLF9eq+IaEpCJHiIGtkrGFQsu1J6jT1/HWXfX8c4lH2aU/nZJk9WmaWTW9nQxbMDT3XsytOPBdKvc7CpSJUMhFjbBAwiCh8GQmQmCUK5jOGIRQH0Ua1WkV2YT+aVi1y4eoX8kkIKy0oovXmD8qpKXb4pa0sldta2ONs50NrRGU+XNnRwfwT/tt74tvGsKcgtE9gCrEcvCr2p0FwI0UcnhMT0AxDSb3ti3r5NrVqvaE2nImwh7LjXU9L9SIgh2on+sgCEHMOPiiS5I+SLtOP20TyVaDGXiNpQvuhjOouQICG9IdwbjYn/B/TooV/I5G3YAAAAAElFTkSuQmCC",
+  "finalScore": {
+   "h": 3,
+   "a": 3
+  }
+ },
+ "lineups": {
+  "formation": {
+   "players": [
+    {
+     "num": "1",
+     "name": "Zwick L.",
+     "ok": true,
+     "side": "home",
+     "x": 0.5,
+     "y": 0.1
+    },
+    {
+     "num": "17",
+     "name": "Tezel U.",
+     "ok": true,
+     "side": "home",
+     "x": 0.195,
+     "y": 0.21
+    },
+    {
+     "num": "5",
+     "name": "Kebe D.",
+     "ok": true,
+     "side": "home",
+     "x": 0.398,
+     "y": 0.21
+    },
+    {
+     "num": "4",
+     "name": "Sonnenberg S.",
+     "ok": true,
+     "side": "home",
+     "x": 0.602,
+     "y": 0.21
+    },
+    {
+     "num": "3",
+     "name": "Czyborra L.",
+     "ok": true,
+     "side": "home",
+     "x": 0.805,
+     "y": 0.21
+    },
+    {
+     "num": "21",
+     "name": "Hartl J.",
+     "ok": true,
+     "side": "home",
+     "x": 0.246,
+     "y": 0.32
+    },
+    {
+     "num": "23",
+     "name": "Rieder T.",
+     "ok": true,
+     "side": "home",
+     "x": 0.5,
+     "y": 0.32
+    },
+    {
+     "num": "24",
+     "name": "Sylla M.",
+     "ok": true,
+     "side": "home",
+     "x": 0.754,
+     "y": 0.32
+    },
+    {
+     "num": "9",
+     "name": "Oduah E.",
+     "ok": true,
+     "side": "home",
+     "x": 0.246,
+     "y": 0.43
+    },
+    {
+     "num": "10",
+     "name": "Nietfeld J.",
+     "ok": true,
+     "side": "home",
+     "x": 0.5,
+     "y": 0.43
+    },
+    {
+     "num": "19",
+     "name": "Saliger J.",
+     "ok": true,
+     "side": "home",
+     "x": 0.754,
+     "y": 0.43
+    },
+    {
+     "num": "30",
+     "name": "Zielinski J.",
+     "ok": true,
+     "side": "away",
+     "x": 0.5,
+     "y": 0.9
+    },
+    {
+     "num": "21",
+     "name": "Maehle J.",
+     "ok": true,
+     "side": "away",
+     "x": 0.195,
+     "y": 0.8175
+    },
+    {
+     "num": "6",
+     "name": "Wahl H.",
+     "ok": true,
+     "side": "away",
+     "x": 0.398,
+     "y": 0.8175
+    },
+    {
+     "num": "18",
+     "name": "Adjetey J.",
+     "ok": true,
+     "side": "away",
+     "x": 0.602,
+     "y": 0.8175
+    },
+    {
+     "num": "2",
+     "name": "Fischer K.",
+     "ok": true,
+     "side": "away",
+     "x": 0.805,
+     "y": 0.8175
+    },
+    {
+     "num": "32",
+     "name": "Svanberg M.",
+     "ok": true,
+     "side": "away",
+     "x": 0.33,
+     "y": 0.735
+    },
+    {
+     "num": "5",
+     "name": "Vini Souza",
+     "ok": true,
+     "side": "away",
+     "x": 0.67,
+     "y": 0.735
+    },
+    {
+     "num": "11",
+     "name": "Reese F.",
+     "ok": true,
+     "side": "away",
+     "x": 0.246,
+     "y": 0.6525
+    },
+    {
+     "num": "20",
+     "name": "Damar M.",
+     "ok": true,
+     "side": "away",
+     "x": 0.5,
+     "y": 0.6525
+    },
+    {
+     "num": "17",
+     "name": "Bernhardsson A.",
+     "ok": true,
+     "side": "away",
+     "x": 0.754,
+     "y": 0.6525
+    },
+    {
+     "num": "7",
+     "name": "Shiogai K.",
+     "ok": true,
+     "side": "away",
+     "x": 0.5,
+     "y": 0.57
+    }
+   ],
+   "w": 100,
+   "h": 176
+  },
+  "starting_xi": [
+   {
+    "homeNum": "1",
+    "awayNum": "30",
+    "home": {
+     "name": "Zwick L.",
+     "ok": true
+    },
+    "away": {
+     "name": "Zielinski J.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "17",
+    "awayNum": "2",
+    "home": {
+     "name": "Tezel U.",
+     "ok": true
+    },
+    "away": {
+     "name": "Fischer K.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "5",
+    "awayNum": "18",
+    "home": {
+     "name": "Kebe D.",
+     "ok": true
+    },
+    "away": {
+     "name": "Adjetey J.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "4",
+    "awayNum": "6",
+    "home": {
+     "name": "Sonnenberg S.",
+     "ok": true
+    },
+    "away": {
+     "name": "Wahl H.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "3",
+    "awayNum": "21",
+    "home": {
+     "name": "Czyborra L.",
+     "ok": true
+    },
+    "away": {
+     "name": "Maehle J.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "21",
+    "awayNum": "5",
+    "home": {
+     "name": "Hartl J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Vini Souza",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "23",
+    "awayNum": "32",
+    "home": {
+     "name": "Rieder T.",
+     "ok": true
+    },
+    "away": {
+     "name": "Svanberg M.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "24",
+    "awayNum": "17",
+    "home": {
+     "name": "Sylla M.",
+     "ok": true
+    },
+    "away": {
+     "name": "Bernhardsson A.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "9",
+    "awayNum": "20",
+    "home": {
+     "name": "Oduah E.",
+     "ok": true
+    },
+    "away": {
+     "name": "Damar M.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "10",
+    "awayNum": "11",
+    "home": {
+     "name": "Nietfeld J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Reese F.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "19",
+    "awayNum": "7",
+    "home": {
+     "name": "Saliger J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Shiogai K.",
+     "ok": true
+    }
+   }
+  ],
+  "substituted": {
+   "home": [
+    {
+     "on": "Zografakis N.",
+     "off": "Nietfeld J.",
+     "min": "57"
+    },
+    {
+     "on": "Ersungur A.",
+     "off": "Hartl J.",
+     "min": "77"
+    },
+    {
+     "on": "Kardam N.",
+     "off": "Saliger J.",
+     "min": "88"
+    },
+    {
+     "on": "Ibrahimi M.",
+     "off": "Rieder T.",
+     "min": "101"
+    },
+    {
+     "on": "Turpitz P.",
+     "off": "Czyborra L.",
+     "min": "101"
+    }
+   ],
+   "away": [
+    {
+     "on": "Rexhbecaj E.",
+     "off": "Svanberg M.",
+     "min": "46"
+    },
+    {
+     "on": "Arnold M.",
+     "off": "Vini Souza",
+     "min": "46"
+    },
+    {
+     "on": "Kumbedi S.",
+     "off": "Maehle J.",
+     "min": "46"
+    },
+    {
+     "on": "Besio A.",
+     "off": "Bernhardsson A.",
+     "min": "68"
+    },
+    {
+     "on": "Dardai B.",
+     "off": "Adjetey J.",
+     "min": "77"
+    }
+   ]
+  },
+  "substitutes": [
+   {
+    "homeNum": "16",
+    "awayNum": "22",
+    "home": {
+     "name": "Barylla A.",
+     "ok": true
+    },
+    "away": {
+     "name": "Angely M.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "25",
+    "awayNum": "27",
+    "home": {
+     "name": "Brooks J.",
+     "ok": true
+    },
+    "away": {
+     "name": "Arnold M.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "28",
+    "awayNum": "23",
+    "home": {
+     "name": "Ersungur A.",
+     "ok": true
+    },
+    "away": {
+     "name": "Besio A.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "39",
+    "awayNum": "33",
+    "home": {
+     "name": "Ibrahimi M.",
+     "ok": true
+    },
+    "away": {
+     "name": "Cleiton",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "27",
+    "awayNum": "8",
+    "home": {
+     "name": "Kardam N.",
+     "ok": true
+    },
+    "away": {
+     "name": "Dardai B.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "22",
+    "awayNum": "31",
+    "home": {
+     "name": "Klatte L.",
+     "ok": true
+    },
+    "away": {
+     "name": "Gerhardt Y.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "13",
+    "awayNum": "26",
+    "home": {
+     "name": "Rossbach D.",
+     "ok": true
+    },
+    "away": {
+     "name": "Kumbedi S.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "20",
+    "awayNum": "12",
+    "home": {
+     "name": "Turpitz P.",
+     "ok": true
+    },
+    "away": {
+     "name": "Pervan P.",
+     "ok": true
+    }
+   },
+   {
+    "homeNum": "7",
+    "awayNum": "37",
+    "home": {
+     "name": "Zografakis N.",
+     "ok": true
+    },
+    "away": {
+     "name": "Rexhbecaj E.",
+     "ok": true
+    }
+   }
+  ],
+  "coaches": {
+   "home": {
+    "name": "Twardzik D.",
+    "ok": true
+   },
+   "away": {
+    "name": "Strobl T.",
+    "ok": true
+   }
+  }
+ },
+ "lineupImages": {
+  "formation": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "starting_xi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "substituted": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "substitutes": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+  "coaches": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+ },
+ "teamStats": {
+  "overall": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "1.42",
+     "away": "3.07",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "24%",
+     "away": "76%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "3",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "21",
+     "away": "62",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "9",
+     "away": "35",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "1.42",
+     "away": "3.07",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "2.49",
+     "away": "3.92",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "9",
+     "away": "35",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "5",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "3",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "1",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "5",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "4",
+     "away": "18",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "21",
+     "away": "62",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "2",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "1",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "3",
+     "away": "16",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "8",
+     "away": "14",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "3",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "290",
+     "away": "890",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "190",
+     "away": "791",
+     "homePct": "66%",
+     "awayPct": "89%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "83",
+     "away": "75",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "33",
+     "away": "55",
+     "homePct": "40%",
+     "awayPct": "73%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "91",
+     "away": "377",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "44",
+     "away": "313",
+     "homePct": "48%",
+     "awayPct": "83%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "12",
+     "away": "60",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "6",
+     "away": "9",
+     "homePct": "50%",
+     "awayPct": "15%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.57",
+     "away": "3.85",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "5",
+     "away": "28",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "15",
+     "away": "21",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "13",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "50",
+     "away": "49",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "16",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "9",
+     "away": "15",
+     "homePct": "56%",
+     "awayPct": "88%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "19",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "72",
+     "away": "14",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "13",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "3.92",
+     "away": "2.49",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "3",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "0.92",
+     "away": "-0.51",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "18",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "firstHalf": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "0.65",
+     "away": "0.64",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "24%",
+     "away": "76%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "2",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "11",
+     "away": "22",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "5",
+     "away": "11",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "0.65",
+     "away": "0.64",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "0.89",
+     "away": "1.85",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "5",
+     "away": "11",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "2",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "2",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "1",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "3",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "2",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "11",
+     "away": "22",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "1",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "4",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "0",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "112",
+     "away": "338",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "73",
+     "away": "300",
+     "homePct": "65%",
+     "awayPct": "89%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "29",
+     "away": "33",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "13",
+     "away": "23",
+     "homePct": "45%",
+     "awayPct": "70%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "39",
+     "away": "109",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "23",
+     "away": "81",
+     "homePct": "59%",
+     "awayPct": "74%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "5",
+     "away": "23",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "3",
+     "away": "5",
+     "homePct": "60%",
+     "awayPct": "22%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.44",
+     "away": "0.86",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "4",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "4",
+     "away": "9",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "5",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "21",
+     "away": "24",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "10",
+     "away": "11",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "5",
+     "away": "9",
+     "homePct": "50%",
+     "awayPct": "82%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "6",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "21",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "8",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "1.85",
+     "away": "0.89",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "1.85",
+     "away": "-0.11",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "4",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "secondHalf": {
+   "rows": [
+    {
+     "group": "Top stats",
+     "key": "Expected goals (xG)",
+     "home": "0.67",
+     "away": "1.23",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Ball possession",
+     "home": "28%",
+     "away": "72%",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Big chances",
+     "home": "1",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Touches in opposition box",
+     "home": "7",
+     "away": "24",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Top stats",
+     "key": "Total shots",
+     "home": "3",
+     "away": "15",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Expected goals (xG)",
+     "home": "0.67",
+     "away": "1.23",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "xG on target (xGOT)",
+     "home": "1.00",
+     "away": "0.89",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Total shots",
+     "home": "3",
+     "away": "15",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots on target",
+     "home": "2",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots off target",
+     "home": "1",
+     "away": "4",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Blocked shots",
+     "home": "0",
+     "away": "5",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots inside the box",
+     "home": "2",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Shots outside the box",
+     "home": "1",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Hit the woodwork",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Shots",
+     "key": "Headed goals",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Touches in opposition box",
+     "home": "7",
+     "away": "24",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances scored",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Big chances missed",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Corner kicks",
+     "home": "2",
+     "away": "6",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Free kicks",
+     "home": "2",
+     "away": "7",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Attack",
+     "key": "Offsides",
+     "home": "1",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Passes",
+     "home": "129",
+     "away": "332",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate passes",
+     "home": "90",
+     "away": "292",
+     "homePct": "70%",
+     "awayPct": "88%"
+    },
+    {
+     "group": "Passes",
+     "key": "Long passes",
+     "home": "31",
+     "away": "24",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate long passes",
+     "home": "13",
+     "away": "18",
+     "homePct": "42%",
+     "awayPct": "75%"
+    },
+    {
+     "group": "Passes",
+     "key": "Final third passes",
+     "home": "38",
+     "away": "174",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate final third passes",
+     "home": "18",
+     "away": "152",
+     "homePct": "47%",
+     "awayPct": "87%"
+    },
+    {
+     "group": "Passes",
+     "key": "Crosses",
+     "home": "7",
+     "away": "17",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Accurate crosses",
+     "home": "3",
+     "away": "2",
+     "homePct": "43%",
+     "awayPct": "12%"
+    },
+    {
+     "group": "Passes",
+     "key": "Expected assists (xA)",
+     "home": "0.12",
+     "away": "0.96",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Key passes",
+     "home": "1",
+     "away": "10",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Passes",
+     "key": "Throw-ins",
+     "home": "6",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Fouls",
+     "home": "7",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Duels won",
+     "home": "20",
+     "away": "16",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles",
+     "home": "4",
+     "away": "3",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Tackles won",
+     "home": "3",
+     "away": "3",
+     "homePct": "75%",
+     "awayPct": "100%"
+    },
+    {
+     "group": "Defense",
+     "key": "Interceptions",
+     "home": "9",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Clearances",
+     "home": "31",
+     "away": "8",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to shot",
+     "home": "0",
+     "away": "0",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Defense",
+     "key": "Errors leading to goal",
+     "home": "0",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goalkeeper saves",
+     "home": "3",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "xGOT faced",
+     "home": "0.89",
+     "away": "1.00",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals conceded",
+     "home": "2",
+     "away": "1",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goals prevented",
+     "home": "-1.11",
+     "away": "-0.00",
+     "homePct": "",
+     "awayPct": ""
+    },
+    {
+     "group": "Goalkeeping",
+     "key": "Goal kicks",
+     "home": "6",
+     "away": "2",
+     "homePct": "",
+     "awayPct": ""
+    }
+   ]
+  },
+  "possessionReliable": true
+ },
+ "meta": {
+  "competition": "DFB Pokal - 1/32-finals",
+  "country": "Germany",
+  "kickoff": "24.08.2026 23:00",
+  "referee": "Wienefeld J. (Ger)",
+  "venue": "Stadion auf dem Wurfplatz (Berlin)"
+ },
+ "warnings": []
+}

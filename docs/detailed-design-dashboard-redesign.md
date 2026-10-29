@@ -2,7 +2,7 @@
 
 | Thuộc tính | Giá trị |
 | --- | --- |
-| Trạng thái | **v0.1 — Bản thiết kế, CHỜ DUYỆT.** Chưa sửa dòng code nào. Mọi mục đánh dấu 🟡 ở [§14](#14-quyết-định-cần-bạn-duyệt) cần bạn chọn/đồng ý trước khi triển khai |
+| Trạng thái | **v1.0 — Đã triển khai R0–R4** (2026-10-13). Q-A…Q-H chốt theo đề xuất ★. Chờ người dùng nghiệm thu (R5). Ghi nhận khi triển khai và các điểm lệch so với v0.1: **[§15](#15-ghi-nhận-khi-triển-khai-2026-10-13)** |
 | Ngày | 2026-10-13 |
 | Phạm vi | Thiết kế lại **toàn bộ giao diện dashboard** và **file PDF match report** trong `match_report.html`, hướng tới Performance Analyst và Coach, phân tích **sau trận**, **trung lập 2 đội**, theme **nền trắng – nhấn đỏ**, giao diện **tiếng Anh** |
 | Không thuộc phạm vi | Phân tích trước trận và trong trận (live); chế độ "đội của tôi"; đa ngôn ngữ; tài khoản/lưu trữ lịch sử nhiều trận |
@@ -206,10 +206,11 @@ Toàn bộ dashboard **chạy được** chỉ với dữ liệu hiện tại (l
 result = {
   schemaVersion: 2,                       // 1 → 2; front-end đọc được cả 1 và 2
   stats, summary, lineups, lineupImages, warnings,      // KHÔNG đổi
-  teamStats: {                            // MỚI, có thể null
-    overall:  { rows:[{key:"Ball possession", group:"Top stats", home:"37%", away:"63%",
-                       homePct:null, awayPct:null}], possessionReliable:true },
-    firstHalf:{ … }, secondHalf:{ … }     // từng phạm vi có thể null
+  teamStats: {                            // MỚI, có thể null (⇒ cảnh báo W_NO_TEAM_STATS)
+    overall:  { rows:[{group:"Top stats", key:"Ball possession", home:"37%", away:"63%", homePct:"", awayPct:""},
+                      {group:"Passes", key:"Accurate passes", home:"283", away:"539", homePct:"81%", awayPct:"90%"}, …] },
+    firstHalf:{ rows:[…] }, secondHalf:{ rows:[…] },   // từng phạm vi có thể null
+    possessionReliable: true              // false khi mọi phạm vi đều 50%/50% (giải không có số liệu)
   },
   meta: { competition:"LALIGA - ROUND 6", country:"SPAIN", referee:"Ortiz M. (Esp)",
           venue:"Estadio La Rosaleda", kickoff:"18.09.2026 02:30" }   // MỚI, các trường có thể ""
@@ -218,9 +219,9 @@ result = {
 
 Front-end:
 
-- gán `state.teamStats = res.teamStats || null` và `state.meta = res.meta || null`;
-- gán `state.data.matchDate = meta.kickoff` (trường này đã có trong hợp đồng; hiện luôn rỗng);
-- luồng demo đặt cả hai thành `null`.
+- gán `state.teamStats = res.teamStats || null` và `state.meta = res.meta || null` (RD7, `App.buildFromUrl`);
+- `App.reset` xoá cả hai; luồng demo không có hai trường này (= `null`);
+- `state.data.matchDate` **giữ rỗng** như hợp đồng cũ — header đọc ngày giờ từ `state.meta.kickoff` (§15.2).
 
 Hai trường mới của `state` không ảnh hưởng `LineupOCR`.
 
@@ -922,3 +923,76 @@ Ví dụ giá trị (Malaga – Villarreal, Overall):
 | Derived | Số do dashboard tự tính từ player stats khi Flashscore không cung cấp số cấp đội |
 | Coach brief / Full analyst report | Hai preset của PDF (§8.1) |
 | POTM | Player of the match (rating cao nhất) |
+
+---
+
+## 15. Ghi nhận khi triển khai (2026-10-13)
+
+### 15.1 Kết quả theo phase
+
+| Phase | Kết quả |
+| --- | --- |
+| R0 | Commit mốc `98e5623` trên nhánh `dashboard-redesign`, tag `redesign-baseline` (Q-G). Golden OCR của demo chụp trên mã **cũ**: `tests/golden/demo_lineup_text.json` (`tools/golden_ocr.py`). Fixture đầy đủ (kể cả team stats, meta) cho 3 trận: `vLuGlk0n`, `GGiPsLP1`, `d8pxv90m` |
+| R1 | `crawler/team_stats.py` (3 phạm vi, dùng lại các trang song song của player stats), `header.read_meta`, `schemaVersion` 2, cảnh báo `W_NO_TEAM_STATS`, tiến độ 11 bước. Johor: 28,5 s |
+| R2 | `Theme`, `Metrics`, `Insights` trong `match_report.html` (thay vùng `Render` cũ) |
+| R3 | `Views` 8 tab + CSS đỏ–trắng + vỏ `Render` |
+| R4 | `Report` 2 preset + vỏ `Exporter`; menu chọn preset |
+| R5 | Golden demo v2 đã ghi từ bản hiện tại để guard chạy được — **ghi lại** (`python tools/golden_demo.py --write`) nếu bạn yêu cầu chỉnh giao diện khi nghiệm thu |
+
+### 15.2 Điểm lệch / bổ sung so với v0.1
+
+| # | v0.1 | Thực tế | Lý do |
+| --- | --- | --- | --- |
+| 1 | `possessionReliable` nằm trong `teamStats.overall` | Nằm ở cấp `teamStats` | Tính trên cả 3 phạm vi |
+| 2 | Gán `state.data.matchDate = meta.kickoff` | Không đổi `state.data`; header đọc `state.meta` | Giữ hợp đồng `state.data` bất biến (CLAUDE.md §3) |
+| 3 | Bấm Export PDF mở menu | Nút **Export PDF** xuất ngay Full report (như cũ); nút **▾** bên cạnh mở menu 2 preset | Giữ hành vi cũ của nút (e2e, thói quen người dùng) |
+| 4 | Trang PDF 794 × 1123 px | Dựng ở **900 × 1273 px** (đúng tỉ lệ A4) rồi thu về 210 mm | Chữ 12 px ≈ 8 pt khi in (đạt mức tối thiểu §8.3) mà vẫn đủ chỗ cho 4 trang Coach brief |
+| 5 | Phụ lục PDF: 7 nhóm cột | Shots, Attack, Passes, Defense (mỗi đội) + bảng Goalkeeping ở trang Goalkeeping; cột Position bỏ trong phụ lục | Cột của Top Stats / General đã có trong trang Player ratings; giữ ≤ 14 trang |
+| 6 | Set pieces ở trang Team của PDF | Ở cuối trang Passing (chỉ Full report) | Coach brief đúng 4 trang |
+| 7 | Tab Team có card "Momentum by events" | Không làm; timeline ở Summary | Không có dữ liệu theo phút — tránh trùng lặp |
+| 8 | Biểu đồ Half by half: xG + Shots | Chỉ xG theo hiệp (bảng vẫn đủ chỉ số) | Hai thang đo khác nhau trên một trục làm cột xG không đọc được |
+| 9 | Chữ có màu đội | Không dùng màu đội cho chữ; số áo đội khách màu `--ink-2` | Bộ màu chữ đúng 3 cấp (§7.1) |
+| 10 | — | Chart.js `locale='en-GB'` | Trình duyệt `vi` hiển thị "1,4" thay vì "1.4" |
+| 11 | — | Thay người trong tab Line-ups: lấy từ timeline; demo (không có timeline) lấy từ OCR khi OCR xong | Demo không có `summary` |
+
+### 15.3 Đo được (fixture, 2026-10-13)
+
+| Trận | Coach brief | Full report | Thời gian xuất |
+| --- | --- | --- | --- |
+| Johor – Svay Rieng | 4 trang, 1,40 MB | 14 trang, 5,00 MB | 2,4 s / 10,0 s |
+| Malaga – Villarreal | 4 trang, 1,35 MB | 14 trang, 4,83 MB | 2,5 s / 13,1 s |
+| Altglienicke – Wolfsburg | 4 trang, 1,42 MB | 14 trang, 5,04 MB | 2,5 s / 12,4 s |
+| Demo (có OCR) | 4 trang, 1,27 MB | 14 trang, 4,77 MB | 1,5 s / 17,1 s |
+
+Insight trận Johor: I01, I17, I03, I12, I04, I10 + ghi chú I20 (possession không có).
+
+### 15.4 Bộ kiểm thử
+
+- `tests/unit/test_team_stats.py`: extractor team stats + meta trên fixture 3 trận.
+- `tests/unit/test_html_guard.py`: viết lại cho RD1–RD7.
+- `tests/e2e/test_redesign.py`: B5–B8, đồng nhất chữ (§12.3), Metrics so với Flashscore, Insights, hồ sơ cầu thủ, menu Export, 2 preset PDF.
+- `tests/e2e/test_demo_ocr.py`: B3.
+- `test_url_flow.py` và `test_demo_flow.py`: cập nhật theo DOM mới.
+- `tests/live/*`: kiểm thêm team stats + meta.
+
+Tổng: 98 test unit/e2e xanh (6 test live bị bỏ qua khi không đặt `FS_LIVE=1`). Live (`FS_LIVE=1`, 2026-10-13): panel 5 trận tham chiếu xanh (team stats ≥ 40 hàng × 3 phạm vi + meta); luồng UI thật `vLuGlk0n` xanh (49,7 s).
+
+### 15.5 Hạn chế đã biết
+
+- PDF là ảnh (không chọn được chữ) — như trước, R-7.
+- Ngưỡng insight mới hiệu chỉnh trên 3 trận fixture + demo; cần theo dõi thêm khi dùng thực tế.
+- Xếp hạng trong trận dựa trên mẫu nhỏ (4–12 cầu thủ/nhóm) nên chỉ hiện dạng "#k of n".
+- Khi Flashscore rất chậm (đã gặp: cả job 130–140 s), team stats có thể bị bỏ qua: mỗi phạm vi chờ 12 s và thử lại 1 lần, và dừng hẳn khi còn dưới 25 s ngân sách (`TEAM_STATS_RESERVE_S`). Khi đó job vẫn thành công, kèm cảnh báo `W_NO_TEAM_STATS`; dashboard dùng số suy ra từ player stats, còn các card chỉ có ở cấp đội thì ẩn.
+
+### 15.6 Chỉnh sửa sau nghiệm thu lần 1 (2026-10-13)
+
+| # | Yêu cầu | Nguyên nhân / thay đổi |
+| --- | --- | --- |
+| 1 | Bỏ logo website | Xoá khối `.brand-mark` (biểu tượng đỏ) ở header; giữ chữ "Match Performance" |
+| 2 | Half by half thường không có | **Nguyên nhân chính:** server đang chạy được khởi động *trước* khi thêm crawler team stats (Python nạp crawler một lần lúc khởi động; HTML thì đọc lại mỗi request) ⇒ kết quả không có `teamStats`/`meta`. Trận trong ảnh (Coventry – Newcastle, `tW4rOkzg`) với crawler mới đọc đủ 45 chỉ số × 3 phạm vi. **Cần khởi động lại `python server.py`.** Ngoài ra: khi không có số liệu theo hiệp, card Half by half **không còn hiện ô trống** (Summary: Top performers chiếm cả hàng; Team và PDF: ẩn card) |
+| 3 | Khoảng cách giữa các bảng | Card đứng riêng (không nằm trong lưới) giờ có `margin-bottom` 16 px (PDF: 12 px) như lưới |
+| 4 | "Middle of the group" | Trước: vòng 50 cố định (không phải dữ liệu, gần như không nhìn thấy). Nay: mỗi trục = giá trị của cầu thủ quy về 0–100 theo khoảng [thấp nhất, cao nhất] của nhóm vị trí trong trận (chỉ số "thấp là tốt" đảo chiều), đường thứ hai = **trung bình nhóm** (vd "MID average") tính trên cùng giá trị; tooltip hiện giá trị thật và khoảng của nhóm |
+| 5 | PDF: nền đen chữ đen | Vạch màu đội ở ô tên dùng `box-shadow: inset` — html2canvas tô kín cả ô ⇒ đổi sang `border-left`. Kèm: khoảng trắng lạ trong số ("15 /22") do html2canvas đo chữ bằng `measureText` không tính `tabular-nums` ⇒ tắt riêng trong trang PDF; bảng phụ lục rộng (Defense) bị cắt cột ⇒ tiêu đề cột in thường, padding gọn — mọi bảng nằm trong khung |
+
+Test thêm: `tests/e2e/test_redesign.py` (radar so với trung bình nhóm, không logo, bố cục PDF không tràn / không cắt / không `inset`), fixture thứ 4 `tests/fixtures/tW4rOkzg/`. Tổng 101 test unit/e2e xanh; live UI `vLuGlk0n` xanh (37 s). Golden demo ghi lại (thay đổi giao diện có chủ đích).
+

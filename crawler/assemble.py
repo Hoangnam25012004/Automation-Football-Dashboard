@@ -14,7 +14,7 @@ from .player_stats import StatsResult
 from .timeline import GOAL_TYPES
 from .urls import MatchRef
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2          # 2: thêm teamStats + meta (design doc dashboard-redesign §3.4), tương thích ngược
 _FRACTION = re.compile(r"^\s*(\d+)\s*/\s*(\d+)")
 _NUMBER = re.compile(r"-?\d+(?:\.\d+)?")
 
@@ -37,7 +37,8 @@ def _team_sum(stats: StatsResult, code: str, tab: str, column: str) -> float:
 
 
 def assemble(ref: MatchRef, info: MatchInfo, stats: StatsResult, events: list[dict], timeline_rows: int,
-             logos: tuple[str | None, str | None], lineups: dict | None, warnings: Warnings) -> dict:
+             logos: tuple[str | None, str | None], lineups: dict | None, warnings: Warnings,
+             team_stats: dict | None = None, meta: dict | None = None) -> dict:
     h, a = info.score_home, info.score_away
 
     # Kiểm tra chéo 1: bàn thắng trong timeline = tỉ số header.
@@ -75,5 +76,7 @@ def assemble(ref: MatchRef, info: MatchInfo, stats: StatsResult, events: list[di
         "summary": summary,
         "lineups": lineups,
         "lineupImages": lineup_images(lineups),
+        "teamStats": team_stats,
+        "meta": meta,
         "warnings": warnings.items,
     }
